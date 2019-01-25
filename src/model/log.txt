@@ -1,0 +1,2702 @@
+2019-01-03 14:41:17,007 root  INFO     loading data
+2019-01-03 14:41:17,008 root  INFO     phase: train
+2019-01-03 14:41:17,008 root  INFO     model_dir: train
+2019-01-03 14:41:17,008 root  INFO     load_model: False
+2019-01-03 14:41:17,008 root  INFO     output_dir: results
+2019-01-03 14:41:17,009 root  INFO     steps_per_checkpoint: 500
+2019-01-03 14:41:17,009 root  INFO     batch_size: 64
+2019-01-03 14:41:17,009 root  INFO     num_epoch: 1000
+2019-01-03 14:41:17,009 root  INFO     learning_rate: 1
+2019-01-03 14:41:17,009 root  INFO     reg_val: 0
+2019-01-03 14:41:17,009 root  INFO     max_gradient_norm: 5.000000
+2019-01-03 14:41:17,009 root  INFO     clip_gradients: True
+2019-01-03 14:41:17,009 root  INFO     valid_target_length inf
+2019-01-03 14:41:17,009 root  INFO     target_vocab_size: 39
+2019-01-03 14:41:17,009 root  INFO     target_embedding_size: 10.000000
+2019-01-03 14:41:17,009 root  INFO     attn_num_hidden: 128
+2019-01-03 14:41:17,010 root  INFO     attn_num_layers: 2
+2019-01-03 14:41:17,010 root  INFO     visualize: True
+2019-01-03 14:41:17,010 root  INFO     buckets
+2019-01-03 14:41:17,010 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-03 14:42:59,029 root  INFO     Created model with fresh parameters.
+2019-01-03 14:43:20,721 root  INFO     Generating first batch)
+2019-01-03 14:43:20,914 root  INFO     Generating first batch)
+2019-01-03 14:43:21,105 root  INFO     Generating first batch)
+2019-01-03 14:43:21,290 root  INFO     Generating first batch)
+2019-01-03 14:43:21,470 root  INFO     Generating first batch)
+2019-01-03 14:43:21,656 root  INFO     Generating first batch)
+2019-01-03 14:43:21,837 root  INFO     Generating first batch)
+2019-01-03 14:43:22,023 root  INFO     Generating first batch)
+2019-01-03 14:43:22,207 root  INFO     Generating first batch)
+2019-01-03 14:43:22,393 root  INFO     Generating first batch)
+2019-01-03 14:43:22,569 root  INFO     Generating first batch)
+2019-01-03 14:43:22,747 root  INFO     Generating first batch)
+2019-01-03 14:43:22,921 root  INFO     Generating first batch)
+2019-01-03 14:43:23,099 root  INFO     Generating first batch)
+2019-01-03 14:43:23,281 root  INFO     Generating first batch)
+2019-01-03 14:43:23,460 root  INFO     Generating first batch)
+2019-01-03 14:43:23,644 root  INFO     Generating first batch)
+2019-01-03 14:43:23,820 root  INFO     Generating first batch)
+2019-01-03 14:43:24,001 root  INFO     Generating first batch)
+2019-01-03 14:43:24,189 root  INFO     Generating first batch)
+2019-01-03 14:43:24,359 root  INFO     Generating first batch)
+2019-01-03 14:43:24,525 root  INFO     Generating first batch)
+2019-01-03 14:43:24,695 root  INFO     Generating first batch)
+2019-01-03 14:43:24,862 root  INFO     Generating first batch)
+2019-01-03 14:43:25,041 root  INFO     Generating first batch)
+2019-01-03 14:43:25,213 root  INFO     Generating first batch)
+2019-01-03 14:43:25,389 root  INFO     Generating first batch)
+2019-01-03 14:43:25,568 root  INFO     Generating first batch)
+2019-01-03 14:43:25,749 root  INFO     Generating first batch)
+2019-01-03 14:43:25,916 root  INFO     Generating first batch)
+2019-01-03 14:43:26,077 root  INFO     Generating first batch)
+2019-01-03 14:43:26,240 root  INFO     Generating first batch)
+2019-01-03 14:43:26,400 root  INFO     Generating first batch)
+2019-01-03 14:43:26,552 root  INFO     Generating first batch)
+2019-01-03 14:43:26,699 root  INFO     Generating first batch)
+2019-01-03 14:43:26,846 root  INFO     Generating first batch)
+2019-01-03 14:43:26,994 root  INFO     Generating first batch)
+2019-01-03 14:43:27,150 root  INFO     Generating first batch)
+2019-01-03 14:43:27,297 root  INFO     Generating first batch)
+2019-01-03 14:43:27,445 root  INFO     Generating first batch)
+2019-01-03 14:43:27,609 root  INFO     Generating first batch)
+2019-01-03 14:43:27,795 root  INFO     Generating first batch)
+2019-01-03 14:43:27,980 root  INFO     Generating first batch)
+2019-01-03 14:43:28,160 root  INFO     Generating first batch)
+2019-01-03 14:43:28,340 root  INFO     Generating first batch)
+2019-01-03 14:43:28,511 root  INFO     Generating first batch)
+2019-01-03 14:43:28,688 root  INFO     Generating first batch)
+2019-01-03 14:43:28,860 root  INFO     Generating first batch)
+2019-01-03 14:43:29,037 root  INFO     Generating first batch)
+2019-01-03 14:43:29,217 root  INFO     Generating first batch)
+2019-01-03 14:43:29,392 root  INFO     Generating first batch)
+2019-01-03 14:43:29,564 root  INFO     Generating first batch)
+2019-01-03 14:43:29,731 root  INFO     Generating first batch)
+2019-01-03 14:43:29,901 root  INFO     Generating first batch)
+2019-01-03 14:43:30,080 root  INFO     Generating first batch)
+2019-01-03 14:43:30,243 root  INFO     Generating first batch)
+2019-01-03 14:43:30,401 root  INFO     Generating first batch)
+2019-01-03 14:43:30,573 root  INFO     Generating first batch)
+2019-01-03 14:43:30,745 root  INFO     Generating first batch)
+2019-01-03 14:43:30,919 root  INFO     Generating first batch)
+2019-01-03 14:43:31,093 root  INFO     Generating first batch)
+2019-01-03 14:43:31,251 root  INFO     Generating first batch)
+2019-01-03 14:43:31,418 root  INFO     Generating first batch)
+2019-01-03 14:43:31,576 root  INFO     Generating first batch)
+2019-01-03 14:43:31,738 root  INFO     Generating first batch)
+2019-01-03 14:43:31,889 root  INFO     Generating first batch)
+2019-01-03 14:43:32,035 root  INFO     Generating first batch)
+2019-01-03 14:43:32,185 root  INFO     Generating first batch)
+2019-01-03 14:43:32,337 root  INFO     Generating first batch)
+2019-01-03 14:43:32,489 root  INFO     Generating first batch)
+2019-01-03 14:43:32,653 root  INFO     Generating first batch)
+2019-01-03 14:43:32,819 root  INFO     Generating first batch)
+2019-01-03 14:43:32,994 root  INFO     Generating first batch)
+2019-01-03 14:43:33,171 root  INFO     Generating first batch)
+2019-01-03 14:43:33,352 root  INFO     Generating first batch)
+2019-01-03 14:43:33,539 root  INFO     Generating first batch)
+2019-01-03 14:43:33,712 root  INFO     Generating first batch)
+2019-01-03 14:43:33,896 root  INFO     Generating first batch)
+2019-01-03 14:43:34,083 root  INFO     Generating first batch)
+2019-01-03 14:43:34,266 root  INFO     Generating first batch)
+2019-01-03 14:43:34,456 root  INFO     Generating first batch)
+2019-01-03 14:43:34,647 root  INFO     Generating first batch)
+2019-01-03 14:43:34,831 root  INFO     Generating first batch)
+2019-01-03 14:43:35,011 root  INFO     Generating first batch)
+2019-01-03 14:43:35,187 root  INFO     Generating first batch)
+2019-01-03 14:43:35,360 root  INFO     Generating first batch)
+2019-01-03 14:43:35,536 root  INFO     Generating first batch)
+2019-01-03 14:43:35,717 root  INFO     Generating first batch)
+2019-01-03 14:43:35,893 root  INFO     Generating first batch)
+2019-01-03 14:43:36,075 root  INFO     Generating first batch)
+2019-01-03 14:43:36,262 root  INFO     Generating first batch)
+2019-01-03 14:43:36,454 root  INFO     Generating first batch)
+2019-01-03 14:43:36,643 root  INFO     Generating first batch)
+2019-01-03 14:43:36,824 root  INFO     Generating first batch)
+2019-01-03 14:43:36,992 root  INFO     Generating first batch)
+2019-01-03 14:43:37,163 root  INFO     Generating first batch)
+2019-01-03 14:43:37,329 root  INFO     Generating first batch)
+2019-01-03 14:43:37,492 root  INFO     Generating first batch)
+2019-01-03 14:43:37,658 root  INFO     Generating first batch)
+2019-01-03 14:43:37,821 root  INFO     Generating first batch)
+2019-01-03 14:43:37,981 root  INFO     Generating first batch)
+2019-01-03 14:43:38,150 root  INFO     Generating first batch)
+2019-01-03 14:43:38,322 root  INFO     Generating first batch)
+2019-01-03 14:43:38,484 root  INFO     Generating first batch)
+2019-01-03 14:43:38,652 root  INFO     Generating first batch)
+2019-01-03 14:45:02,818 root  INFO     loading data
+2019-01-03 14:45:02,825 root  INFO     phase: train
+2019-01-03 14:45:02,826 root  INFO     model_dir: train
+2019-01-03 14:45:02,826 root  INFO     load_model: False
+2019-01-03 14:45:02,826 root  INFO     output_dir: results
+2019-01-03 14:45:02,826 root  INFO     steps_per_checkpoint: 500
+2019-01-03 14:45:02,826 root  INFO     batch_size: 64
+2019-01-03 14:45:02,826 root  INFO     num_epoch: 1000
+2019-01-03 14:45:02,826 root  INFO     learning_rate: 1
+2019-01-03 14:45:02,827 root  INFO     reg_val: 0
+2019-01-03 14:45:02,827 root  INFO     max_gradient_norm: 5.000000
+2019-01-03 14:45:02,827 root  INFO     clip_gradients: True
+2019-01-03 14:45:02,827 root  INFO     valid_target_length inf
+2019-01-03 14:45:02,827 root  INFO     target_vocab_size: 39
+2019-01-03 14:45:02,827 root  INFO     target_embedding_size: 10.000000
+2019-01-03 14:45:02,827 root  INFO     attn_num_hidden: 128
+2019-01-03 14:45:02,828 root  INFO     attn_num_layers: 2
+2019-01-03 14:45:02,828 root  INFO     visualize: True
+2019-01-03 14:45:02,828 root  INFO     buckets
+2019-01-03 14:45:02,828 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-03 14:46:36,825 root  INFO     Created model with fresh parameters.
+2019-01-03 14:46:58,258 root  INFO     Generating first batch)
+2019-01-03 14:46:58,419 root  INFO     Generating first batch)
+2019-01-03 14:46:58,582 root  INFO     Generating first batch)
+2019-01-03 14:46:58,746 root  INFO     Generating first batch)
+2019-01-03 14:46:58,907 root  INFO     Generating first batch)
+2019-01-03 14:46:59,067 root  INFO     Generating first batch)
+2019-01-03 14:46:59,231 root  INFO     Generating first batch)
+2019-01-03 14:46:59,397 root  INFO     Generating first batch)
+2019-01-03 14:46:59,563 root  INFO     Generating first batch)
+2019-01-03 14:46:59,731 root  INFO     Generating first batch)
+2019-01-03 14:46:59,900 root  INFO     Generating first batch)
+2019-01-03 14:47:00,076 root  INFO     Generating first batch)
+2019-01-03 14:47:00,244 root  INFO     Generating first batch)
+2019-01-03 14:47:00,415 root  INFO     Generating first batch)
+2019-01-03 14:47:00,584 root  INFO     Generating first batch)
+2019-01-03 14:47:00,755 root  INFO     Generating first batch)
+2019-01-03 14:47:00,920 root  INFO     Generating first batch)
+2019-01-03 14:47:01,088 root  INFO     Generating first batch)
+2019-01-03 14:47:01,249 root  INFO     Generating first batch)
+2019-01-03 14:47:01,416 root  INFO     Generating first batch)
+2019-01-03 14:47:01,579 root  INFO     Generating first batch)
+2019-01-03 14:47:01,740 root  INFO     Generating first batch)
+2019-01-03 14:47:01,899 root  INFO     Generating first batch)
+2019-01-03 14:47:02,059 root  INFO     Generating first batch)
+2019-01-03 14:47:02,218 root  INFO     Generating first batch)
+2019-01-03 14:47:02,375 root  INFO     Generating first batch)
+2019-01-03 14:47:02,532 root  INFO     Generating first batch)
+2019-01-03 14:47:02,686 root  INFO     Generating first batch)
+2019-01-03 14:47:02,846 root  INFO     Generating first batch)
+2019-01-03 14:47:03,008 root  INFO     Generating first batch)
+2019-01-03 14:47:03,176 root  INFO     Generating first batch)
+2019-01-03 14:47:03,357 root  INFO     Generating first batch)
+2019-01-03 14:47:03,523 root  INFO     Generating first batch)
+2019-01-03 14:47:03,683 root  INFO     Generating first batch)
+2019-01-03 14:47:03,840 root  INFO     Generating first batch)
+2019-01-03 14:47:04,008 root  INFO     Generating first batch)
+2019-01-03 14:47:04,174 root  INFO     Generating first batch)
+2019-01-03 14:47:04,337 root  INFO     Generating first batch)
+2019-01-03 14:47:04,496 root  INFO     Generating first batch)
+2019-01-03 14:47:04,655 root  INFO     Generating first batch)
+2019-01-03 14:47:04,823 root  INFO     Generating first batch)
+2019-01-03 14:47:04,993 root  INFO     Generating first batch)
+2019-01-03 14:47:05,149 root  INFO     Generating first batch)
+2019-01-03 14:47:05,316 root  INFO     Generating first batch)
+2019-01-03 14:47:05,485 root  INFO     Generating first batch)
+2019-01-03 14:47:05,653 root  INFO     Generating first batch)
+2019-01-03 14:47:05,813 root  INFO     Generating first batch)
+2019-01-03 14:47:05,973 root  INFO     Generating first batch)
+2019-01-03 14:47:06,139 root  INFO     Generating first batch)
+2019-01-03 14:47:06,304 root  INFO     Generating first batch)
+2019-01-03 14:47:06,471 root  INFO     Generating first batch)
+2019-01-03 14:47:06,641 root  INFO     Generating first batch)
+2019-01-03 14:47:06,815 root  INFO     Generating first batch)
+2019-01-03 14:47:06,988 root  INFO     Generating first batch)
+2019-01-03 14:47:07,158 root  INFO     Generating first batch)
+2019-01-03 14:47:07,330 root  INFO     Generating first batch)
+2019-01-03 14:47:07,507 root  INFO     Generating first batch)
+2019-01-03 14:47:07,678 root  INFO     Generating first batch)
+2019-01-03 14:47:07,845 root  INFO     Generating first batch)
+2019-01-03 14:47:08,018 root  INFO     Generating first batch)
+2019-01-03 14:47:08,187 root  INFO     Generating first batch)
+2019-01-03 14:47:08,345 root  INFO     Generating first batch)
+2019-01-03 14:47:08,504 root  INFO     Generating first batch)
+2019-01-03 14:47:08,659 root  INFO     Generating first batch)
+2019-01-03 14:47:08,824 root  INFO     Generating first batch)
+2019-01-03 14:47:08,991 root  INFO     Generating first batch)
+2019-01-03 14:47:09,153 root  INFO     Generating first batch)
+2019-01-03 14:47:09,318 root  INFO     Generating first batch)
+2019-01-03 14:47:09,483 root  INFO     Generating first batch)
+2019-01-03 14:50:52,771 root  INFO     loading data
+2019-01-03 14:50:52,772 root  INFO     phase: train
+2019-01-03 14:50:52,772 root  INFO     model_dir: train
+2019-01-03 14:50:52,772 root  INFO     load_model: False
+2019-01-03 14:50:52,773 root  INFO     output_dir: results
+2019-01-03 14:50:52,773 root  INFO     steps_per_checkpoint: 500
+2019-01-03 14:50:52,773 root  INFO     batch_size: 64
+2019-01-03 14:50:52,773 root  INFO     num_epoch: 1000
+2019-01-03 14:50:52,773 root  INFO     learning_rate: 1
+2019-01-03 14:50:52,773 root  INFO     reg_val: 0
+2019-01-03 14:50:52,773 root  INFO     max_gradient_norm: 5.000000
+2019-01-03 14:50:52,773 root  INFO     clip_gradients: True
+2019-01-03 14:50:52,773 root  INFO     valid_target_length inf
+2019-01-03 14:50:52,773 root  INFO     target_vocab_size: 39
+2019-01-03 14:50:52,773 root  INFO     target_embedding_size: 10.000000
+2019-01-03 14:50:52,773 root  INFO     attn_num_hidden: 128
+2019-01-03 14:50:52,773 root  INFO     attn_num_layers: 2
+2019-01-03 14:50:52,774 root  INFO     visualize: True
+2019-01-03 14:50:52,774 root  INFO     buckets
+2019-01-03 14:50:52,774 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-03 14:52:27,239 root  INFO     Created model with fresh parameters.
+2019-01-03 14:52:48,246 root  INFO     Generating first batch)
+2019-01-03 14:52:48,403 root  INFO     Generating first batch)
+2019-01-03 14:52:48,559 root  INFO     Generating first batch)
+2019-01-03 14:52:48,719 root  INFO     Generating first batch)
+2019-01-03 14:52:48,879 root  INFO     Generating first batch)
+2019-01-03 14:52:49,038 root  INFO     Generating first batch)
+2019-01-03 14:52:49,191 root  INFO     Generating first batch)
+2019-01-03 14:52:49,352 root  INFO     Generating first batch)
+2019-01-03 14:52:49,507 root  INFO     Generating first batch)
+2019-01-03 14:52:49,664 root  INFO     Generating first batch)
+2019-01-03 14:52:49,824 root  INFO     Generating first batch)
+2019-01-03 14:52:49,984 root  INFO     Generating first batch)
+2019-01-03 14:52:50,142 root  INFO     Generating first batch)
+2019-01-03 14:52:50,308 root  INFO     Generating first batch)
+2019-01-03 14:52:50,469 root  INFO     Generating first batch)
+2019-01-03 14:52:50,630 root  INFO     Generating first batch)
+2019-01-03 14:52:50,792 root  INFO     Generating first batch)
+2019-01-03 14:52:50,952 root  INFO     Generating first batch)
+2019-01-03 14:52:51,111 root  INFO     Generating first batch)
+2019-01-03 14:52:51,268 root  INFO     Generating first batch)
+2019-01-03 14:52:51,424 root  INFO     Generating first batch)
+2019-01-03 14:52:51,580 root  INFO     Generating first batch)
+2019-01-03 14:52:51,733 root  INFO     Generating first batch)
+2019-01-03 14:52:51,893 root  INFO     Generating first batch)
+2019-01-03 14:52:52,049 root  INFO     Generating first batch)
+2019-01-03 14:52:52,208 root  INFO     Generating first batch)
+2019-01-03 14:52:52,365 root  INFO     Generating first batch)
+2019-01-03 14:52:52,530 root  INFO     Generating first batch)
+2019-01-03 14:52:52,700 root  INFO     Generating first batch)
+2019-01-03 14:52:52,877 root  INFO     Generating first batch)
+2019-01-03 14:55:11,284 root  INFO     loading data
+2019-01-03 14:55:11,284 root  INFO     phase: train
+2019-01-03 14:55:11,284 root  INFO     model_dir: train
+2019-01-03 14:55:11,284 root  INFO     load_model: False
+2019-01-03 14:55:11,285 root  INFO     output_dir: results
+2019-01-03 14:55:11,285 root  INFO     steps_per_checkpoint: 500
+2019-01-03 14:55:11,285 root  INFO     batch_size: 64
+2019-01-03 14:55:11,285 root  INFO     num_epoch: 1000
+2019-01-03 14:55:11,285 root  INFO     learning_rate: 1
+2019-01-03 14:55:11,285 root  INFO     reg_val: 0
+2019-01-03 14:55:11,285 root  INFO     max_gradient_norm: 5.000000
+2019-01-03 14:55:11,285 root  INFO     clip_gradients: True
+2019-01-03 14:55:11,285 root  INFO     valid_target_length inf
+2019-01-03 14:55:11,285 root  INFO     target_vocab_size: 39
+2019-01-03 14:55:11,285 root  INFO     target_embedding_size: 10.000000
+2019-01-03 14:55:11,286 root  INFO     attn_num_hidden: 128
+2019-01-03 14:55:11,286 root  INFO     attn_num_layers: 2
+2019-01-03 14:55:11,286 root  INFO     visualize: True
+2019-01-03 14:55:11,286 root  INFO     buckets
+2019-01-03 14:55:11,286 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-03 14:56:47,684 root  INFO     Created model with fresh parameters.
+2019-01-03 14:58:40,377 root  INFO     loading data
+2019-01-03 14:58:40,378 root  INFO     phase: train
+2019-01-03 14:58:40,378 root  INFO     model_dir: train
+2019-01-03 14:58:40,378 root  INFO     load_model: False
+2019-01-03 14:58:40,378 root  INFO     output_dir: results
+2019-01-03 14:58:40,378 root  INFO     steps_per_checkpoint: 500
+2019-01-03 14:58:40,378 root  INFO     batch_size: 64
+2019-01-03 14:58:40,378 root  INFO     num_epoch: 1000
+2019-01-03 14:58:40,378 root  INFO     learning_rate: 1
+2019-01-03 14:58:40,378 root  INFO     reg_val: 0
+2019-01-03 14:58:40,378 root  INFO     max_gradient_norm: 5.000000
+2019-01-03 14:58:40,379 root  INFO     clip_gradients: True
+2019-01-03 14:58:40,379 root  INFO     valid_target_length inf
+2019-01-03 14:58:40,379 root  INFO     target_vocab_size: 334
+2019-01-03 14:58:40,379 root  INFO     target_embedding_size: 10.000000
+2019-01-03 14:58:40,379 root  INFO     attn_num_hidden: 128
+2019-01-03 14:58:40,379 root  INFO     attn_num_layers: 2
+2019-01-03 14:58:40,379 root  INFO     visualize: True
+2019-01-03 14:58:40,379 root  INFO     buckets
+2019-01-03 14:58:40,379 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-03 15:00:26,361 root  INFO     Created model with fresh parameters.
+2019-01-03 15:00:49,666 root  INFO     Generating first batch)
+2019-01-03 15:00:49,914 root  INFO     Generating first batch)
+2019-01-03 15:00:50,085 root  INFO     Generating first batch)
+2019-01-03 15:00:50,259 root  INFO     Generating first batch)
+2019-01-03 15:00:50,430 root  INFO     Generating first batch)
+2019-01-03 15:00:50,597 root  INFO     Generating first batch)
+2019-01-03 15:00:50,767 root  INFO     Generating first batch)
+2019-01-03 15:00:50,936 root  INFO     Generating first batch)
+2019-01-03 15:00:51,104 root  INFO     Generating first batch)
+2019-01-03 15:00:51,273 root  INFO     Generating first batch)
+2019-01-03 15:00:51,451 root  INFO     Generating first batch)
+2019-01-03 15:00:51,624 root  INFO     Generating first batch)
+2019-01-03 15:00:51,788 root  INFO     Generating first batch)
+2019-01-03 15:04:54,047 root  INFO     loading data
+2019-01-03 15:04:54,048 root  INFO     phase: train
+2019-01-03 15:04:54,048 root  INFO     model_dir: train
+2019-01-03 15:04:54,048 root  INFO     load_model: False
+2019-01-03 15:04:54,048 root  INFO     output_dir: results
+2019-01-03 15:04:54,048 root  INFO     steps_per_checkpoint: 500
+2019-01-03 15:04:54,049 root  INFO     batch_size: 64
+2019-01-03 15:04:54,049 root  INFO     num_epoch: 1000
+2019-01-03 15:04:54,049 root  INFO     learning_rate: 1
+2019-01-03 15:04:54,049 root  INFO     reg_val: 0
+2019-01-03 15:04:54,049 root  INFO     max_gradient_norm: 5.000000
+2019-01-03 15:04:54,049 root  INFO     clip_gradients: True
+2019-01-03 15:04:54,049 root  INFO     valid_target_length inf
+2019-01-03 15:04:54,049 root  INFO     target_vocab_size: 324
+2019-01-03 15:04:54,049 root  INFO     target_embedding_size: 10.000000
+2019-01-03 15:04:54,049 root  INFO     attn_num_hidden: 128
+2019-01-03 15:04:54,049 root  INFO     attn_num_layers: 2
+2019-01-03 15:04:54,049 root  INFO     visualize: True
+2019-01-03 15:04:54,049 root  INFO     buckets
+2019-01-03 15:04:54,050 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-03 15:06:33,576 root  INFO     Created model with fresh parameters.
+2019-01-03 15:07:00,717 root  INFO     Generating first batch)
+2019-01-03 15:07:00,990 root  INFO     Generating first batch)
+2019-01-03 15:07:01,163 root  INFO     Generating first batch)
+2019-01-03 15:07:01,334 root  INFO     Generating first batch)
+2019-01-03 15:07:01,501 root  INFO     Generating first batch)
+2019-01-03 15:07:01,675 root  INFO     Generating first batch)
+2019-01-03 15:07:01,855 root  INFO     Generating first batch)
+2019-01-03 15:07:02,029 root  INFO     Generating first batch)
+2019-01-03 15:07:02,208 root  INFO     Generating first batch)
+2019-01-03 15:07:02,379 root  INFO     Generating first batch)
+2019-01-03 15:07:02,547 root  INFO     Generating first batch)
+2019-01-03 15:07:02,710 root  INFO     Generating first batch)
+2019-01-03 15:07:02,881 root  INFO     Generating first batch)
+2019-01-03 15:12:26,211 root  INFO     loading data
+2019-01-03 15:12:26,212 root  INFO     phase: train
+2019-01-03 15:12:26,212 root  INFO     model_dir: train
+2019-01-03 15:12:26,212 root  INFO     load_model: False
+2019-01-03 15:12:26,212 root  INFO     output_dir: results
+2019-01-03 15:12:26,212 root  INFO     steps_per_checkpoint: 500
+2019-01-03 15:12:26,212 root  INFO     batch_size: 64
+2019-01-03 15:12:26,212 root  INFO     num_epoch: 1000
+2019-01-03 15:12:26,212 root  INFO     learning_rate: 1
+2019-01-03 15:12:26,213 root  INFO     reg_val: 0
+2019-01-03 15:12:26,213 root  INFO     max_gradient_norm: 5.000000
+2019-01-03 15:12:26,213 root  INFO     clip_gradients: True
+2019-01-03 15:12:26,213 root  INFO     valid_target_length inf
+2019-01-03 15:12:26,213 root  INFO     target_vocab_size: 324
+2019-01-03 15:12:26,213 root  INFO     target_embedding_size: 10.000000
+2019-01-03 15:12:26,213 root  INFO     attn_num_hidden: 128
+2019-01-03 15:12:26,213 root  INFO     attn_num_layers: 2
+2019-01-03 15:12:26,213 root  INFO     visualize: True
+2019-01-03 15:12:26,213 root  INFO     buckets
+2019-01-03 15:12:26,213 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-03 15:14:02,345 root  INFO     Created model with fresh parameters.
+2019-01-03 15:14:34,106 root  INFO     Generating first batch)
+2019-01-03 15:14:34,356 root  INFO     Generating first batch)
+2019-01-03 15:14:34,512 root  INFO     Generating first batch)
+2019-01-03 15:14:34,662 root  INFO     Generating first batch)
+2019-01-03 15:14:34,811 root  INFO     Generating first batch)
+2019-01-03 15:14:34,966 root  INFO     Generating first batch)
+2019-01-03 15:14:35,137 root  INFO     Generating first batch)
+2019-01-03 15:14:35,309 root  INFO     Generating first batch)
+2019-01-03 15:14:35,489 root  INFO     Generating first batch)
+2019-01-03 15:14:35,654 root  INFO     Generating first batch)
+2019-01-03 15:14:35,807 root  INFO     Generating first batch)
+2019-01-03 15:14:35,960 root  INFO     Generating first batch)
+2019-01-03 15:14:36,119 root  INFO     Generating first batch)
+2019-01-03 15:14:36,294 root  INFO     Generating first batch)
+2019-01-03 15:14:36,458 root  INFO     Generating first batch)
+2019-01-03 15:14:36,618 root  INFO     Generating first batch)
+2019-01-03 15:14:36,776 root  INFO     Generating first batch)
+2019-01-03 15:14:36,938 root  INFO     Generating first batch)
+2019-01-03 15:14:37,088 root  INFO     Generating first batch)
+2019-01-03 15:14:37,253 root  INFO     Generating first batch)
+2019-01-03 15:14:37,430 root  INFO     Generating first batch)
+2019-01-03 15:14:37,607 root  INFO     Generating first batch)
+2019-01-03 15:14:37,781 root  INFO     Generating first batch)
+2019-01-03 15:14:37,946 root  INFO     Generating first batch)
+2019-01-03 15:14:38,117 root  INFO     Generating first batch)
+2019-01-03 15:14:38,294 root  INFO     Generating first batch)
+2019-01-03 15:14:38,471 root  INFO     Generating first batch)
+2019-01-03 15:14:38,641 root  INFO     Generating first batch)
+2019-01-03 15:14:38,806 root  INFO     Generating first batch)
+2019-01-03 15:14:38,976 root  INFO     Generating first batch)
+2019-01-03 15:14:39,154 root  INFO     Generating first batch)
+2019-01-03 15:14:39,319 root  INFO     Generating first batch)
+2019-01-03 15:14:39,474 root  INFO     Generating first batch)
+2019-01-03 15:14:39,623 root  INFO     Generating first batch)
+2019-01-03 15:14:39,786 root  INFO     Generating first batch)
+2019-01-03 15:14:39,958 root  INFO     Generating first batch)
+2019-01-03 15:14:40,121 root  INFO     Generating first batch)
+2019-01-03 15:14:40,274 root  INFO     Generating first batch)
+2019-01-03 15:14:40,427 root  INFO     Generating first batch)
+2019-01-03 15:14:40,600 root  INFO     Generating first batch)
+2019-01-03 15:14:40,761 root  INFO     Generating first batch)
+2019-01-03 15:14:40,913 root  INFO     Generating first batch)
+2019-01-03 15:14:41,070 root  INFO     Generating first batch)
+2019-01-03 15:14:41,228 root  INFO     Generating first batch)
+2019-01-03 15:14:41,401 root  INFO     Generating first batch)
+2019-01-03 15:14:41,577 root  INFO     Generating first batch)
+2019-01-03 15:14:41,749 root  INFO     Generating first batch)
+2019-01-03 15:14:41,905 root  INFO     Generating first batch)
+2019-01-03 15:14:42,075 root  INFO     Generating first batch)
+2019-01-03 15:14:42,252 root  INFO     Generating first batch)
+2019-01-03 15:14:42,423 root  INFO     Generating first batch)
+2019-01-03 15:14:42,586 root  INFO     Generating first batch)
+2019-01-03 15:14:42,763 root  INFO     Generating first batch)
+2019-01-03 15:14:42,942 root  INFO     Generating first batch)
+2019-01-03 15:14:43,117 root  INFO     Generating first batch)
+2019-01-03 15:14:43,301 root  INFO     Generating first batch)
+2019-01-03 15:14:43,482 root  INFO     Generating first batch)
+2019-01-03 15:14:43,648 root  INFO     Generating first batch)
+2019-01-03 15:14:43,824 root  INFO     Generating first batch)
+2019-01-03 15:14:44,000 root  INFO     Generating first batch)
+2019-01-03 15:14:44,174 root  INFO     Generating first batch)
+2019-01-03 15:14:44,353 root  INFO     Generating first batch)
+2019-01-03 15:14:44,535 root  INFO     Generating first batch)
+2019-01-03 15:14:44,710 root  INFO     Generating first batch)
+2019-01-03 15:14:44,891 root  INFO     Generating first batch)
+2019-01-03 15:14:45,074 root  INFO     Generating first batch)
+2019-01-03 15:14:45,250 root  INFO     Generating first batch)
+2019-01-03 15:14:45,427 root  INFO     Generating first batch)
+2019-01-03 15:14:45,600 root  INFO     Generating first batch)
+2019-01-03 15:14:45,775 root  INFO     Generating first batch)
+2019-01-03 15:14:45,948 root  INFO     Generating first batch)
+2019-01-03 15:14:46,127 root  INFO     Generating first batch)
+2019-01-03 15:14:46,303 root  INFO     Generating first batch)
+2019-01-03 15:14:46,481 root  INFO     Generating first batch)
+2019-01-03 15:14:46,659 root  INFO     Generating first batch)
+2019-01-03 15:14:46,836 root  INFO     Generating first batch)
+2019-01-03 15:14:47,013 root  INFO     Generating first batch)
+2019-01-03 15:14:47,170 root  INFO     Generating first batch)
+2019-01-03 15:14:47,332 root  INFO     Generating first batch)
+2019-01-03 15:14:47,496 root  INFO     Generating first batch)
+2019-01-03 15:14:47,667 root  INFO     Generating first batch)
+2019-01-03 15:14:47,823 root  INFO     Generating first batch)
+2019-01-03 15:14:47,977 root  INFO     Generating first batch)
+2019-01-03 15:14:48,129 root  INFO     Generating first batch)
+2019-01-03 15:14:48,281 root  INFO     Generating first batch)
+2019-01-03 15:14:48,450 root  INFO     Generating first batch)
+2019-01-03 15:14:48,612 root  INFO     Generating first batch)
+2019-01-03 15:14:48,774 root  INFO     Generating first batch)
+2019-01-03 15:14:48,925 root  INFO     Generating first batch)
+2019-01-03 15:14:49,083 root  INFO     Generating first batch)
+2019-01-03 15:14:49,251 root  INFO     Generating first batch)
+2019-01-03 15:14:49,422 root  INFO     Generating first batch)
+2019-01-03 15:14:49,579 root  INFO     Generating first batch)
+2019-01-03 15:14:49,738 root  INFO     Generating first batch)
+2019-01-03 15:14:49,916 root  INFO     Generating first batch)
+2019-01-03 15:14:50,087 root  INFO     Generating first batch)
+2019-01-03 15:14:50,261 root  INFO     Generating first batch)
+2019-01-03 15:14:50,425 root  INFO     Generating first batch)
+2019-01-03 15:14:50,584 root  INFO     Generating first batch)
+2019-01-03 15:14:50,735 root  INFO     Generating first batch)
+2019-01-03 15:14:50,887 root  INFO     Generating first batch)
+2019-01-03 15:14:51,052 root  INFO     Generating first batch)
+2019-01-03 15:14:51,217 root  INFO     Generating first batch)
+2019-01-03 15:14:51,394 root  INFO     Generating first batch)
+2019-01-03 15:14:51,573 root  INFO     Generating first batch)
+2019-01-03 15:14:51,748 root  INFO     Generating first batch)
+2019-01-03 15:14:51,927 root  INFO     Generating first batch)
+2019-01-03 15:14:52,109 root  INFO     Generating first batch)
+2019-01-03 15:14:52,286 root  INFO     Generating first batch)
+2019-01-03 15:14:52,465 root  INFO     Generating first batch)
+2019-01-03 15:14:52,639 root  INFO     Generating first batch)
+2019-01-03 15:14:52,815 root  INFO     Generating first batch)
+2019-01-03 15:14:52,983 root  INFO     Generating first batch)
+2019-01-03 15:14:53,155 root  INFO     Generating first batch)
+2019-01-03 15:14:53,324 root  INFO     Generating first batch)
+2019-01-03 15:14:53,481 root  INFO     Generating first batch)
+2019-01-03 15:14:53,637 root  INFO     Generating first batch)
+2019-01-03 15:14:53,795 root  INFO     Generating first batch)
+2019-01-03 15:14:53,958 root  INFO     Generating first batch)
+2019-01-03 15:14:54,129 root  INFO     Generating first batch)
+2019-01-03 15:14:54,291 root  INFO     Generating first batch)
+2019-01-03 15:14:54,457 root  INFO     Generating first batch)
+2019-01-03 15:14:54,614 root  INFO     Generating first batch)
+2019-01-03 15:14:54,770 root  INFO     Generating first batch)
+2019-01-03 15:14:54,920 root  INFO     Generating first batch)
+2019-01-03 15:14:55,078 root  INFO     Generating first batch)
+2019-01-03 15:14:55,234 root  INFO     Generating first batch)
+2019-01-03 15:14:55,399 root  INFO     Generating first batch)
+2019-01-03 15:14:55,552 root  INFO     Generating first batch)
+2019-01-03 15:14:55,703 root  INFO     Generating first batch)
+2019-01-03 15:14:55,867 root  INFO     Generating first batch)
+2019-01-03 15:14:56,023 root  INFO     Generating first batch)
+2019-01-03 15:14:56,186 root  INFO     Generating first batch)
+2019-01-03 15:14:56,349 root  INFO     Generating first batch)
+2019-01-03 15:14:56,510 root  INFO     Generating first batch)
+2019-01-03 15:14:56,670 root  INFO     Generating first batch)
+2019-01-03 15:14:56,829 root  INFO     Generating first batch)
+2019-01-03 15:14:56,986 root  INFO     Generating first batch)
+2019-01-03 15:14:57,151 root  INFO     Generating first batch)
+2019-01-03 15:14:57,319 root  INFO     Generating first batch)
+2019-01-03 15:14:57,486 root  INFO     Generating first batch)
+2019-01-03 15:14:57,641 root  INFO     Generating first batch)
+2019-01-03 15:14:57,799 root  INFO     Generating first batch)
+2019-01-03 15:14:57,960 root  INFO     Generating first batch)
+2019-01-03 15:14:58,118 root  INFO     Generating first batch)
+2019-01-03 15:14:58,277 root  INFO     Generating first batch)
+2019-01-03 15:14:58,454 root  INFO     Generating first batch)
+2019-01-03 15:14:58,630 root  INFO     Generating first batch)
+2019-01-03 15:14:58,802 root  INFO     Generating first batch)
+2019-01-03 15:14:58,968 root  INFO     Generating first batch)
+2019-01-03 15:14:59,144 root  INFO     Generating first batch)
+2019-01-03 15:14:59,308 root  INFO     Generating first batch)
+2019-01-03 15:14:59,480 root  INFO     Generating first batch)
+2019-01-03 15:14:59,648 root  INFO     Generating first batch)
+2019-01-03 15:14:59,817 root  INFO     Generating first batch)
+2019-01-03 15:14:59,985 root  INFO     Generating first batch)
+2019-01-03 15:15:00,159 root  INFO     Generating first batch)
+2019-01-03 15:15:00,321 root  INFO     Generating first batch)
+2019-01-03 15:15:00,489 root  INFO     Generating first batch)
+2019-01-03 15:15:00,653 root  INFO     Generating first batch)
+2019-01-03 15:15:00,817 root  INFO     Generating first batch)
+2019-01-03 15:15:00,982 root  INFO     Generating first batch)
+2019-01-03 15:15:01,139 root  INFO     Generating first batch)
+2019-01-03 15:15:01,295 root  INFO     Generating first batch)
+2019-01-03 15:15:01,450 root  INFO     Generating first batch)
+2019-01-03 15:15:01,603 root  INFO     Generating first batch)
+2019-01-03 15:15:01,763 root  INFO     Generating first batch)
+2019-01-03 15:15:01,929 root  INFO     Generating first batch)
+2019-01-03 15:15:02,101 root  INFO     Generating first batch)
+2019-01-03 15:15:02,277 root  INFO     Generating first batch)
+2019-01-03 15:15:02,438 root  INFO     Generating first batch)
+2019-01-03 15:15:02,599 root  INFO     Generating first batch)
+2019-01-03 15:15:02,755 root  INFO     Generating first batch)
+2019-01-03 15:15:02,910 root  INFO     Generating first batch)
+2019-01-03 15:15:03,073 root  INFO     Generating first batch)
+2019-01-03 15:15:03,233 root  INFO     Generating first batch)
+2019-01-03 15:15:03,392 root  INFO     Generating first batch)
+2019-01-03 15:15:03,548 root  INFO     Generating first batch)
+2019-01-03 15:15:03,695 root  INFO     Generating first batch)
+2019-01-03 15:15:03,853 root  INFO     Generating first batch)
+2019-01-03 15:15:04,023 root  INFO     Generating first batch)
+2019-01-03 15:15:04,190 root  INFO     Generating first batch)
+2019-01-03 15:15:04,356 root  INFO     Generating first batch)
+2019-01-03 15:15:04,534 root  INFO     Generating first batch)
+2019-01-03 15:15:04,710 root  INFO     Generating first batch)
+2019-01-03 15:15:04,883 root  INFO     Generating first batch)
+2019-01-03 15:15:05,057 root  INFO     Generating first batch)
+2019-01-03 15:15:05,227 root  INFO     Generating first batch)
+2019-01-03 15:15:05,397 root  INFO     Generating first batch)
+2019-01-03 15:15:05,578 root  INFO     Generating first batch)
+2019-01-03 15:15:05,760 root  INFO     Generating first batch)
+2019-01-03 15:15:05,942 root  INFO     Generating first batch)
+2019-01-03 15:15:06,128 root  INFO     Generating first batch)
+2019-01-03 15:15:06,309 root  INFO     Generating first batch)
+2019-01-03 15:15:06,488 root  INFO     Generating first batch)
+2019-01-03 15:15:06,669 root  INFO     Generating first batch)
+2019-01-03 15:15:06,850 root  INFO     Generating first batch)
+2019-01-03 15:15:07,033 root  INFO     Generating first batch)
+2019-01-03 15:15:07,210 root  INFO     Generating first batch)
+2019-01-03 15:15:07,377 root  INFO     Generating first batch)
+2019-01-03 15:15:07,550 root  INFO     Generating first batch)
+2019-01-03 15:15:07,724 root  INFO     Generating first batch)
+2019-01-03 15:15:07,899 root  INFO     Generating first batch)
+2019-01-03 15:15:08,074 root  INFO     Generating first batch)
+2019-01-03 15:15:08,245 root  INFO     Generating first batch)
+2019-01-03 15:15:08,420 root  INFO     Generating first batch)
+2019-01-03 15:15:08,600 root  INFO     Generating first batch)
+2019-01-03 15:15:08,772 root  INFO     Generating first batch)
+2019-01-03 15:15:08,940 root  INFO     Generating first batch)
+2019-01-03 15:15:09,116 root  INFO     Generating first batch)
+2019-01-03 15:15:09,286 root  INFO     Generating first batch)
+2019-01-03 15:15:09,457 root  INFO     Generating first batch)
+2019-01-03 15:15:09,629 root  INFO     Generating first batch)
+2019-01-03 15:15:09,800 root  INFO     Generating first batch)
+2019-01-03 15:15:09,974 root  INFO     Generating first batch)
+2019-01-03 15:15:10,149 root  INFO     Generating first batch)
+2019-01-03 15:15:10,321 root  INFO     Generating first batch)
+2019-01-03 15:15:10,497 root  INFO     Generating first batch)
+2019-01-03 15:15:10,669 root  INFO     Generating first batch)
+2019-01-03 15:15:10,841 root  INFO     Generating first batch)
+2019-01-03 15:15:11,013 root  INFO     Generating first batch)
+2019-01-03 15:15:11,185 root  INFO     Generating first batch)
+2019-01-03 15:15:11,359 root  INFO     Generating first batch)
+2019-01-03 15:15:11,532 root  INFO     Generating first batch)
+2019-01-03 15:15:11,704 root  INFO     Generating first batch)
+2019-01-03 15:15:11,873 root  INFO     Generating first batch)
+2019-01-03 15:15:12,046 root  INFO     Generating first batch)
+2019-01-03 15:15:12,217 root  INFO     Generating first batch)
+2019-01-03 15:15:12,392 root  INFO     Generating first batch)
+2019-01-03 15:15:12,575 root  INFO     Generating first batch)
+2019-01-03 15:15:12,755 root  INFO     Generating first batch)
+2019-01-03 15:15:12,942 root  INFO     Generating first batch)
+2019-01-03 15:15:13,134 root  INFO     Generating first batch)
+2019-01-03 15:15:13,315 root  INFO     Generating first batch)
+2019-01-03 15:15:13,497 root  INFO     Generating first batch)
+2019-01-03 15:15:13,680 root  INFO     Generating first batch)
+2019-01-03 15:15:13,858 root  INFO     Generating first batch)
+2019-01-03 15:15:14,037 root  INFO     Generating first batch)
+2019-01-03 15:15:14,215 root  INFO     Generating first batch)
+2019-01-03 15:15:14,385 root  INFO     Generating first batch)
+2019-01-03 15:15:14,558 root  INFO     Generating first batch)
+2019-01-03 15:15:14,729 root  INFO     Generating first batch)
+2019-01-03 15:15:14,903 root  INFO     Generating first batch)
+2019-01-03 15:15:15,078 root  INFO     Generating first batch)
+2019-01-03 15:15:15,249 root  INFO     Generating first batch)
+2019-01-03 15:15:15,425 root  INFO     Generating first batch)
+2019-01-03 15:15:15,592 root  INFO     Generating first batch)
+2019-01-03 15:15:15,768 root  INFO     Generating first batch)
+2019-01-03 15:15:15,944 root  INFO     Generating first batch)
+2019-01-03 15:15:16,114 root  INFO     Generating first batch)
+2019-01-03 15:15:16,291 root  INFO     Generating first batch)
+2019-01-03 15:15:16,464 root  INFO     Generating first batch)
+2019-01-03 15:15:16,649 root  INFO     Generating first batch)
+2019-01-03 15:15:16,826 root  INFO     Generating first batch)
+2019-01-03 15:15:17,009 root  INFO     Generating first batch)
+2019-01-03 15:15:17,191 root  INFO     Generating first batch)
+2019-01-03 15:15:17,376 root  INFO     Generating first batch)
+2019-01-03 15:15:17,556 root  INFO     Generating first batch)
+2019-01-03 15:15:17,737 root  INFO     Generating first batch)
+2019-01-03 15:15:17,915 root  INFO     Generating first batch)
+2019-01-03 15:15:18,096 root  INFO     Generating first batch)
+2019-01-03 15:15:18,268 root  INFO     Generating first batch)
+2019-01-03 15:15:18,443 root  INFO     Generating first batch)
+2019-01-03 15:15:18,623 root  INFO     Generating first batch)
+2019-01-03 15:15:18,794 root  INFO     Generating first batch)
+2019-01-03 15:15:18,964 root  INFO     Generating first batch)
+2019-01-03 15:15:19,143 root  INFO     Generating first batch)
+2019-01-03 15:15:19,318 root  INFO     Generating first batch)
+2019-01-03 15:15:19,508 root  INFO     Generating first batch)
+2019-01-03 15:15:19,691 root  INFO     Generating first batch)
+2019-01-03 15:15:19,874 root  INFO     Generating first batch)
+2019-01-03 15:15:20,061 root  INFO     Generating first batch)
+2019-01-03 15:15:20,240 root  INFO     Generating first batch)
+2019-01-03 15:15:20,419 root  INFO     Generating first batch)
+2019-01-03 15:15:20,599 root  INFO     Generating first batch)
+2019-01-03 15:15:20,773 root  INFO     Generating first batch)
+2019-01-03 15:15:20,947 root  INFO     Generating first batch)
+2019-01-03 15:15:21,128 root  INFO     Generating first batch)
+2019-01-03 15:15:21,307 root  INFO     Generating first batch)
+2019-01-03 15:15:21,478 root  INFO     Generating first batch)
+2019-01-03 15:15:21,654 root  INFO     Generating first batch)
+2019-01-03 15:15:21,830 root  INFO     Generating first batch)
+2019-01-03 15:15:22,011 root  INFO     Generating first batch)
+2019-01-03 15:15:22,186 root  INFO     Generating first batch)
+2019-01-03 15:15:22,353 root  INFO     Generating first batch)
+2019-01-03 15:15:22,527 root  INFO     Generating first batch)
+2019-01-03 15:15:22,704 root  INFO     Generating first batch)
+2019-01-03 15:15:22,880 root  INFO     Generating first batch)
+2019-01-03 15:15:23,055 root  INFO     Generating first batch)
+2019-01-03 15:15:23,234 root  INFO     Generating first batch)
+2019-01-03 15:15:23,413 root  INFO     Generating first batch)
+2019-01-03 15:15:23,585 root  INFO     Generating first batch)
+2019-01-03 15:15:23,759 root  INFO     Generating first batch)
+2019-01-03 15:15:23,932 root  INFO     Generating first batch)
+2019-01-03 15:15:24,119 root  INFO     Generating first batch)
+2019-01-03 15:15:24,301 root  INFO     Generating first batch)
+2019-01-03 15:15:24,474 root  INFO     Generating first batch)
+2019-01-03 15:15:24,648 root  INFO     Generating first batch)
+2019-01-03 15:15:24,817 root  INFO     Generating first batch)
+2019-01-03 15:15:24,990 root  INFO     Generating first batch)
+2019-01-03 15:15:25,160 root  INFO     Generating first batch)
+2019-01-03 15:15:25,327 root  INFO     Generating first batch)
+2019-01-03 15:15:25,498 root  INFO     Generating first batch)
+2019-01-03 15:15:25,677 root  INFO     Generating first batch)
+2019-01-03 15:15:25,856 root  INFO     Generating first batch)
+2019-01-03 15:15:26,025 root  INFO     Generating first batch)
+2019-01-03 15:15:26,208 root  INFO     Generating first batch)
+2019-01-03 15:15:26,394 root  INFO     Generating first batch)
+2019-01-03 15:15:26,579 root  INFO     Generating first batch)
+2019-01-03 15:15:26,764 root  INFO     Generating first batch)
+2019-01-03 15:15:26,939 root  INFO     Generating first batch)
+2019-01-03 15:15:27,120 root  INFO     Generating first batch)
+2019-01-03 15:15:27,303 root  INFO     Generating first batch)
+2019-01-03 15:15:27,485 root  INFO     Generating first batch)
+2019-01-03 15:15:27,662 root  INFO     Generating first batch)
+2019-01-03 15:15:27,836 root  INFO     Generating first batch)
+2019-01-03 15:15:28,026 root  INFO     Generating first batch)
+2019-01-03 15:15:28,213 root  INFO     Generating first batch)
+2019-01-03 15:15:28,392 root  INFO     Generating first batch)
+2019-01-03 15:15:28,570 root  INFO     Generating first batch)
+2019-01-03 15:15:28,748 root  INFO     Generating first batch)
+2019-01-03 15:15:28,922 root  INFO     Generating first batch)
+2019-01-03 15:15:29,104 root  INFO     Generating first batch)
+2019-01-03 15:15:29,279 root  INFO     Generating first batch)
+2019-01-03 15:15:29,448 root  INFO     Generating first batch)
+2019-01-03 15:15:29,625 root  INFO     Generating first batch)
+2019-01-03 15:15:29,797 root  INFO     Generating first batch)
+2019-01-03 15:15:29,972 root  INFO     Generating first batch)
+2019-01-03 15:15:30,146 root  INFO     Generating first batch)
+2019-01-03 15:15:30,314 root  INFO     Generating first batch)
+2019-01-03 15:15:30,484 root  INFO     Generating first batch)
+2019-01-03 15:15:30,653 root  INFO     Generating first batch)
+2019-01-03 15:15:30,824 root  INFO     Generating first batch)
+2019-01-03 15:15:31,000 root  INFO     Generating first batch)
+2019-01-03 15:15:31,174 root  INFO     Generating first batch)
+2019-01-03 15:15:31,348 root  INFO     Generating first batch)
+2019-01-03 15:15:31,518 root  INFO     Generating first batch)
+2019-01-03 15:15:31,691 root  INFO     Generating first batch)
+2019-01-03 15:15:31,860 root  INFO     Generating first batch)
+2019-01-03 15:15:32,034 root  INFO     Generating first batch)
+2019-01-03 15:15:32,207 root  INFO     Generating first batch)
+2019-01-03 15:15:32,380 root  INFO     Generating first batch)
+2019-01-03 15:15:32,553 root  INFO     Generating first batch)
+2019-01-03 15:15:32,725 root  INFO     Generating first batch)
+2019-01-03 15:15:32,894 root  INFO     Generating first batch)
+2019-01-03 15:15:33,069 root  INFO     Generating first batch)
+2019-01-03 15:15:33,235 root  INFO     Generating first batch)
+2019-01-03 15:15:33,410 root  INFO     Generating first batch)
+2019-01-03 15:15:33,590 root  INFO     Generating first batch)
+2019-01-03 15:15:33,764 root  INFO     Generating first batch)
+2019-01-03 15:15:33,939 root  INFO     Generating first batch)
+2019-01-03 15:15:34,121 root  INFO     Generating first batch)
+2019-01-03 15:15:34,301 root  INFO     Generating first batch)
+2019-01-03 15:15:34,476 root  INFO     Generating first batch)
+2019-01-03 15:15:34,653 root  INFO     Generating first batch)
+2019-01-03 15:15:34,828 root  INFO     Generating first batch)
+2019-01-03 15:15:35,010 root  INFO     Generating first batch)
+2019-01-03 15:15:35,195 root  INFO     Generating first batch)
+2019-01-03 15:15:35,365 root  INFO     Generating first batch)
+2019-01-03 15:15:35,541 root  INFO     Generating first batch)
+2019-01-03 15:15:35,714 root  INFO     Generating first batch)
+2019-01-03 15:15:35,890 root  INFO     Generating first batch)
+2019-01-03 15:15:36,068 root  INFO     Generating first batch)
+2019-01-03 15:15:36,238 root  INFO     Generating first batch)
+2019-01-03 15:15:36,407 root  INFO     Generating first batch)
+2019-01-03 15:15:36,580 root  INFO     Generating first batch)
+2019-01-03 15:15:36,745 root  INFO     Generating first batch)
+2019-01-03 15:15:36,916 root  INFO     Generating first batch)
+2019-01-03 15:15:37,089 root  INFO     Generating first batch)
+2019-01-03 15:15:37,261 root  INFO     Generating first batch)
+2019-01-03 15:15:37,428 root  INFO     Generating first batch)
+2019-01-03 15:15:37,600 root  INFO     Generating first batch)
+2019-01-03 15:15:37,780 root  INFO     Generating first batch)
+2019-01-03 15:15:37,957 root  INFO     Generating first batch)
+2019-01-03 15:15:38,136 root  INFO     Generating first batch)
+2019-01-03 15:15:38,311 root  INFO     Generating first batch)
+2019-01-03 15:15:38,489 root  INFO     Generating first batch)
+2019-01-03 15:15:38,664 root  INFO     Generating first batch)
+2019-01-03 15:15:38,836 root  INFO     Generating first batch)
+2019-01-03 15:15:39,010 root  INFO     Generating first batch)
+2019-01-03 15:15:39,188 root  INFO     Generating first batch)
+2019-01-03 15:15:39,358 root  INFO     Generating first batch)
+2019-01-03 15:15:39,531 root  INFO     Generating first batch)
+2019-01-03 15:15:39,703 root  INFO     Generating first batch)
+2019-01-03 15:15:39,874 root  INFO     Generating first batch)
+2019-01-03 15:15:40,052 root  INFO     Generating first batch)
+2019-01-03 15:15:40,225 root  INFO     Generating first batch)
+2019-01-03 15:15:40,402 root  INFO     Generating first batch)
+2019-01-03 15:15:40,579 root  INFO     Generating first batch)
+2019-01-03 15:15:40,760 root  INFO     Generating first batch)
+2019-01-03 15:15:40,935 root  INFO     Generating first batch)
+2019-01-03 15:15:41,119 root  INFO     Generating first batch)
+2019-01-03 15:15:41,295 root  INFO     Generating first batch)
+2019-01-03 15:15:41,475 root  INFO     Generating first batch)
+2019-01-03 15:15:41,653 root  INFO     Generating first batch)
+2019-01-03 15:15:41,833 root  INFO     Generating first batch)
+2019-01-03 15:15:42,015 root  INFO     Generating first batch)
+2019-01-03 15:15:42,199 root  INFO     Generating first batch)
+2019-01-03 15:15:42,373 root  INFO     Generating first batch)
+2019-01-03 15:15:42,550 root  INFO     Generating first batch)
+2019-01-03 15:15:42,721 root  INFO     Generating first batch)
+2019-01-03 15:15:42,898 root  INFO     Generating first batch)
+2019-01-03 15:15:43,080 root  INFO     Generating first batch)
+2019-01-03 15:15:43,260 root  INFO     Generating first batch)
+2019-01-03 15:15:43,440 root  INFO     Generating first batch)
+2019-01-03 15:15:43,617 root  INFO     Generating first batch)
+2019-01-03 15:15:43,791 root  INFO     Generating first batch)
+2019-01-03 15:15:43,962 root  INFO     Generating first batch)
+2019-01-03 15:15:44,137 root  INFO     Generating first batch)
+2019-01-03 15:15:44,309 root  INFO     Generating first batch)
+2019-01-03 15:15:44,483 root  INFO     Generating first batch)
+2019-01-03 15:15:44,655 root  INFO     Generating first batch)
+2019-01-03 15:15:44,828 root  INFO     Generating first batch)
+2019-01-03 15:15:45,003 root  INFO     Generating first batch)
+2019-01-03 15:15:45,174 root  INFO     Generating first batch)
+2019-01-03 15:15:45,351 root  INFO     Generating first batch)
+2019-01-03 15:15:45,526 root  INFO     Generating first batch)
+2019-01-03 15:15:45,697 root  INFO     Generating first batch)
+2019-01-03 15:15:45,870 root  INFO     Generating first batch)
+2019-01-03 15:15:46,044 root  INFO     Generating first batch)
+2019-01-03 15:15:46,220 root  INFO     Generating first batch)
+2019-01-03 15:15:46,394 root  INFO     Generating first batch)
+2019-01-03 15:15:46,574 root  INFO     Generating first batch)
+2019-01-03 15:15:46,744 root  INFO     Generating first batch)
+2019-01-03 15:15:46,914 root  INFO     Generating first batch)
+2019-01-03 15:15:47,085 root  INFO     Generating first batch)
+2019-01-03 15:15:47,256 root  INFO     Generating first batch)
+2019-01-03 15:15:47,433 root  INFO     Generating first batch)
+2019-01-03 15:15:47,609 root  INFO     Generating first batch)
+2019-01-03 15:15:47,788 root  INFO     Generating first batch)
+2019-01-03 15:15:47,965 root  INFO     Generating first batch)
+2019-01-03 15:15:48,146 root  INFO     Generating first batch)
+2019-01-03 15:15:48,324 root  INFO     Generating first batch)
+2019-01-03 15:15:48,504 root  INFO     Generating first batch)
+2019-01-03 15:15:48,685 root  INFO     Generating first batch)
+2019-01-03 15:15:48,867 root  INFO     Generating first batch)
+2019-01-03 15:15:49,049 root  INFO     Generating first batch)
+2019-01-03 15:15:49,234 root  INFO     Generating first batch)
+2019-01-03 15:15:49,405 root  INFO     Generating first batch)
+2019-01-03 15:15:49,578 root  INFO     Generating first batch)
+2019-01-03 15:15:49,754 root  INFO     Generating first batch)
+2019-01-03 15:15:49,933 root  INFO     Generating first batch)
+2019-01-03 15:15:50,111 root  INFO     Generating first batch)
+2019-01-03 15:15:50,286 root  INFO     Generating first batch)
+2019-01-03 15:15:50,457 root  INFO     Generating first batch)
+2019-01-03 15:15:50,635 root  INFO     Generating first batch)
+2019-01-03 15:15:50,808 root  INFO     Generating first batch)
+2019-01-03 15:15:50,983 root  INFO     Generating first batch)
+2019-01-03 15:15:51,159 root  INFO     Generating first batch)
+2019-01-03 15:15:51,337 root  INFO     Generating first batch)
+2019-01-03 15:15:51,515 root  INFO     Generating first batch)
+2019-01-03 15:15:51,687 root  INFO     Generating first batch)
+2019-01-03 15:15:51,860 root  INFO     Generating first batch)
+2019-01-03 15:15:52,035 root  INFO     Generating first batch)
+2019-01-03 15:15:52,207 root  INFO     Generating first batch)
+2019-01-03 15:15:52,384 root  INFO     Generating first batch)
+2019-01-03 15:15:52,558 root  INFO     Generating first batch)
+2019-01-03 15:15:52,730 root  INFO     Generating first batch)
+2019-01-03 15:15:52,907 root  INFO     Generating first batch)
+2019-01-03 15:15:53,084 root  INFO     Generating first batch)
+2019-01-03 15:15:53,263 root  INFO     Generating first batch)
+2019-01-03 15:15:53,439 root  INFO     Generating first batch)
+2019-01-03 15:15:53,615 root  INFO     Generating first batch)
+2019-01-03 15:15:53,785 root  INFO     Generating first batch)
+2019-01-03 15:15:53,961 root  INFO     Generating first batch)
+2019-01-03 15:15:54,147 root  INFO     Generating first batch)
+2019-01-03 15:15:54,318 root  INFO     Generating first batch)
+2019-01-03 15:15:54,496 root  INFO     Generating first batch)
+2019-01-03 15:15:54,671 root  INFO     Generating first batch)
+2019-01-03 15:15:54,850 root  INFO     Generating first batch)
+2019-01-03 15:15:55,031 root  INFO     Generating first batch)
+2019-01-03 15:15:55,219 root  INFO     Generating first batch)
+2019-01-03 15:15:55,401 root  INFO     Generating first batch)
+2019-01-03 15:15:55,581 root  INFO     Generating first batch)
+2019-01-03 15:15:55,762 root  INFO     Generating first batch)
+2019-01-03 15:15:55,943 root  INFO     Generating first batch)
+2019-01-03 15:15:56,120 root  INFO     Generating first batch)
+2019-01-03 15:15:56,295 root  INFO     Generating first batch)
+2019-01-03 15:15:56,464 root  INFO     Generating first batch)
+2019-01-03 15:15:56,637 root  INFO     Generating first batch)
+2019-01-03 15:15:56,807 root  INFO     Generating first batch)
+2019-01-03 15:15:56,983 root  INFO     Generating first batch)
+2019-01-03 15:15:57,160 root  INFO     Generating first batch)
+2019-01-03 15:15:57,331 root  INFO     Generating first batch)
+2019-01-03 15:15:57,506 root  INFO     Generating first batch)
+2019-01-03 15:15:57,684 root  INFO     Generating first batch)
+2019-01-03 15:15:57,856 root  INFO     Generating first batch)
+2019-01-03 15:15:58,040 root  INFO     Generating first batch)
+2019-01-03 15:15:58,215 root  INFO     Generating first batch)
+2019-01-03 15:15:58,388 root  INFO     Generating first batch)
+2019-01-03 15:15:58,555 root  INFO     Generating first batch)
+2019-01-03 15:15:58,718 root  INFO     Generating first batch)
+2019-01-03 15:15:58,885 root  INFO     Generating first batch)
+2019-01-03 15:15:59,055 root  INFO     Generating first batch)
+2019-01-03 15:15:59,230 root  INFO     Generating first batch)
+2019-01-03 15:15:59,412 root  INFO     Generating first batch)
+2019-01-03 15:15:59,589 root  INFO     Generating first batch)
+2019-01-03 15:15:59,756 root  INFO     Generating first batch)
+2019-01-03 15:15:59,924 root  INFO     Generating first batch)
+2019-01-03 15:16:00,099 root  INFO     Generating first batch)
+2019-01-03 15:16:00,268 root  INFO     Generating first batch)
+2019-01-03 15:16:00,435 root  INFO     Generating first batch)
+2019-01-03 15:16:00,603 root  INFO     Generating first batch)
+2019-01-03 15:16:00,775 root  INFO     Generating first batch)
+2019-01-03 15:16:00,943 root  INFO     Generating first batch)
+2019-01-03 15:16:01,121 root  INFO     Generating first batch)
+2019-01-03 15:16:01,285 root  INFO     Generating first batch)
+2019-01-03 15:16:01,459 root  INFO     Generating first batch)
+2019-01-03 15:16:01,635 root  INFO     Generating first batch)
+2019-01-03 15:16:01,818 root  INFO     Generating first batch)
+2019-01-03 15:16:01,995 root  INFO     Generating first batch)
+2019-01-03 15:16:02,173 root  INFO     Generating first batch)
+2019-01-03 15:16:03,177 root  INFO     Generating first batch)
+2019-01-03 15:16:03,332 root  INFO     Generating first batch)
+2019-01-03 15:16:03,484 root  INFO     Generating first batch)
+2019-01-03 15:16:03,639 root  INFO     Generating first batch)
+2019-01-03 15:16:03,793 root  INFO     Generating first batch)
+2019-01-03 15:16:03,950 root  INFO     Generating first batch)
+2019-01-03 15:16:04,122 root  INFO     Generating first batch)
+2019-01-03 15:16:04,289 root  INFO     Generating first batch)
+2019-01-03 15:16:04,454 root  INFO     Generating first batch)
+2019-01-03 15:16:04,626 root  INFO     Generating first batch)
+2019-01-03 15:16:04,794 root  INFO     Generating first batch)
+2019-01-03 15:16:04,962 root  INFO     Generating first batch)
+2019-01-03 15:16:05,137 root  INFO     Generating first batch)
+2019-01-03 15:16:05,309 root  INFO     Generating first batch)
+2019-01-03 15:16:05,462 root  INFO     Generating first batch)
+2019-01-03 15:16:05,613 root  INFO     Generating first batch)
+2019-01-03 15:16:05,766 root  INFO     Generating first batch)
+2019-01-03 15:16:05,919 root  INFO     Generating first batch)
+2019-01-03 15:16:06,075 root  INFO     Generating first batch)
+2019-01-03 15:16:06,233 root  INFO     Generating first batch)
+2019-01-03 15:16:06,394 root  INFO     Generating first batch)
+2019-01-03 15:16:06,559 root  INFO     Generating first batch)
+2019-01-03 15:16:06,709 root  INFO     Generating first batch)
+2019-01-03 15:16:06,856 root  INFO     Generating first batch)
+2019-01-03 15:16:07,014 root  INFO     Generating first batch)
+2019-01-03 15:16:07,170 root  INFO     Generating first batch)
+2019-01-03 15:16:07,316 root  INFO     Generating first batch)
+2019-01-03 15:16:07,467 root  INFO     Generating first batch)
+2019-01-03 15:16:07,634 root  INFO     Generating first batch)
+2019-01-03 15:16:07,801 root  INFO     Generating first batch)
+2019-01-03 15:16:07,955 root  INFO     Generating first batch)
+2019-01-03 15:16:08,112 root  INFO     Generating first batch)
+2019-01-03 15:16:08,269 root  INFO     Generating first batch)
+2019-01-03 15:16:08,425 root  INFO     Generating first batch)
+2019-01-03 15:16:08,591 root  INFO     Generating first batch)
+2019-01-03 15:16:08,761 root  INFO     Generating first batch)
+2019-01-03 15:16:08,926 root  INFO     Generating first batch)
+2019-01-03 15:16:09,095 root  INFO     Generating first batch)
+2019-01-03 15:16:09,261 root  INFO     Generating first batch)
+2019-01-03 15:16:09,425 root  INFO     Generating first batch)
+2019-01-03 15:16:09,596 root  INFO     Generating first batch)
+2019-01-03 15:16:09,761 root  INFO     Generating first batch)
+2019-01-03 15:16:09,932 root  INFO     Generating first batch)
+2019-01-03 15:16:10,107 root  INFO     Generating first batch)
+2019-01-03 15:16:10,272 root  INFO     Generating first batch)
+2019-01-03 15:16:10,429 root  INFO     Generating first batch)
+2019-01-03 15:16:10,593 root  INFO     Generating first batch)
+2019-01-03 15:16:10,751 root  INFO     Generating first batch)
+2019-01-03 15:16:10,910 root  INFO     Generating first batch)
+2019-01-03 15:16:11,075 root  INFO     Generating first batch)
+2019-01-03 15:16:11,233 root  INFO     Generating first batch)
+2019-01-03 15:16:11,383 root  INFO     Generating first batch)
+2019-01-03 15:16:11,534 root  INFO     Generating first batch)
+2019-01-03 15:16:11,689 root  INFO     Generating first batch)
+2019-01-03 15:16:11,842 root  INFO     Generating first batch)
+2019-01-03 15:16:11,992 root  INFO     Generating first batch)
+2019-01-03 15:16:12,144 root  INFO     Generating first batch)
+2019-01-03 15:16:12,293 root  INFO     Generating first batch)
+2019-01-03 15:16:12,449 root  INFO     Generating first batch)
+2019-01-03 15:16:12,609 root  INFO     Generating first batch)
+2019-01-03 15:16:12,765 root  INFO     Generating first batch)
+2019-01-03 15:16:12,918 root  INFO     Generating first batch)
+2019-01-03 15:16:13,082 root  INFO     Generating first batch)
+2019-01-03 15:16:13,247 root  INFO     Generating first batch)
+2019-01-03 15:16:13,412 root  INFO     Generating first batch)
+2019-01-03 15:16:13,575 root  INFO     Generating first batch)
+2019-01-03 15:16:13,726 root  INFO     Generating first batch)
+2019-01-03 15:16:13,874 root  INFO     Generating first batch)
+2019-01-03 15:16:14,027 root  INFO     Generating first batch)
+2019-01-03 15:16:14,184 root  INFO     Generating first batch)
+2019-01-03 15:16:14,333 root  INFO     Generating first batch)
+2019-01-03 15:16:14,489 root  INFO     Generating first batch)
+2019-01-03 15:16:14,658 root  INFO     Generating first batch)
+2019-01-03 15:16:14,819 root  INFO     Generating first batch)
+2019-01-03 15:16:14,970 root  INFO     Generating first batch)
+2019-01-03 15:16:15,120 root  INFO     Generating first batch)
+2019-01-03 15:16:15,282 root  INFO     Generating first batch)
+2019-01-03 15:16:15,453 root  INFO     Generating first batch)
+2019-01-03 15:16:15,621 root  INFO     Generating first batch)
+2019-01-03 15:16:15,789 root  INFO     Generating first batch)
+2019-01-03 15:16:15,953 root  INFO     Generating first batch)
+2019-01-03 15:16:16,123 root  INFO     Generating first batch)
+2019-01-03 15:16:16,289 root  INFO     Generating first batch)
+2019-01-03 15:16:16,463 root  INFO     Generating first batch)
+2019-01-03 15:16:16,634 root  INFO     Generating first batch)
+2019-01-03 15:16:16,801 root  INFO     Generating first batch)
+2019-01-03 15:16:16,978 root  INFO     Generating first batch)
+2019-01-03 15:16:17,159 root  INFO     Generating first batch)
+2019-01-03 15:16:17,316 root  INFO     Generating first batch)
+2019-01-03 15:16:17,481 root  INFO     Generating first batch)
+2019-01-03 15:16:17,656 root  INFO     Generating first batch)
+2019-01-03 15:16:17,847 root  INFO     Generating first batch)
+2019-01-03 15:16:18,009 root  INFO     Generating first batch)
+2019-01-03 15:16:18,172 root  INFO     Generating first batch)
+2019-01-03 15:16:18,325 root  INFO     Generating first batch)
+2019-01-03 15:16:18,476 root  INFO     Generating first batch)
+2019-01-03 15:16:18,630 root  INFO     Generating first batch)
+2019-01-03 15:16:18,778 root  INFO     Generating first batch)
+2019-01-03 15:16:18,926 root  INFO     Generating first batch)
+2019-01-03 15:16:19,094 root  INFO     Generating first batch)
+2019-01-03 15:16:19,262 root  INFO     Generating first batch)
+2019-01-03 15:16:19,426 root  INFO     Generating first batch)
+2019-01-03 15:16:19,591 root  INFO     Generating first batch)
+2019-01-03 15:16:19,746 root  INFO     Generating first batch)
+2019-01-03 15:16:19,904 root  INFO     Generating first batch)
+2019-01-03 15:16:20,065 root  INFO     Generating first batch)
+2019-01-03 15:16:20,226 root  INFO     Generating first batch)
+2019-01-03 15:16:20,386 root  INFO     Generating first batch)
+2019-01-03 15:16:20,550 root  INFO     Generating first batch)
+2019-01-03 15:16:20,704 root  INFO     Generating first batch)
+2019-01-03 15:16:20,864 root  INFO     Generating first batch)
+2019-01-03 15:16:21,020 root  INFO     Generating first batch)
+2019-01-03 15:16:21,188 root  INFO     Generating first batch)
+2019-01-03 15:16:21,352 root  INFO     Generating first batch)
+2019-01-03 15:16:21,522 root  INFO     Generating first batch)
+2019-01-03 15:16:21,690 root  INFO     Generating first batch)
+2019-01-03 15:16:21,866 root  INFO     Generating first batch)
+2019-01-03 15:16:22,039 root  INFO     Generating first batch)
+2019-01-03 15:16:22,201 root  INFO     Generating first batch)
+2019-01-03 15:16:22,373 root  INFO     Generating first batch)
+2019-01-03 15:16:22,553 root  INFO     Generating first batch)
+2019-01-03 15:16:22,728 root  INFO     Generating first batch)
+2019-01-03 15:16:22,903 root  INFO     Generating first batch)
+2019-01-03 15:16:23,085 root  INFO     Generating first batch)
+2019-01-03 15:16:23,260 root  INFO     Generating first batch)
+2019-01-03 15:16:23,444 root  INFO     Generating first batch)
+2019-01-03 15:16:23,627 root  INFO     Generating first batch)
+2019-01-03 15:16:23,808 root  INFO     Generating first batch)
+2019-01-03 15:16:23,978 root  INFO     Generating first batch)
+2019-01-03 15:16:24,156 root  INFO     Generating first batch)
+2019-01-03 15:16:24,317 root  INFO     Generating first batch)
+2019-01-03 15:16:24,467 root  INFO     Generating first batch)
+2019-01-03 15:16:24,624 root  INFO     Generating first batch)
+2019-01-03 15:16:24,780 root  INFO     Generating first batch)
+2019-01-03 15:16:24,942 root  INFO     Generating first batch)
+2019-01-03 15:16:25,118 root  INFO     Generating first batch)
+2019-01-03 15:16:25,280 root  INFO     Generating first batch)
+2019-01-03 15:16:25,433 root  INFO     Generating first batch)
+2019-01-03 15:16:25,588 root  INFO     Generating first batch)
+2019-01-03 15:16:25,738 root  INFO     Generating first batch)
+2019-01-03 15:16:25,889 root  INFO     Generating first batch)
+2019-01-03 15:16:26,079 root  INFO     Generating first batch)
+2019-01-03 15:16:26,258 root  INFO     Generating first batch)
+2019-01-03 15:16:26,435 root  INFO     Generating first batch)
+2019-01-03 15:16:26,599 root  INFO     Generating first batch)
+2019-01-03 15:16:26,765 root  INFO     Generating first batch)
+2019-01-03 15:16:26,934 root  INFO     Generating first batch)
+2019-01-03 15:16:27,105 root  INFO     Generating first batch)
+2019-01-03 15:16:27,269 root  INFO     Generating first batch)
+2019-01-03 15:16:27,430 root  INFO     Generating first batch)
+2019-01-03 15:16:27,591 root  INFO     Generating first batch)
+2019-01-03 15:16:27,744 root  INFO     Generating first batch)
+2019-01-03 15:16:27,901 root  INFO     Generating first batch)
+2019-01-03 15:16:28,063 root  INFO     Generating first batch)
+2019-01-03 15:16:28,212 root  INFO     Generating first batch)
+2019-01-03 15:16:28,369 root  INFO     Generating first batch)
+2019-01-03 15:16:28,539 root  INFO     Generating first batch)
+2019-01-03 15:16:28,691 root  INFO     Generating first batch)
+2019-01-03 15:16:28,839 root  INFO     Generating first batch)
+2019-01-03 15:16:28,988 root  INFO     Generating first batch)
+2019-01-03 15:16:29,164 root  INFO     Generating first batch)
+2019-01-03 15:16:29,325 root  INFO     Generating first batch)
+2019-01-03 15:16:29,493 root  INFO     Generating first batch)
+2019-01-03 15:16:29,665 root  INFO     Generating first batch)
+2019-01-03 15:16:29,841 root  INFO     Generating first batch)
+2019-01-03 15:16:30,022 root  INFO     Generating first batch)
+2019-01-03 15:16:30,203 root  INFO     Generating first batch)
+2019-01-03 15:16:30,372 root  INFO     Generating first batch)
+2019-01-03 15:16:30,545 root  INFO     Generating first batch)
+2019-01-03 15:16:30,720 root  INFO     Generating first batch)
+2019-01-03 15:16:30,891 root  INFO     Generating first batch)
+2019-01-03 15:16:31,061 root  INFO     Generating first batch)
+2019-01-03 15:16:31,225 root  INFO     Generating first batch)
+2019-01-03 15:16:31,386 root  INFO     Generating first batch)
+2019-01-03 15:16:31,556 root  INFO     Generating first batch)
+2019-01-03 15:16:31,713 root  INFO     Generating first batch)
+2019-01-03 15:16:31,871 root  INFO     Generating first batch)
+2019-01-03 15:16:32,031 root  INFO     Generating first batch)
+2019-01-03 15:16:32,195 root  INFO     Generating first batch)
+2019-01-03 15:16:32,347 root  INFO     Generating first batch)
+2019-01-03 15:16:32,502 root  INFO     Generating first batch)
+2019-01-03 15:16:32,657 root  INFO     Generating first batch)
+2019-01-03 15:16:32,809 root  INFO     Generating first batch)
+2019-01-03 15:16:32,960 root  INFO     Generating first batch)
+2019-01-03 15:16:33,121 root  INFO     Generating first batch)
+2019-01-03 15:16:33,269 root  INFO     Generating first batch)
+2019-01-03 15:16:33,426 root  INFO     Generating first batch)
+2019-01-03 15:16:33,602 root  INFO     Generating first batch)
+2019-01-03 15:16:33,772 root  INFO     Generating first batch)
+2019-01-03 15:16:33,944 root  INFO     Generating first batch)
+2019-01-03 15:16:34,115 root  INFO     Generating first batch)
+2019-01-03 15:16:34,282 root  INFO     Generating first batch)
+2019-01-03 15:16:34,453 root  INFO     Generating first batch)
+2019-01-03 15:16:34,624 root  INFO     Generating first batch)
+2019-01-03 15:16:34,786 root  INFO     Generating first batch)
+2019-01-03 15:16:34,957 root  INFO     Generating first batch)
+2019-01-03 15:16:35,133 root  INFO     Generating first batch)
+2019-01-03 15:16:35,307 root  INFO     Generating first batch)
+2019-01-03 15:16:35,478 root  INFO     Generating first batch)
+2019-01-03 15:16:35,650 root  INFO     Generating first batch)
+2019-01-03 15:16:35,818 root  INFO     Generating first batch)
+2019-01-03 15:16:35,989 root  INFO     Generating first batch)
+2019-01-03 15:16:36,157 root  INFO     Generating first batch)
+2019-01-03 15:16:36,327 root  INFO     Generating first batch)
+2019-01-03 15:16:36,500 root  INFO     Generating first batch)
+2019-01-03 15:16:36,680 root  INFO     Generating first batch)
+2019-01-03 15:16:36,856 root  INFO     Generating first batch)
+2019-01-03 15:16:37,032 root  INFO     Generating first batch)
+2019-01-03 15:16:37,199 root  INFO     Generating first batch)
+2019-01-03 15:16:37,370 root  INFO     Generating first batch)
+2019-01-03 15:16:37,548 root  INFO     Generating first batch)
+2019-01-03 15:16:37,716 root  INFO     Generating first batch)
+2019-01-03 15:16:37,883 root  INFO     Generating first batch)
+2019-01-03 15:16:38,051 root  INFO     Generating first batch)
+2019-01-03 15:16:38,218 root  INFO     Generating first batch)
+2019-01-03 15:16:38,377 root  INFO     Generating first batch)
+2019-01-03 15:16:38,552 root  INFO     Generating first batch)
+2019-01-03 15:16:38,725 root  INFO     Generating first batch)
+2019-01-03 15:16:38,899 root  INFO     Generating first batch)
+2019-01-03 15:16:39,079 root  INFO     Generating first batch)
+2019-01-03 15:16:39,247 root  INFO     Generating first batch)
+2019-01-03 15:16:39,420 root  INFO     Generating first batch)
+2019-01-03 15:16:39,595 root  INFO     Generating first batch)
+2019-01-03 15:16:39,764 root  INFO     Generating first batch)
+2019-01-03 15:16:39,931 root  INFO     Generating first batch)
+2019-01-03 15:16:40,107 root  INFO     Generating first batch)
+2019-01-03 15:16:40,280 root  INFO     Generating first batch)
+2019-01-03 15:16:40,453 root  INFO     Generating first batch)
+2019-01-03 15:16:40,621 root  INFO     Generating first batch)
+2019-01-03 15:16:40,789 root  INFO     Generating first batch)
+2019-01-03 15:16:40,941 root  INFO     Generating first batch)
+2019-01-03 15:16:41,093 root  INFO     Generating first batch)
+2019-01-03 15:16:41,260 root  INFO     Generating first batch)
+2019-01-03 15:16:41,424 root  INFO     Generating first batch)
+2019-01-03 15:16:41,580 root  INFO     Generating first batch)
+2019-01-03 15:16:41,731 root  INFO     Generating first batch)
+2019-01-03 15:16:41,897 root  INFO     Generating first batch)
+2019-01-03 15:16:42,067 root  INFO     Generating first batch)
+2019-01-03 15:16:42,226 root  INFO     Generating first batch)
+2019-01-03 15:16:42,383 root  INFO     Generating first batch)
+2019-01-03 15:16:42,537 root  INFO     Generating first batch)
+2019-01-03 15:16:42,702 root  INFO     Generating first batch)
+2019-01-03 15:16:42,862 root  INFO     Generating first batch)
+2019-01-03 15:16:43,031 root  INFO     Generating first batch)
+2019-01-03 15:16:43,199 root  INFO     Generating first batch)
+2019-01-03 15:16:43,356 root  INFO     Generating first batch)
+2019-01-03 15:16:43,524 root  INFO     Generating first batch)
+2019-01-03 15:16:43,701 root  INFO     Generating first batch)
+2019-01-03 15:16:43,877 root  INFO     Generating first batch)
+2019-01-03 15:16:44,048 root  INFO     Generating first batch)
+2019-01-03 15:16:44,217 root  INFO     Generating first batch)
+2019-01-03 15:16:44,385 root  INFO     Generating first batch)
+2019-01-03 15:16:44,554 root  INFO     Generating first batch)
+2019-01-03 15:16:44,723 root  INFO     Generating first batch)
+2019-01-03 15:16:44,886 root  INFO     Generating first batch)
+2019-01-03 15:16:45,059 root  INFO     Generating first batch)
+2019-01-03 15:16:45,223 root  INFO     Generating first batch)
+2019-01-03 15:16:45,375 root  INFO     Generating first batch)
+2019-01-03 15:16:45,524 root  INFO     Generating first batch)
+2019-01-03 15:16:45,691 root  INFO     Generating first batch)
+2019-01-03 15:16:45,855 root  INFO     Generating first batch)
+2019-01-03 15:16:46,031 root  INFO     Generating first batch)
+2019-01-03 15:16:46,198 root  INFO     Generating first batch)
+2019-01-03 15:16:46,353 root  INFO     Generating first batch)
+2019-01-03 15:16:46,504 root  INFO     Generating first batch)
+2019-01-03 15:16:46,670 root  INFO     Generating first batch)
+2019-01-03 15:16:46,844 root  INFO     Generating first batch)
+2019-01-03 15:16:47,013 root  INFO     Generating first batch)
+2019-01-03 15:16:47,187 root  INFO     Generating first batch)
+2019-01-03 15:16:47,361 root  INFO     Generating first batch)
+2019-01-03 15:16:47,537 root  INFO     Generating first batch)
+2019-01-03 15:16:47,709 root  INFO     Generating first batch)
+2019-01-03 15:16:47,880 root  INFO     Generating first batch)
+2019-01-03 15:16:48,049 root  INFO     Generating first batch)
+2019-01-03 15:16:48,222 root  INFO     Generating first batch)
+2019-01-03 15:16:48,396 root  INFO     Generating first batch)
+2019-01-03 15:16:48,575 root  INFO     Generating first batch)
+2019-01-03 15:16:48,741 root  INFO     Generating first batch)
+2019-01-03 15:16:48,909 root  INFO     Generating first batch)
+2019-01-03 15:16:49,077 root  INFO     Generating first batch)
+2019-01-03 15:16:49,253 root  INFO     Generating first batch)
+2019-01-03 15:16:49,432 root  INFO     Generating first batch)
+2019-01-03 15:16:49,606 root  INFO     Generating first batch)
+2019-01-03 15:16:49,775 root  INFO     Generating first batch)
+2019-01-03 15:16:49,928 root  INFO     Generating first batch)
+2019-01-03 15:16:50,085 root  INFO     Generating first batch)
+2019-01-03 15:16:50,253 root  INFO     Generating first batch)
+2019-01-03 15:16:50,419 root  INFO     Generating first batch)
+2019-01-03 15:16:50,591 root  INFO     Generating first batch)
+2019-01-03 15:16:50,757 root  INFO     Generating first batch)
+2019-01-03 15:16:50,925 root  INFO     Generating first batch)
+2019-01-03 15:16:51,096 root  INFO     Generating first batch)
+2019-01-03 15:16:51,273 root  INFO     Generating first batch)
+2019-01-03 15:16:51,448 root  INFO     Generating first batch)
+2019-01-03 15:16:51,630 root  INFO     Generating first batch)
+2019-01-03 15:16:51,807 root  INFO     Generating first batch)
+2019-01-03 15:16:51,985 root  INFO     Generating first batch)
+2019-01-03 15:16:52,163 root  INFO     Generating first batch)
+2019-01-03 15:16:52,333 root  INFO     Generating first batch)
+2019-01-03 15:16:52,503 root  INFO     Generating first batch)
+2019-01-03 15:16:52,673 root  INFO     Generating first batch)
+2019-01-03 15:16:52,847 root  INFO     Generating first batch)
+2019-01-03 15:16:53,016 root  INFO     Generating first batch)
+2019-01-03 15:16:53,184 root  INFO     Generating first batch)
+2019-01-03 15:16:53,349 root  INFO     Generating first batch)
+2019-01-03 15:16:53,513 root  INFO     Generating first batch)
+2019-01-03 15:16:53,669 root  INFO     Generating first batch)
+2019-01-03 15:16:53,841 root  INFO     Generating first batch)
+2019-01-03 15:16:54,015 root  INFO     Generating first batch)
+2019-01-03 15:16:54,191 root  INFO     Generating first batch)
+2019-01-03 15:16:54,357 root  INFO     Generating first batch)
+2019-01-03 15:16:54,525 root  INFO     Generating first batch)
+2019-01-03 15:16:54,699 root  INFO     Generating first batch)
+2019-01-03 15:16:54,867 root  INFO     Generating first batch)
+2019-01-03 15:16:55,038 root  INFO     Generating first batch)
+2019-01-03 15:16:55,210 root  INFO     Generating first batch)
+2019-01-03 15:16:55,383 root  INFO     Generating first batch)
+2019-01-03 15:16:55,558 root  INFO     Generating first batch)
+2019-01-03 15:16:55,733 root  INFO     Generating first batch)
+2019-01-03 15:16:55,907 root  INFO     Generating first batch)
+2019-01-03 15:16:56,086 root  INFO     Generating first batch)
+2019-01-03 15:16:56,260 root  INFO     Generating first batch)
+2019-01-03 15:16:56,429 root  INFO     Generating first batch)
+2019-01-03 15:16:56,604 root  INFO     Generating first batch)
+2019-01-03 15:16:56,777 root  INFO     Generating first batch)
+2019-01-03 15:16:56,948 root  INFO     Generating first batch)
+2019-01-03 15:16:57,120 root  INFO     Generating first batch)
+2019-01-03 15:16:57,291 root  INFO     Generating first batch)
+2019-01-03 15:16:57,469 root  INFO     Generating first batch)
+2019-01-03 15:16:57,654 root  INFO     Generating first batch)
+2019-01-03 15:16:57,829 root  INFO     Generating first batch)
+2019-01-03 15:16:58,005 root  INFO     Generating first batch)
+2019-01-03 15:16:58,187 root  INFO     Generating first batch)
+2019-01-03 15:16:58,369 root  INFO     Generating first batch)
+2019-01-03 15:16:58,549 root  INFO     Generating first batch)
+2019-01-03 15:16:58,728 root  INFO     Generating first batch)
+2019-01-03 15:16:58,912 root  INFO     Generating first batch)
+2019-01-03 15:16:59,092 root  INFO     Generating first batch)
+2019-01-03 15:16:59,272 root  INFO     Generating first batch)
+2019-01-03 15:16:59,440 root  INFO     Generating first batch)
+2019-01-03 15:16:59,613 root  INFO     Generating first batch)
+2019-01-03 15:16:59,788 root  INFO     Generating first batch)
+2019-01-03 15:16:59,965 root  INFO     Generating first batch)
+2019-01-03 15:17:00,144 root  INFO     Generating first batch)
+2019-01-03 15:17:00,318 root  INFO     Generating first batch)
+2019-01-03 15:17:00,483 root  INFO     Generating first batch)
+2019-01-03 15:17:00,656 root  INFO     Generating first batch)
+2019-01-03 15:17:00,826 root  INFO     Generating first batch)
+2019-01-03 15:17:00,997 root  INFO     Generating first batch)
+2019-01-03 15:17:01,174 root  INFO     Generating first batch)
+2019-01-03 15:17:01,340 root  INFO     Generating first batch)
+2019-01-03 15:17:01,508 root  INFO     Generating first batch)
+2019-01-03 15:17:01,682 root  INFO     Generating first batch)
+2019-01-03 15:17:01,854 root  INFO     Generating first batch)
+2019-01-03 15:17:02,031 root  INFO     Generating first batch)
+2019-01-03 15:17:02,202 root  INFO     Generating first batch)
+2019-01-03 15:17:02,373 root  INFO     Generating first batch)
+2019-01-03 15:17:02,543 root  INFO     Generating first batch)
+2019-01-03 15:17:02,713 root  INFO     Generating first batch)
+2019-01-03 15:17:02,882 root  INFO     Generating first batch)
+2019-01-03 15:17:03,055 root  INFO     Generating first batch)
+2019-01-03 15:17:03,229 root  INFO     Generating first batch)
+2019-01-03 15:17:03,399 root  INFO     Generating first batch)
+2019-01-03 15:17:03,584 root  INFO     Generating first batch)
+2019-01-03 15:17:03,754 root  INFO     Generating first batch)
+2019-01-03 15:17:03,925 root  INFO     Generating first batch)
+2019-01-03 15:17:04,101 root  INFO     Generating first batch)
+2019-01-03 15:17:04,269 root  INFO     Generating first batch)
+2019-01-03 15:17:04,441 root  INFO     Generating first batch)
+2019-01-03 15:17:04,620 root  INFO     Generating first batch)
+2019-01-03 15:17:04,794 root  INFO     Generating first batch)
+2019-01-03 15:17:04,978 root  INFO     Generating first batch)
+2019-01-03 15:17:05,159 root  INFO     Generating first batch)
+2019-01-03 15:17:05,336 root  INFO     Generating first batch)
+2019-01-03 15:17:05,513 root  INFO     Generating first batch)
+2019-01-03 15:17:05,696 root  INFO     Generating first batch)
+2019-01-03 15:17:05,873 root  INFO     Generating first batch)
+2019-01-03 15:17:06,050 root  INFO     Generating first batch)
+2019-01-03 15:17:06,226 root  INFO     Generating first batch)
+2019-01-03 15:17:06,397 root  INFO     Generating first batch)
+2019-01-03 15:17:06,568 root  INFO     Generating first batch)
+2019-01-03 15:17:06,741 root  INFO     Generating first batch)
+2019-01-03 15:17:06,912 root  INFO     Generating first batch)
+2019-01-03 15:17:07,088 root  INFO     Generating first batch)
+2019-01-03 15:17:07,262 root  INFO     Generating first batch)
+2019-01-03 15:17:07,433 root  INFO     Generating first batch)
+2019-01-03 15:17:07,608 root  INFO     Generating first batch)
+2019-01-03 15:17:07,782 root  INFO     Generating first batch)
+2019-01-03 15:17:07,958 root  INFO     Generating first batch)
+2019-01-03 15:17:08,136 root  INFO     Generating first batch)
+2019-01-03 15:17:08,310 root  INFO     Generating first batch)
+2019-01-03 15:17:08,479 root  INFO     Generating first batch)
+2019-01-03 15:17:08,652 root  INFO     Generating first batch)
+2019-01-03 15:17:08,827 root  INFO     Generating first batch)
+2019-01-03 15:17:09,004 root  INFO     Generating first batch)
+2019-01-03 15:17:09,177 root  INFO     Generating first batch)
+2019-01-03 15:17:09,352 root  INFO     Generating first batch)
+2019-01-03 15:17:09,525 root  INFO     Generating first batch)
+2019-01-03 15:17:09,697 root  INFO     Generating first batch)
+2019-01-03 15:17:09,866 root  INFO     Generating first batch)
+2019-01-03 15:17:10,038 root  INFO     Generating first batch)
+2019-01-03 15:17:10,212 root  INFO     Generating first batch)
+2019-01-03 15:17:10,383 root  INFO     Generating first batch)
+2019-01-03 15:17:10,554 root  INFO     Generating first batch)
+2019-01-03 15:17:10,723 root  INFO     Generating first batch)
+2019-01-03 15:17:10,893 root  INFO     Generating first batch)
+2019-01-03 15:17:11,067 root  INFO     Generating first batch)
+2019-01-03 15:17:11,238 root  INFO     Generating first batch)
+2019-01-03 15:17:11,416 root  INFO     Generating first batch)
+2019-01-03 15:17:11,597 root  INFO     Generating first batch)
+2019-01-03 15:17:11,775 root  INFO     Generating first batch)
+2019-01-03 15:17:11,951 root  INFO     Generating first batch)
+2019-01-03 15:17:12,128 root  INFO     Generating first batch)
+2019-01-03 15:17:12,302 root  INFO     Generating first batch)
+2019-01-03 15:17:12,477 root  INFO     Generating first batch)
+2019-01-03 15:17:12,649 root  INFO     Generating first batch)
+2019-01-03 15:17:12,824 root  INFO     Generating first batch)
+2019-01-03 15:17:13,003 root  INFO     Generating first batch)
+2019-01-03 15:17:13,184 root  INFO     Generating first batch)
+2019-01-03 15:17:13,352 root  INFO     Generating first batch)
+2019-01-03 15:17:13,528 root  INFO     Generating first batch)
+2019-01-03 15:17:13,698 root  INFO     Generating first batch)
+2019-01-03 15:17:13,865 root  INFO     Generating first batch)
+2019-01-03 15:17:14,037 root  INFO     Generating first batch)
+2019-01-03 15:17:14,212 root  INFO     Generating first batch)
+2019-01-03 15:17:14,378 root  INFO     Generating first batch)
+2019-01-03 15:17:14,550 root  INFO     Generating first batch)
+2019-01-03 15:17:14,717 root  INFO     Generating first batch)
+2019-01-03 15:17:14,881 root  INFO     Generating first batch)
+2019-01-03 15:17:15,049 root  INFO     Generating first batch)
+2019-01-03 15:17:15,213 root  INFO     Generating first batch)
+2019-01-03 15:17:15,376 root  INFO     Generating first batch)
+2019-01-03 15:17:15,529 root  INFO     Generating first batch)
+2019-01-03 15:17:15,683 root  INFO     Generating first batch)
+2019-01-03 15:17:15,834 root  INFO     Generating first batch)
+2019-01-03 15:17:15,985 root  INFO     Generating first batch)
+2019-01-03 15:17:16,143 root  INFO     Generating first batch)
+2019-01-03 15:17:16,300 root  INFO     Generating first batch)
+2019-01-03 15:17:16,469 root  INFO     Generating first batch)
+2019-01-03 15:17:16,638 root  INFO     Generating first batch)
+2019-01-03 15:17:16,788 root  INFO     Generating first batch)
+2019-01-03 15:17:16,940 root  INFO     Generating first batch)
+2019-01-03 15:17:17,092 root  INFO     Generating first batch)
+2019-01-03 15:17:17,240 root  INFO     Generating first batch)
+2019-01-03 15:17:17,410 root  INFO     Generating first batch)
+2019-01-03 15:17:17,584 root  INFO     Generating first batch)
+2019-01-03 15:17:17,743 root  INFO     Generating first batch)
+2019-01-03 15:17:17,897 root  INFO     Generating first batch)
+2019-01-03 15:17:18,056 root  INFO     Generating first batch)
+2019-01-03 15:17:18,211 root  INFO     Generating first batch)
+2019-01-03 15:17:18,365 root  INFO     Generating first batch)
+2019-01-03 15:17:18,525 root  INFO     Generating first batch)
+2019-01-03 15:17:18,700 root  INFO     Generating first batch)
+2019-01-03 15:17:18,866 root  INFO     Generating first batch)
+2019-01-03 15:17:19,031 root  INFO     Generating first batch)
+2019-01-03 15:17:19,198 root  INFO     Generating first batch)
+2019-01-03 15:17:19,367 root  INFO     Generating first batch)
+2019-01-03 15:17:19,548 root  INFO     Generating first batch)
+2019-01-03 15:17:19,728 root  INFO     Generating first batch)
+2019-01-03 15:17:19,902 root  INFO     Generating first batch)
+2019-01-03 15:17:20,074 root  INFO     Generating first batch)
+2019-01-03 15:17:20,241 root  INFO     Generating first batch)
+2019-01-03 15:17:20,394 root  INFO     Generating first batch)
+2019-01-03 15:17:20,550 root  INFO     Generating first batch)
+2019-01-03 15:17:20,708 root  INFO     Generating first batch)
+2019-01-03 15:17:20,862 root  INFO     Generating first batch)
+2019-01-03 15:17:21,027 root  INFO     Generating first batch)
+2019-01-03 15:17:21,197 root  INFO     Generating first batch)
+2019-01-03 15:17:21,366 root  INFO     Generating first batch)
+2019-01-03 15:17:21,538 root  INFO     Generating first batch)
+2019-01-03 15:17:21,707 root  INFO     Generating first batch)
+2019-01-03 15:17:21,858 root  INFO     Generating first batch)
+2019-01-03 15:17:22,009 root  INFO     Generating first batch)
+2019-01-03 15:17:22,177 root  INFO     Generating first batch)
+2019-01-03 15:17:22,337 root  INFO     Generating first batch)
+2019-01-03 15:17:22,485 root  INFO     Generating first batch)
+2019-01-03 15:17:22,638 root  INFO     Generating first batch)
+2019-01-03 15:17:22,790 root  INFO     Generating first batch)
+2019-01-03 15:17:22,943 root  INFO     Generating first batch)
+2019-01-03 15:17:23,112 root  INFO     Generating first batch)
+2019-01-03 15:17:23,271 root  INFO     Generating first batch)
+2019-01-03 15:17:23,432 root  INFO     Generating first batch)
+2019-01-03 15:17:23,595 root  INFO     Generating first batch)
+2019-01-03 15:17:23,756 root  INFO     Generating first batch)
+2019-01-03 15:17:23,908 root  INFO     Generating first batch)
+2019-01-03 15:17:24,063 root  INFO     Generating first batch)
+2019-01-03 15:17:24,219 root  INFO     Generating first batch)
+2019-01-03 15:17:24,365 root  INFO     Generating first batch)
+2019-01-03 15:21:21,519 root  INFO     loading data
+2019-01-03 15:21:21,520 root  INFO     phase: train
+2019-01-03 15:21:21,521 root  INFO     model_dir: train
+2019-01-03 15:21:21,521 root  INFO     load_model: False
+2019-01-03 15:21:21,521 root  INFO     output_dir: results
+2019-01-03 15:21:21,521 root  INFO     steps_per_checkpoint: 500
+2019-01-03 15:21:21,521 root  INFO     batch_size: 64
+2019-01-03 15:21:21,521 root  INFO     num_epoch: 1000
+2019-01-03 15:21:21,521 root  INFO     learning_rate: 1
+2019-01-03 15:21:21,521 root  INFO     reg_val: 0
+2019-01-03 15:21:21,521 root  INFO     max_gradient_norm: 5.000000
+2019-01-03 15:21:21,521 root  INFO     clip_gradients: True
+2019-01-03 15:21:21,521 root  INFO     valid_target_length inf
+2019-01-03 15:21:21,521 root  INFO     target_vocab_size: 324
+2019-01-03 15:21:21,521 root  INFO     target_embedding_size: 10.000000
+2019-01-03 15:21:21,522 root  INFO     attn_num_hidden: 128
+2019-01-03 15:21:21,522 root  INFO     attn_num_layers: 2
+2019-01-03 15:21:21,522 root  INFO     visualize: True
+2019-01-03 15:21:21,522 root  INFO     buckets
+2019-01-03 15:21:21,522 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-03 15:23:03,463 root  INFO     Created model with fresh parameters.
+2019-01-03 15:23:25,016 root  INFO     Generating first batch)
+2019-01-03 15:24:32,748 root  INFO     loading data
+2019-01-03 15:24:32,749 root  INFO     phase: train
+2019-01-03 15:24:32,749 root  INFO     model_dir: train
+2019-01-03 15:24:32,749 root  INFO     load_model: False
+2019-01-03 15:24:32,749 root  INFO     output_dir: results
+2019-01-03 15:24:32,749 root  INFO     steps_per_checkpoint: 500
+2019-01-03 15:24:32,749 root  INFO     batch_size: 64
+2019-01-03 15:24:32,749 root  INFO     num_epoch: 1000
+2019-01-03 15:24:32,749 root  INFO     learning_rate: 1
+2019-01-03 15:24:32,749 root  INFO     reg_val: 0
+2019-01-03 15:24:32,749 root  INFO     max_gradient_norm: 5.000000
+2019-01-03 15:24:32,749 root  INFO     clip_gradients: True
+2019-01-03 15:24:32,750 root  INFO     valid_target_length inf
+2019-01-03 15:24:32,750 root  INFO     target_vocab_size: 324
+2019-01-03 15:24:32,750 root  INFO     target_embedding_size: 10.000000
+2019-01-03 15:24:32,750 root  INFO     attn_num_hidden: 128
+2019-01-03 15:24:32,750 root  INFO     attn_num_layers: 2
+2019-01-03 15:24:32,750 root  INFO     visualize: True
+2019-01-03 15:24:32,750 root  INFO     buckets
+2019-01-03 15:24:32,750 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-03 15:26:11,032 root  INFO     Created model with fresh parameters.
+2019-01-03 15:26:32,613 root  INFO     Generating first batch)
+2019-01-03 15:31:14,399 root  INFO     loading data
+2019-01-03 15:31:14,400 root  INFO     phase: train
+2019-01-03 15:31:14,400 root  INFO     model_dir: train
+2019-01-03 15:31:14,400 root  INFO     load_model: False
+2019-01-03 15:31:14,400 root  INFO     output_dir: results
+2019-01-03 15:31:14,400 root  INFO     steps_per_checkpoint: 500
+2019-01-03 15:31:14,400 root  INFO     batch_size: 64
+2019-01-03 15:31:14,400 root  INFO     num_epoch: 1000
+2019-01-03 15:31:14,400 root  INFO     learning_rate: 1
+2019-01-03 15:31:14,400 root  INFO     reg_val: 0
+2019-01-03 15:31:14,401 root  INFO     max_gradient_norm: 5.000000
+2019-01-03 15:31:14,401 root  INFO     clip_gradients: True
+2019-01-03 15:31:14,401 root  INFO     valid_target_length inf
+2019-01-03 15:31:14,401 root  INFO     target_vocab_size: 324
+2019-01-03 15:31:14,401 root  INFO     target_embedding_size: 10.000000
+2019-01-03 15:31:14,401 root  INFO     attn_num_hidden: 128
+2019-01-03 15:31:14,401 root  INFO     attn_num_layers: 2
+2019-01-03 15:31:14,401 root  INFO     visualize: True
+2019-01-03 15:31:14,401 root  INFO     buckets
+2019-01-03 15:31:14,401 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-03 15:32:49,955 root  INFO     Created model with fresh parameters.
+2019-01-03 15:33:11,261 root  INFO     Generating first batch)
+2019-01-03 15:49:53,663 root  INFO     loading data
+2019-01-03 15:49:53,664 root  INFO     phase: train
+2019-01-03 15:49:53,664 root  INFO     model_dir: train
+2019-01-03 15:49:53,664 root  INFO     load_model: False
+2019-01-03 15:49:53,664 root  INFO     output_dir: results
+2019-01-03 15:49:53,664 root  INFO     steps_per_checkpoint: 500
+2019-01-03 15:49:53,664 root  INFO     batch_size: 64
+2019-01-03 15:49:53,664 root  INFO     num_epoch: 1000
+2019-01-03 15:49:53,664 root  INFO     learning_rate: 1
+2019-01-03 15:49:53,664 root  INFO     reg_val: 0
+2019-01-03 15:49:53,664 root  INFO     max_gradient_norm: 5.000000
+2019-01-03 15:49:53,665 root  INFO     clip_gradients: True
+2019-01-03 15:49:53,665 root  INFO     valid_target_length inf
+2019-01-03 15:49:53,665 root  INFO     target_vocab_size: 324
+2019-01-03 15:49:53,665 root  INFO     target_embedding_size: 10.000000
+2019-01-03 15:49:53,665 root  INFO     attn_num_hidden: 128
+2019-01-03 15:49:53,665 root  INFO     attn_num_layers: 2
+2019-01-03 15:49:53,665 root  INFO     visualize: True
+2019-01-03 15:49:53,665 root  INFO     buckets
+2019-01-03 15:49:53,665 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-03 15:51:31,620 root  INFO     Created model with fresh parameters.
+2019-01-03 15:51:52,826 root  INFO     Generating first batch)
+2019-01-03 15:51:53,002 root  INFO     Generating first batch)
+2019-01-03 15:51:53,154 root  INFO     Generating first batch)
+2019-01-03 15:51:53,301 root  INFO     Generating first batch)
+2019-01-03 15:51:53,466 root  INFO     Generating first batch)
+2019-01-03 15:51:53,629 root  INFO     Generating first batch)
+2019-01-03 15:51:53,790 root  INFO     Generating first batch)
+2019-01-03 15:51:53,959 root  INFO     Generating first batch)
+2019-01-03 15:51:54,135 root  INFO     Generating first batch)
+2019-01-03 15:51:54,302 root  INFO     Generating first batch)
+2019-01-03 15:51:54,472 root  INFO     Generating first batch)
+2019-01-03 15:51:54,637 root  INFO     Generating first batch)
+2019-01-03 15:51:54,803 root  INFO     Generating first batch)
+2019-01-03 15:51:54,978 root  INFO     Generating first batch)
+2019-01-03 15:51:55,155 root  INFO     Generating first batch)
+2019-01-03 15:51:55,327 root  INFO     Generating first batch)
+2019-01-03 15:51:55,498 root  INFO     Generating first batch)
+2019-01-03 15:51:55,683 root  INFO     Generating first batch)
+2019-01-03 15:51:55,860 root  INFO     Generating first batch)
+2019-01-03 15:51:56,036 root  INFO     Generating first batch)
+2019-01-03 16:13:57,772 root  INFO     loading data
+2019-01-03 16:13:57,784 root  INFO     phase: train
+2019-01-03 16:13:57,784 root  INFO     model_dir: train
+2019-01-03 16:13:57,784 root  INFO     load_model: False
+2019-01-03 16:13:57,784 root  INFO     output_dir: results
+2019-01-03 16:13:57,784 root  INFO     steps_per_checkpoint: 500
+2019-01-03 16:13:57,785 root  INFO     batch_size: 64
+2019-01-03 16:13:57,785 root  INFO     num_epoch: 1000
+2019-01-03 16:13:57,785 root  INFO     learning_rate: 1
+2019-01-03 16:13:57,785 root  INFO     reg_val: 0
+2019-01-03 16:13:57,785 root  INFO     max_gradient_norm: 5.000000
+2019-01-03 16:13:57,785 root  INFO     clip_gradients: True
+2019-01-03 16:13:57,785 root  INFO     valid_target_length inf
+2019-01-03 16:13:57,785 root  INFO     target_vocab_size: 324
+2019-01-03 16:13:57,785 root  INFO     target_embedding_size: 10.000000
+2019-01-03 16:13:57,785 root  INFO     attn_num_hidden: 128
+2019-01-03 16:13:57,785 root  INFO     attn_num_layers: 2
+2019-01-03 16:13:57,785 root  INFO     visualize: True
+2019-01-03 16:13:57,786 root  INFO     buckets
+2019-01-03 16:13:57,786 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-03 16:15:34,303 root  INFO     Created model with fresh parameters.
+2019-01-03 16:15:56,505 root  INFO     Generating first batch)
+2019-01-03 16:15:56,809 root  INFO     Generating first batch)
+2019-01-03 16:15:56,971 root  INFO     Generating first batch)
+2019-01-03 16:15:57,141 root  INFO     Generating first batch)
+2019-01-03 16:15:57,317 root  INFO     Generating first batch)
+2019-01-03 16:15:57,475 root  INFO     Generating first batch)
+2019-01-03 16:15:57,631 root  INFO     Generating first batch)
+2019-01-03 16:15:57,797 root  INFO     Generating first batch)
+2019-01-03 16:15:57,957 root  INFO     Generating first batch)
+2019-01-03 16:15:58,128 root  INFO     Generating first batch)
+2019-01-03 16:15:58,297 root  INFO     Generating first batch)
+2019-01-03 16:15:58,475 root  INFO     Generating first batch)
+2019-01-03 16:15:58,646 root  INFO     Generating first batch)
+2019-01-03 16:15:58,816 root  INFO     Generating first batch)
+2019-01-03 16:15:58,976 root  INFO     Generating first batch)
+2019-01-03 16:15:59,139 root  INFO     Generating first batch)
+2019-01-03 16:15:59,305 root  INFO     Generating first batch)
+2019-01-03 16:15:59,479 root  INFO     Generating first batch)
+2019-01-03 16:15:59,640 root  INFO     Generating first batch)
+2019-01-03 16:15:59,827 root  INFO     Generating first batch)
+2019-01-03 16:16:00,025 root  INFO     Generating first batch)
+2019-01-03 16:16:00,216 root  INFO     Generating first batch)
+2019-01-03 16:16:00,411 root  INFO     Generating first batch)
+2019-01-03 16:16:00,605 root  INFO     Generating first batch)
+2019-01-03 16:16:00,806 root  INFO     Generating first batch)
+2019-01-03 16:16:01,011 root  INFO     Generating first batch)
+2019-01-03 16:16:01,216 root  INFO     Generating first batch)
+2019-01-03 16:16:01,406 root  INFO     Generating first batch)
+2019-01-03 16:16:01,602 root  INFO     Generating first batch)
+2019-01-03 16:16:01,784 root  INFO     Generating first batch)
+2019-01-03 16:16:01,972 root  INFO     Generating first batch)
+2019-01-03 16:16:02,159 root  INFO     Generating first batch)
+2019-01-03 16:16:02,366 root  INFO     Generating first batch)
+2019-01-03 16:16:02,566 root  INFO     Generating first batch)
+2019-01-03 16:16:02,762 root  INFO     Generating first batch)
+2019-01-03 16:16:02,953 root  INFO     Generating first batch)
+2019-01-03 16:16:03,142 root  INFO     Generating first batch)
+2019-01-03 16:16:03,334 root  INFO     Generating first batch)
+2019-01-03 16:16:03,523 root  INFO     Generating first batch)
+2019-01-03 16:16:03,706 root  INFO     Generating first batch)
+2019-01-03 16:16:03,896 root  INFO     Generating first batch)
+2019-01-03 16:16:04,084 root  INFO     Generating first batch)
+2019-01-03 16:16:04,282 root  INFO     Generating first batch)
+2019-01-03 16:16:04,462 root  INFO     Generating first batch)
+2019-01-03 16:16:04,651 root  INFO     Generating first batch)
+2019-01-03 16:16:04,850 root  INFO     Generating first batch)
+2019-01-03 16:16:05,046 root  INFO     Generating first batch)
+2019-01-03 16:16:05,246 root  INFO     Generating first batch)
+2019-01-03 16:16:05,442 root  INFO     Generating first batch)
+2019-01-03 16:16:05,641 root  INFO     Generating first batch)
+2019-01-03 16:21:18,258 root  INFO     loading data
+2019-01-03 16:21:18,259 root  INFO     phase: train
+2019-01-03 16:21:18,259 root  INFO     model_dir: train
+2019-01-03 16:21:18,259 root  INFO     load_model: False
+2019-01-03 16:21:18,259 root  INFO     output_dir: results
+2019-01-03 16:21:18,259 root  INFO     steps_per_checkpoint: 500
+2019-01-03 16:21:18,259 root  INFO     batch_size: 64
+2019-01-03 16:21:18,260 root  INFO     num_epoch: 1000
+2019-01-03 16:21:18,260 root  INFO     learning_rate: 1
+2019-01-03 16:21:18,260 root  INFO     reg_val: 0
+2019-01-03 16:21:18,260 root  INFO     max_gradient_norm: 5.000000
+2019-01-03 16:21:18,260 root  INFO     clip_gradients: True
+2019-01-03 16:21:18,260 root  INFO     valid_target_length inf
+2019-01-03 16:21:18,260 root  INFO     target_vocab_size: 324
+2019-01-03 16:21:18,260 root  INFO     target_embedding_size: 10.000000
+2019-01-03 16:21:18,260 root  INFO     attn_num_hidden: 128
+2019-01-03 16:21:18,260 root  INFO     attn_num_layers: 2
+2019-01-03 16:21:18,260 root  INFO     visualize: True
+2019-01-03 16:21:18,260 root  INFO     buckets
+2019-01-03 16:21:18,261 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-03 16:22:56,315 root  INFO     Created model with fresh parameters.
+2019-01-03 16:23:17,883 root  INFO     Generating first batch)
+2019-01-03 16:23:18,073 root  INFO     Generating first batch)
+2019-01-03 16:23:18,256 root  INFO     Generating first batch)
+2019-01-03 16:23:18,443 root  INFO     Generating first batch)
+2019-01-03 16:23:18,627 root  INFO     Generating first batch)
+2019-01-03 16:23:18,799 root  INFO     Generating first batch)
+2019-01-03 16:23:18,981 root  INFO     Generating first batch)
+2019-01-03 16:23:19,160 root  INFO     Generating first batch)
+2019-01-03 16:23:19,337 root  INFO     Generating first batch)
+2019-01-03 16:23:19,522 root  INFO     Generating first batch)
+2019-01-03 16:23:19,697 root  INFO     Generating first batch)
+2019-01-03 16:23:19,873 root  INFO     Generating first batch)
+2019-01-03 16:23:20,047 root  INFO     Generating first batch)
+2019-01-03 16:23:20,228 root  INFO     Generating first batch)
+2019-01-03 16:23:20,406 root  INFO     Generating first batch)
+2019-01-03 16:24:25,335 root  INFO     loading data
+2019-01-03 16:24:25,340 root  INFO     phase: train
+2019-01-03 16:24:25,340 root  INFO     model_dir: train
+2019-01-03 16:24:25,341 root  INFO     load_model: False
+2019-01-03 16:24:25,341 root  INFO     output_dir: results
+2019-01-03 16:24:25,341 root  INFO     steps_per_checkpoint: 500
+2019-01-03 16:24:25,341 root  INFO     batch_size: 64
+2019-01-03 16:24:25,341 root  INFO     num_epoch: 1000
+2019-01-03 16:24:25,341 root  INFO     learning_rate: 1
+2019-01-03 16:24:25,341 root  INFO     reg_val: 0
+2019-01-03 16:24:25,341 root  INFO     max_gradient_norm: 5.000000
+2019-01-03 16:24:25,341 root  INFO     clip_gradients: True
+2019-01-03 16:24:25,341 root  INFO     valid_target_length inf
+2019-01-03 16:24:25,341 root  INFO     target_vocab_size: 324
+2019-01-03 16:24:25,342 root  INFO     target_embedding_size: 10.000000
+2019-01-03 16:24:25,342 root  INFO     attn_num_hidden: 128
+2019-01-03 16:24:25,342 root  INFO     attn_num_layers: 2
+2019-01-03 16:24:25,342 root  INFO     visualize: True
+2019-01-03 16:24:25,342 root  INFO     buckets
+2019-01-03 16:24:25,342 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-03 16:25:58,971 root  INFO     Created model with fresh parameters.
+2019-01-03 16:27:18,109 root  INFO     loading data
+2019-01-03 16:28:36,715 root  INFO     loading data
+2019-01-03 16:28:36,899 root  INFO     phase: train
+2019-01-03 16:28:36,899 root  INFO     model_dir: train
+2019-01-03 16:28:36,899 root  INFO     load_model: False
+2019-01-03 16:28:36,899 root  INFO     output_dir: results
+2019-01-03 16:28:36,899 root  INFO     steps_per_checkpoint: 500
+2019-01-03 16:28:36,899 root  INFO     batch_size: 64
+2019-01-03 16:28:36,899 root  INFO     num_epoch: 1000
+2019-01-03 16:28:36,900 root  INFO     learning_rate: 1
+2019-01-03 16:28:36,900 root  INFO     reg_val: 0
+2019-01-03 16:28:36,900 root  INFO     max_gradient_norm: 5.000000
+2019-01-03 16:28:36,900 root  INFO     clip_gradients: True
+2019-01-03 16:28:36,900 root  INFO     valid_target_length inf
+2019-01-03 16:28:36,900 root  INFO     target_vocab_size: 324
+2019-01-03 16:28:36,900 root  INFO     target_embedding_size: 10.000000
+2019-01-03 16:28:36,900 root  INFO     attn_num_hidden: 128
+2019-01-03 16:28:36,900 root  INFO     attn_num_layers: 2
+2019-01-03 16:28:36,900 root  INFO     visualize: True
+2019-01-03 16:28:36,900 root  INFO     buckets
+2019-01-03 16:28:36,900 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-03 16:30:10,194 root  INFO     Created model with fresh parameters.
+2019-01-03 16:36:19,234 root  INFO     loading data
+2019-01-03 16:36:19,404 root  INFO     phase: train
+2019-01-03 16:36:19,404 root  INFO     model_dir: train
+2019-01-03 16:36:19,404 root  INFO     load_model: False
+2019-01-03 16:36:19,404 root  INFO     output_dir: results
+2019-01-03 16:36:19,405 root  INFO     steps_per_checkpoint: 500
+2019-01-03 16:36:19,405 root  INFO     batch_size: 64
+2019-01-03 16:36:19,405 root  INFO     num_epoch: 1000
+2019-01-03 16:36:19,405 root  INFO     learning_rate: 1
+2019-01-03 16:36:19,405 root  INFO     reg_val: 0
+2019-01-03 16:36:19,405 root  INFO     max_gradient_norm: 5.000000
+2019-01-03 16:36:19,405 root  INFO     clip_gradients: True
+2019-01-03 16:36:19,405 root  INFO     valid_target_length inf
+2019-01-03 16:36:19,405 root  INFO     target_vocab_size: 324
+2019-01-03 16:36:19,405 root  INFO     target_embedding_size: 10.000000
+2019-01-03 16:36:19,405 root  INFO     attn_num_hidden: 128
+2019-01-03 16:36:19,405 root  INFO     attn_num_layers: 2
+2019-01-03 16:36:19,406 root  INFO     visualize: True
+2019-01-03 16:36:19,406 root  INFO     buckets
+2019-01-03 16:36:19,406 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-03 16:37:54,733 root  INFO     Created model with fresh parameters.
+2019-01-03 16:38:14,990 root  INFO     Generating first batch)
+2019-01-03 16:38:15,154 root  INFO     Generating first batch)
+2019-01-03 16:38:15,313 root  INFO     Generating first batch)
+2019-01-03 16:38:15,475 root  INFO     Generating first batch)
+2019-01-03 16:38:15,637 root  INFO     Generating first batch)
+2019-01-03 16:38:15,789 root  INFO     Generating first batch)
+2019-01-03 16:38:15,935 root  INFO     Generating first batch)
+2019-01-03 16:38:16,081 root  INFO     Generating first batch)
+2019-01-03 16:38:16,227 root  INFO     Generating first batch)
+2019-01-03 16:38:16,372 root  INFO     Generating first batch)
+2019-01-03 16:38:16,517 root  INFO     Generating first batch)
+2019-01-03 16:38:16,658 root  INFO     Generating first batch)
+2019-01-03 16:38:16,803 root  INFO     Generating first batch)
+2019-01-03 16:38:16,956 root  INFO     Generating first batch)
+2019-01-03 16:38:17,107 root  INFO     Generating first batch)
+2019-01-03 16:38:17,260 root  INFO     Generating first batch)
+2019-01-03 16:38:17,418 root  INFO     Generating first batch)
+2019-01-03 16:38:17,572 root  INFO     Generating first batch)
+2019-01-03 16:38:17,712 root  INFO     Generating first batch)
+2019-01-03 16:38:17,860 root  INFO     Generating first batch)
+2019-01-03 16:38:18,008 root  INFO     Generating first batch)
+2019-01-03 16:38:18,153 root  INFO     Generating first batch)
+2019-01-03 16:38:18,299 root  INFO     Generating first batch)
+2019-01-03 16:38:18,448 root  INFO     Generating first batch)
+2019-01-03 16:38:18,593 root  INFO     Generating first batch)
+2019-01-03 16:38:18,739 root  INFO     Generating first batch)
+2019-01-03 16:38:18,881 root  INFO     Generating first batch)
+2019-01-03 16:38:19,027 root  INFO     Generating first batch)
+2019-01-03 16:38:19,174 root  INFO     Generating first batch)
+2019-01-03 16:38:19,322 root  INFO     Generating first batch)
+2019-01-03 16:38:19,492 root  INFO     Generating first batch)
+2019-01-03 16:38:19,653 root  INFO     Generating first batch)
+2019-01-03 16:38:19,816 root  INFO     Generating first batch)
+2019-01-03 16:38:19,970 root  INFO     Generating first batch)
+2019-01-03 16:38:20,124 root  INFO     Generating first batch)
+2019-01-03 16:38:20,269 root  INFO     Generating first batch)
+2019-01-03 16:38:20,417 root  INFO     Generating first batch)
+2019-01-03 16:38:20,567 root  INFO     Generating first batch)
+2019-01-03 16:38:20,708 root  INFO     Generating first batch)
+2019-01-03 16:38:20,853 root  INFO     Generating first batch)
+2019-01-03 16:38:21,018 root  INFO     Generating first batch)
+2019-01-03 16:38:21,188 root  INFO     Generating first batch)
+2019-01-03 16:38:21,360 root  INFO     Generating first batch)
+2019-01-03 16:38:21,524 root  INFO     Generating first batch)
+2019-01-03 16:38:21,689 root  INFO     Generating first batch)
+2019-01-03 16:38:21,855 root  INFO     Generating first batch)
+2019-01-03 16:38:22,021 root  INFO     Generating first batch)
+2019-01-03 16:38:22,191 root  INFO     Generating first batch)
+2019-01-03 16:38:22,365 root  INFO     Generating first batch)
+2019-01-03 16:38:22,540 root  INFO     Generating first batch)
+2019-01-03 16:38:22,712 root  INFO     Generating first batch)
+2019-01-03 16:38:22,876 root  INFO     Generating first batch)
+2019-01-03 16:38:23,039 root  INFO     Generating first batch)
+2019-01-03 16:38:23,205 root  INFO     Generating first batch)
+2019-01-03 16:38:23,373 root  INFO     Generating first batch)
+2019-01-03 16:38:23,535 root  INFO     Generating first batch)
+2019-01-03 16:38:23,698 root  INFO     Generating first batch)
+2019-01-03 16:38:23,863 root  INFO     Generating first batch)
+2019-01-03 16:38:24,027 root  INFO     Generating first batch)
+2019-01-03 16:38:24,199 root  INFO     Generating first batch)
+2019-01-03 16:38:24,357 root  INFO     Generating first batch)
+2019-01-03 16:38:24,506 root  INFO     Generating first batch)
+2019-01-03 16:38:24,652 root  INFO     Generating first batch)
+2019-01-03 16:38:24,808 root  INFO     Generating first batch)
+2019-01-03 16:38:24,971 root  INFO     Generating first batch)
+2019-01-03 16:38:25,132 root  INFO     Generating first batch)
+2019-01-03 16:38:25,290 root  INFO     Generating first batch)
+2019-01-03 16:38:25,448 root  INFO     Generating first batch)
+2019-01-03 16:38:25,609 root  INFO     Generating first batch)
+2019-01-03 16:38:25,770 root  INFO     Generating first batch)
+2019-01-03 16:38:25,930 root  INFO     Generating first batch)
+2019-01-03 16:38:26,090 root  INFO     Generating first batch)
+2019-01-03 16:38:26,240 root  INFO     Generating first batch)
+2019-01-03 16:38:26,386 root  INFO     Generating first batch)
+2019-01-03 16:38:26,540 root  INFO     Generating first batch)
+2019-01-03 16:38:26,699 root  INFO     Generating first batch)
+2019-01-03 16:38:26,849 root  INFO     Generating first batch)
+2019-01-03 16:38:26,997 root  INFO     Generating first batch)
+2019-01-03 16:38:27,155 root  INFO     Generating first batch)
+2019-01-03 16:38:27,300 root  INFO     Generating first batch)
+2019-01-03 16:38:27,441 root  INFO     Generating first batch)
+2019-01-03 16:38:27,582 root  INFO     Generating first batch)
+2019-01-03 16:38:27,724 root  INFO     Generating first batch)
+2019-01-03 16:38:27,876 root  INFO     Generating first batch)
+2019-01-03 16:38:28,048 root  INFO     Generating first batch)
+2019-01-03 16:38:28,211 root  INFO     Generating first batch)
+2019-01-03 16:38:28,381 root  INFO     Generating first batch)
+2019-01-03 16:38:28,550 root  INFO     Generating first batch)
+2019-01-03 16:38:28,711 root  INFO     Generating first batch)
+2019-01-03 16:38:28,881 root  INFO     Generating first batch)
+2019-01-03 16:38:29,049 root  INFO     Generating first batch)
+2019-01-03 16:38:29,220 root  INFO     Generating first batch)
+2019-01-03 16:38:29,390 root  INFO     Generating first batch)
+2019-01-03 16:38:29,561 root  INFO     Generating first batch)
+2019-01-03 16:38:29,727 root  INFO     Generating first batch)
+2019-01-03 16:38:29,882 root  INFO     Generating first batch)
+2019-01-03 16:38:30,034 root  INFO     Generating first batch)
+2019-01-03 16:38:30,190 root  INFO     Generating first batch)
+2019-01-03 16:38:30,356 root  INFO     Generating first batch)
+2019-01-03 16:38:30,505 root  INFO     Generating first batch)
+2019-01-03 16:38:30,655 root  INFO     Generating first batch)
+2019-01-03 16:38:30,812 root  INFO     Generating first batch)
+2019-01-03 16:38:30,975 root  INFO     Generating first batch)
+2019-01-03 16:38:31,142 root  INFO     Generating first batch)
+2019-01-03 16:38:31,314 root  INFO     Generating first batch)
+2019-01-03 16:38:31,493 root  INFO     Generating first batch)
+2019-01-03 16:38:31,677 root  INFO     Generating first batch)
+2019-01-03 16:38:31,852 root  INFO     Generating first batch)
+2019-01-03 16:38:32,019 root  INFO     Generating first batch)
+2019-01-03 16:38:32,194 root  INFO     Generating first batch)
+2019-01-03 16:41:47,610 root  INFO     loading data
+2019-01-03 16:41:47,758 root  INFO     phase: train
+2019-01-03 16:41:47,758 root  INFO     model_dir: train
+2019-01-03 16:41:47,758 root  INFO     load_model: False
+2019-01-03 16:41:47,758 root  INFO     output_dir: results
+2019-01-03 16:41:47,758 root  INFO     steps_per_checkpoint: 500
+2019-01-03 16:41:47,759 root  INFO     batch_size: 64
+2019-01-03 16:41:47,759 root  INFO     num_epoch: 1000
+2019-01-03 16:41:47,759 root  INFO     learning_rate: 1
+2019-01-03 16:41:47,759 root  INFO     reg_val: 0
+2019-01-03 16:41:47,759 root  INFO     max_gradient_norm: 5.000000
+2019-01-03 16:41:47,759 root  INFO     clip_gradients: True
+2019-01-03 16:41:47,759 root  INFO     valid_target_length inf
+2019-01-03 16:41:47,759 root  INFO     target_vocab_size: 324
+2019-01-03 16:41:47,759 root  INFO     target_embedding_size: 10.000000
+2019-01-03 16:41:47,759 root  INFO     attn_num_hidden: 128
+2019-01-03 16:41:47,759 root  INFO     attn_num_layers: 2
+2019-01-03 16:41:47,759 root  INFO     visualize: True
+2019-01-03 16:41:47,759 root  INFO     buckets
+2019-01-03 16:41:47,760 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-03 16:43:24,241 root  INFO     Created model with fresh parameters.
+2019-01-03 16:43:46,184 root  INFO     Generating first batch)
+2019-01-03 16:43:46,336 root  INFO     Generating first batch)
+2019-01-03 16:43:46,488 root  INFO     Generating first batch)
+2019-01-03 16:43:46,641 root  INFO     Generating first batch)
+2019-01-03 16:43:46,806 root  INFO     Generating first batch)
+2019-01-03 16:43:46,968 root  INFO     Generating first batch)
+2019-01-03 16:43:47,129 root  INFO     Generating first batch)
+2019-01-03 16:43:47,297 root  INFO     Generating first batch)
+2019-01-03 16:43:47,459 root  INFO     Generating first batch)
+2019-01-03 16:43:47,616 root  INFO     Generating first batch)
+2019-01-03 16:43:47,779 root  INFO     Generating first batch)
+2019-01-03 16:43:47,939 root  INFO     Generating first batch)
+2019-01-03 16:43:48,102 root  INFO     Generating first batch)
+2019-01-03 16:43:48,272 root  INFO     Generating first batch)
+2019-01-03 16:43:48,431 root  INFO     Generating first batch)
+2019-01-03 16:43:48,581 root  INFO     Generating first batch)
+2019-01-03 16:43:48,733 root  INFO     Generating first batch)
+2019-01-03 16:43:48,880 root  INFO     Generating first batch)
+2019-01-03 16:43:49,023 root  INFO     Generating first batch)
+2019-01-03 16:43:49,167 root  INFO     Generating first batch)
+2019-01-03 16:43:49,324 root  INFO     Generating first batch)
+2019-01-03 16:43:49,466 root  INFO     Generating first batch)
+2019-01-03 16:43:49,618 root  INFO     Generating first batch)
+2019-01-03 16:43:49,772 root  INFO     Generating first batch)
+2019-01-03 16:43:49,933 root  INFO     Generating first batch)
+2019-01-03 16:43:50,086 root  INFO     Generating first batch)
+2019-01-03 16:43:50,244 root  INFO     Generating first batch)
+2019-01-03 16:43:50,407 root  INFO     Generating first batch)
+2019-01-03 16:43:50,571 root  INFO     Generating first batch)
+2019-01-03 16:43:50,721 root  INFO     Generating first batch)
+2019-01-03 16:43:50,867 root  INFO     Generating first batch)
+2019-01-03 16:43:51,014 root  INFO     Generating first batch)
+2019-01-03 16:43:51,163 root  INFO     Generating first batch)
+2019-01-03 16:43:51,323 root  INFO     Generating first batch)
+2019-01-03 16:43:51,481 root  INFO     Generating first batch)
+2019-01-03 16:43:51,639 root  INFO     Generating first batch)
+2019-01-03 16:43:51,796 root  INFO     Generating first batch)
+2019-01-03 16:43:51,958 root  INFO     Generating first batch)
+2019-01-03 16:43:52,121 root  INFO     Generating first batch)
+2019-01-03 16:43:52,279 root  INFO     Generating first batch)
+2019-01-03 16:43:52,437 root  INFO     Generating first batch)
+2019-01-03 16:43:52,587 root  INFO     Generating first batch)
+2019-01-03 16:43:52,750 root  INFO     Generating first batch)
+2019-01-03 16:43:52,900 root  INFO     Generating first batch)
+2019-01-03 16:43:53,047 root  INFO     Generating first batch)
+2019-01-03 16:43:53,189 root  INFO     Generating first batch)
+2019-01-03 16:43:53,332 root  INFO     Generating first batch)
+2019-01-03 16:43:53,476 root  INFO     Generating first batch)
+2019-01-03 16:43:53,620 root  INFO     Generating first batch)
+2019-01-03 16:43:53,774 root  INFO     Generating first batch)
+2019-01-03 16:43:53,926 root  INFO     Generating first batch)
+2019-01-03 16:43:54,083 root  INFO     Generating first batch)
+2019-01-03 16:43:54,243 root  INFO     Generating first batch)
+2019-01-03 16:43:54,398 root  INFO     Generating first batch)
+2019-01-03 16:43:54,558 root  INFO     Generating first batch)
+2019-01-03 16:43:54,721 root  INFO     Generating first batch)
+2019-01-03 16:43:54,879 root  INFO     Generating first batch)
+2019-01-03 16:43:55,039 root  INFO     Generating first batch)
+2019-01-03 16:43:55,197 root  INFO     Generating first batch)
+2019-01-03 16:43:55,359 root  INFO     Generating first batch)
+2019-01-03 16:43:55,525 root  INFO     Generating first batch)
+2019-01-03 16:43:55,685 root  INFO     Generating first batch)
+2019-01-03 16:43:55,840 root  INFO     Generating first batch)
+2019-01-03 16:43:55,987 root  INFO     Generating first batch)
+2019-01-03 16:43:56,132 root  INFO     Generating first batch)
+2019-01-03 16:43:56,278 root  INFO     Generating first batch)
+2019-01-03 16:43:56,421 root  INFO     Generating first batch)
+2019-01-03 16:43:56,564 root  INFO     Generating first batch)
+2019-01-03 16:43:56,712 root  INFO     Generating first batch)
+2019-01-03 16:43:56,857 root  INFO     Generating first batch)
+2019-01-03 16:43:57,002 root  INFO     Generating first batch)
+2019-01-03 16:43:57,147 root  INFO     Generating first batch)
+2019-01-03 16:43:57,297 root  INFO     Generating first batch)
+2019-01-03 16:43:57,446 root  INFO     Generating first batch)
+2019-01-03 16:43:57,596 root  INFO     Generating first batch)
+2019-01-03 16:43:57,745 root  INFO     Generating first batch)
+2019-01-03 16:43:57,893 root  INFO     Generating first batch)
+2019-01-03 16:43:58,047 root  INFO     Generating first batch)
+2019-01-03 16:43:58,190 root  INFO     Generating first batch)
+2019-01-03 16:43:58,334 root  INFO     Generating first batch)
+2019-01-03 16:43:58,473 root  INFO     Generating first batch)
+2019-01-03 16:43:58,613 root  INFO     Generating first batch)
+2019-01-03 16:43:58,758 root  INFO     Generating first batch)
+2019-01-03 16:43:58,897 root  INFO     Generating first batch)
+2019-01-03 16:43:59,038 root  INFO     Generating first batch)
+2019-01-03 16:43:59,181 root  INFO     Generating first batch)
+2019-01-03 16:43:59,329 root  INFO     Generating first batch)
+2019-01-03 16:43:59,473 root  INFO     Generating first batch)
+2019-01-03 16:43:59,622 root  INFO     Generating first batch)
+2019-01-03 16:43:59,773 root  INFO     Generating first batch)
+2019-01-03 16:43:59,920 root  INFO     Generating first batch)
+2019-01-03 16:44:00,069 root  INFO     Generating first batch)
+2019-01-03 16:44:00,226 root  INFO     Generating first batch)
+2019-01-03 16:44:00,373 root  INFO     Generating first batch)
+2019-01-03 16:44:00,533 root  INFO     Generating first batch)
+2019-01-03 16:44:00,692 root  INFO     Generating first batch)
+2019-01-03 16:44:00,860 root  INFO     Generating first batch)
+2019-01-03 16:44:01,021 root  INFO     Generating first batch)
+2019-01-03 16:44:01,186 root  INFO     Generating first batch)
+2019-01-03 16:44:01,352 root  INFO     Generating first batch)
+2019-01-03 16:44:01,513 root  INFO     Generating first batch)
+2019-01-03 16:44:01,668 root  INFO     Generating first batch)
+2019-01-03 16:44:01,823 root  INFO     Generating first batch)
+2019-01-03 16:44:01,981 root  INFO     Generating first batch)
+2019-01-03 16:44:02,142 root  INFO     Generating first batch)
+2019-01-03 16:44:02,298 root  INFO     Generating first batch)
+2019-01-03 16:44:02,450 root  INFO     Generating first batch)
+2019-01-03 16:44:02,607 root  INFO     Generating first batch)
+2019-01-03 16:44:02,757 root  INFO     Generating first batch)
+2019-01-03 16:44:02,906 root  INFO     Generating first batch)
+2019-01-03 16:44:03,070 root  INFO     Generating first batch)
+2019-01-03 16:44:03,222 root  INFO     Generating first batch)
+2019-01-03 16:44:03,370 root  INFO     Generating first batch)
+2019-01-03 16:44:03,522 root  INFO     Generating first batch)
+2019-01-03 16:44:03,701 root  INFO     Generating first batch)
+2019-01-03 16:44:03,867 root  INFO     Generating first batch)
+2019-01-03 16:44:04,024 root  INFO     Generating first batch)
+2019-01-03 16:44:04,169 root  INFO     Generating first batch)
+2019-01-03 16:44:04,322 root  INFO     Generating first batch)
+2019-01-03 16:44:04,473 root  INFO     Generating first batch)
+2019-01-03 16:44:04,623 root  INFO     Generating first batch)
+2019-01-03 16:44:04,784 root  INFO     Generating first batch)
+2019-01-03 16:44:04,933 root  INFO     Generating first batch)
+2019-01-03 16:44:05,081 root  INFO     Generating first batch)
+2019-01-03 16:44:05,230 root  INFO     Generating first batch)
+2019-01-03 16:44:05,374 root  INFO     Generating first batch)
+2019-01-03 16:44:05,529 root  INFO     Generating first batch)
+2019-01-03 16:44:05,684 root  INFO     Generating first batch)
+2019-01-03 16:44:05,837 root  INFO     Generating first batch)
+2019-01-03 16:44:05,997 root  INFO     Generating first batch)
+2019-01-03 16:44:06,158 root  INFO     Generating first batch)
+2019-01-03 16:44:06,321 root  INFO     Generating first batch)
+2019-01-03 16:44:06,481 root  INFO     Generating first batch)
+2019-01-03 16:44:06,642 root  INFO     Generating first batch)
+2019-01-03 16:44:06,804 root  INFO     Generating first batch)
+2019-01-03 16:44:06,957 root  INFO     Generating first batch)
+2019-01-03 16:44:07,104 root  INFO     Generating first batch)
+2019-01-03 16:44:07,260 root  INFO     Generating first batch)
+2019-01-03 16:44:07,413 root  INFO     Generating first batch)
+2019-01-03 16:44:07,568 root  INFO     Generating first batch)
+2019-01-03 16:44:07,736 root  INFO     Generating first batch)
+2019-01-03 16:44:07,892 root  INFO     Generating first batch)
+2019-01-03 16:44:08,048 root  INFO     Generating first batch)
+2019-01-03 16:44:08,209 root  INFO     Generating first batch)
+2019-01-03 16:44:08,374 root  INFO     Generating first batch)
+2019-01-03 16:44:08,539 root  INFO     Generating first batch)
+2019-01-03 16:44:08,707 root  INFO     Generating first batch)
+2019-01-03 16:44:08,874 root  INFO     Generating first batch)
+2019-01-03 16:44:09,036 root  INFO     Generating first batch)
+2019-01-03 16:44:09,196 root  INFO     Generating first batch)
+2019-01-03 16:44:09,356 root  INFO     Generating first batch)
+2019-01-03 16:44:09,509 root  INFO     Generating first batch)
+2019-01-03 16:44:09,664 root  INFO     Generating first batch)
+2019-01-03 16:44:09,830 root  INFO     Generating first batch)
+2019-01-03 16:44:09,987 root  INFO     Generating first batch)
+2019-01-03 16:44:10,143 root  INFO     Generating first batch)
+2019-01-03 16:44:10,290 root  INFO     Generating first batch)
+2019-01-03 16:44:10,449 root  INFO     Generating first batch)
+2019-01-03 16:44:10,601 root  INFO     Generating first batch)
+2019-01-03 16:44:10,758 root  INFO     Generating first batch)
+2019-01-03 16:44:10,918 root  INFO     Generating first batch)
+2019-01-03 16:44:11,072 root  INFO     Generating first batch)
+2019-01-03 16:44:11,240 root  INFO     Generating first batch)
+2019-01-03 16:44:11,411 root  INFO     Generating first batch)
+2019-01-03 16:44:11,573 root  INFO     Generating first batch)
+2019-01-03 16:44:11,723 root  INFO     Generating first batch)
+2019-01-03 16:44:11,870 root  INFO     Generating first batch)
+2019-01-03 16:44:12,011 root  INFO     Generating first batch)
+2019-01-03 16:44:12,161 root  INFO     Generating first batch)
+2019-01-03 16:44:12,313 root  INFO     Generating first batch)
+2019-01-03 16:44:12,462 root  INFO     Generating first batch)
+2019-01-03 16:44:12,617 root  INFO     Generating first batch)
+2019-01-03 16:44:12,781 root  INFO     Generating first batch)
+2019-01-03 16:44:12,938 root  INFO     Generating first batch)
+2019-01-03 16:44:13,102 root  INFO     Generating first batch)
+2019-01-03 16:44:13,264 root  INFO     Generating first batch)
+2019-01-03 16:44:13,426 root  INFO     Generating first batch)
+2019-01-03 16:44:13,588 root  INFO     Generating first batch)
+2019-01-03 16:44:13,752 root  INFO     Generating first batch)
+2019-01-03 16:44:13,915 root  INFO     Generating first batch)
+2019-01-03 16:44:14,082 root  INFO     Generating first batch)
+2019-01-03 16:44:14,247 root  INFO     Generating first batch)
+2019-01-03 16:44:14,414 root  INFO     Generating first batch)
+2019-01-03 16:44:14,581 root  INFO     Generating first batch)
+2019-01-03 16:44:14,745 root  INFO     Generating first batch)
+2019-01-03 16:44:14,913 root  INFO     Generating first batch)
+2019-01-03 16:44:15,073 root  INFO     Generating first batch)
+2019-01-03 16:44:15,232 root  INFO     Generating first batch)
+2019-01-03 16:44:15,393 root  INFO     Generating first batch)
+2019-01-03 16:44:15,553 root  INFO     Generating first batch)
+2019-01-03 16:44:15,709 root  INFO     Generating first batch)
+2019-01-03 16:44:15,868 root  INFO     Generating first batch)
+2019-01-03 16:44:16,021 root  INFO     Generating first batch)
+2019-01-03 16:44:16,179 root  INFO     Generating first batch)
+2019-01-03 16:44:16,325 root  INFO     Generating first batch)
+2019-01-03 16:44:16,465 root  INFO     Generating first batch)
+2019-01-03 16:44:16,614 root  INFO     Generating first batch)
+2019-01-03 16:44:16,770 root  INFO     Generating first batch)
+2019-01-03 16:44:16,917 root  INFO     Generating first batch)
+2019-01-03 16:44:17,060 root  INFO     Generating first batch)
+2019-01-03 16:44:17,204 root  INFO     Generating first batch)
+2019-01-03 16:44:17,351 root  INFO     Generating first batch)
+2019-01-03 16:44:17,495 root  INFO     Generating first batch)
+2019-01-03 16:44:17,634 root  INFO     Generating first batch)
+2019-01-03 16:44:17,777 root  INFO     Generating first batch)
+2019-01-03 16:44:17,921 root  INFO     Generating first batch)
+2019-01-03 16:44:18,074 root  INFO     Generating first batch)
+2019-01-03 16:44:18,223 root  INFO     Generating first batch)
+2019-01-03 16:44:18,379 root  INFO     Generating first batch)
+2019-01-03 16:44:18,529 root  INFO     Generating first batch)
+2019-01-03 16:44:18,674 root  INFO     Generating first batch)
+2019-01-03 16:44:18,822 root  INFO     Generating first batch)
+2019-01-03 16:44:18,968 root  INFO     Generating first batch)
+2019-01-03 16:44:19,114 root  INFO     Generating first batch)
+2019-01-03 16:44:19,262 root  INFO     Generating first batch)
+2019-01-03 16:44:19,414 root  INFO     Generating first batch)
+2019-01-03 16:44:19,588 root  INFO     Generating first batch)
+2019-01-03 16:44:19,750 root  INFO     Generating first batch)
+2019-01-03 16:44:19,919 root  INFO     Generating first batch)
+2019-01-03 16:44:20,068 root  INFO     Generating first batch)
+2019-01-03 16:44:20,219 root  INFO     Generating first batch)
+2019-01-03 16:44:20,374 root  INFO     Generating first batch)
+2019-01-03 16:44:20,521 root  INFO     Generating first batch)
+2019-01-03 16:44:20,674 root  INFO     Generating first batch)
+2019-01-03 16:44:20,840 root  INFO     Generating first batch)
+2019-01-03 16:44:21,006 root  INFO     Generating first batch)
+2019-01-03 16:44:21,172 root  INFO     Generating first batch)
+2019-01-03 16:44:21,333 root  INFO     Generating first batch)
+2019-01-03 16:44:21,498 root  INFO     Generating first batch)
+2019-01-03 16:44:21,658 root  INFO     Generating first batch)
+2019-01-03 16:44:21,821 root  INFO     Generating first batch)
+2019-01-03 16:44:21,986 root  INFO     Generating first batch)
+2019-01-03 16:44:22,161 root  INFO     Generating first batch)
+2019-01-03 16:44:22,330 root  INFO     Generating first batch)
+2019-01-03 16:44:22,493 root  INFO     Generating first batch)
+2019-01-03 16:44:22,641 root  INFO     Generating first batch)
+2019-01-03 16:44:22,791 root  INFO     Generating first batch)
+2019-01-03 16:44:22,945 root  INFO     Generating first batch)
+2019-01-03 16:44:23,105 root  INFO     Generating first batch)
+2019-01-03 16:44:23,247 root  INFO     Generating first batch)
+2019-01-03 16:44:23,397 root  INFO     Generating first batch)
+2019-01-03 16:44:23,546 root  INFO     Generating first batch)
+2019-01-03 16:44:23,686 root  INFO     Generating first batch)
+2019-01-03 16:44:23,828 root  INFO     Generating first batch)
+2019-01-03 16:44:23,977 root  INFO     Generating first batch)
+2019-01-03 16:44:24,135 root  INFO     Generating first batch)
+2019-01-03 16:44:24,295 root  INFO     Generating first batch)
+2019-01-03 16:44:24,448 root  INFO     Generating first batch)
+2019-01-03 16:44:24,592 root  INFO     Generating first batch)
+2019-01-03 16:44:24,735 root  INFO     Generating first batch)
+2019-01-03 16:44:24,889 root  INFO     Generating first batch)
+2019-01-03 16:44:25,030 root  INFO     Generating first batch)
+2019-01-03 16:44:25,194 root  INFO     Generating first batch)
+2019-01-03 16:44:25,344 root  INFO     Generating first batch)
+2019-01-03 16:44:25,494 root  INFO     Generating first batch)
+2019-01-03 16:44:25,637 root  INFO     Generating first batch)
+2019-01-03 16:44:25,784 root  INFO     Generating first batch)
+2019-01-03 16:44:25,925 root  INFO     Generating first batch)
+2019-01-03 16:44:26,070 root  INFO     Generating first batch)
+2019-01-03 16:44:26,223 root  INFO     Generating first batch)
+2019-01-03 16:44:26,370 root  INFO     Generating first batch)
+2019-01-03 16:44:26,517 root  INFO     Generating first batch)
+2019-01-03 16:44:26,658 root  INFO     Generating first batch)
+2019-01-03 16:44:26,801 root  INFO     Generating first batch)
+2019-01-03 16:44:26,941 root  INFO     Generating first batch)
+2019-01-03 16:44:27,097 root  INFO     Generating first batch)
+2019-01-03 16:44:27,256 root  INFO     Generating first batch)
+2019-01-03 16:44:27,419 root  INFO     Generating first batch)
+2019-01-03 16:44:27,577 root  INFO     Generating first batch)
+2019-01-03 16:44:27,733 root  INFO     Generating first batch)
+2019-01-03 16:44:27,894 root  INFO     Generating first batch)
+2019-01-03 16:44:28,063 root  INFO     Generating first batch)
+2019-01-03 16:44:28,224 root  INFO     Generating first batch)
+2019-01-03 16:44:28,385 root  INFO     Generating first batch)
+2019-01-03 16:44:28,552 root  INFO     Generating first batch)
+2019-01-03 16:44:28,717 root  INFO     Generating first batch)
+2019-01-03 16:44:28,882 root  INFO     Generating first batch)
+2019-01-03 16:44:29,043 root  INFO     Generating first batch)
+2019-01-03 16:44:29,210 root  INFO     Generating first batch)
+2019-01-03 16:44:29,372 root  INFO     Generating first batch)
+2019-01-03 16:44:29,518 root  INFO     Generating first batch)
+2019-01-03 16:44:29,667 root  INFO     Generating first batch)
+2019-01-03 16:44:29,831 root  INFO     Generating first batch)
+2019-01-03 16:44:29,985 root  INFO     Generating first batch)
+2019-01-03 16:44:30,138 root  INFO     Generating first batch)
+2019-01-03 16:44:30,284 root  INFO     Generating first batch)
+2019-01-03 16:44:30,427 root  INFO     Generating first batch)
+2019-01-03 16:44:30,572 root  INFO     Generating first batch)
+2019-01-03 16:44:30,733 root  INFO     Generating first batch)
+2019-01-03 16:44:30,890 root  INFO     Generating first batch)
+2019-01-03 16:44:31,036 root  INFO     Generating first batch)
+2019-01-03 16:44:31,191 root  INFO     Generating first batch)
+2019-01-03 16:44:31,335 root  INFO     Generating first batch)
+2019-01-03 16:44:31,476 root  INFO     Generating first batch)
+2019-01-03 16:44:31,628 root  INFO     Generating first batch)
+2019-01-03 16:44:31,782 root  INFO     Generating first batch)
+2019-01-03 16:44:31,929 root  INFO     Generating first batch)
+2019-01-03 16:44:32,075 root  INFO     Generating first batch)
+2019-01-03 16:44:32,229 root  INFO     Generating first batch)
+2019-01-03 16:44:32,383 root  INFO     Generating first batch)
+2019-01-03 16:44:32,533 root  INFO     Generating first batch)
+2019-01-03 16:44:32,682 root  INFO     Generating first batch)
+2019-01-03 16:44:32,831 root  INFO     Generating first batch)
+2019-01-03 16:44:32,979 root  INFO     Generating first batch)
+2019-01-03 16:44:33,127 root  INFO     Generating first batch)
+2019-01-03 16:44:33,269 root  INFO     Generating first batch)
+2019-01-03 16:44:33,420 root  INFO     Generating first batch)
+2019-01-03 16:44:33,576 root  INFO     Generating first batch)
+2019-01-03 16:44:33,724 root  INFO     Generating first batch)
+2019-01-03 16:44:33,881 root  INFO     Generating first batch)
+2019-01-03 16:44:34,027 root  INFO     Generating first batch)
+2019-01-03 16:44:34,172 root  INFO     Generating first batch)
+2019-01-03 16:44:34,318 root  INFO     Generating first batch)
+2019-01-03 16:44:34,475 root  INFO     Generating first batch)
+2019-01-03 16:44:34,651 root  INFO     Generating first batch)
+2019-01-03 16:44:34,819 root  INFO     Generating first batch)
+2019-01-03 16:44:34,979 root  INFO     Generating first batch)
+2019-01-03 16:44:35,140 root  INFO     Generating first batch)
+2019-01-03 16:44:35,310 root  INFO     Generating first batch)
+2019-01-03 16:44:35,481 root  INFO     Generating first batch)
+2019-01-03 16:44:35,656 root  INFO     Generating first batch)
+2019-01-03 16:44:35,817 root  INFO     Generating first batch)
+2019-01-03 16:44:35,988 root  INFO     Generating first batch)
+2019-01-03 16:44:36,162 root  INFO     Generating first batch)
+2019-01-03 16:44:36,329 root  INFO     Generating first batch)
+2019-01-03 16:44:36,484 root  INFO     Generating first batch)
+2019-01-03 16:44:36,640 root  INFO     Generating first batch)
+2019-01-03 16:44:36,799 root  INFO     Generating first batch)
+2019-01-03 16:44:36,962 root  INFO     Generating first batch)
+2019-01-03 16:44:37,123 root  INFO     Generating first batch)
+2019-01-03 16:44:37,285 root  INFO     Generating first batch)
+2019-01-03 16:44:37,446 root  INFO     Generating first batch)
+2019-01-03 16:44:37,609 root  INFO     Generating first batch)
+2019-01-03 16:44:37,771 root  INFO     Generating first batch)
+2019-01-03 16:44:37,926 root  INFO     Generating first batch)
+2019-01-03 16:44:38,091 root  INFO     Generating first batch)
+2019-01-03 16:44:38,253 root  INFO     Generating first batch)
+2019-01-03 16:44:38,415 root  INFO     Generating first batch)
+2019-01-03 16:44:38,577 root  INFO     Generating first batch)
+2019-01-03 16:44:38,737 root  INFO     Generating first batch)
+2019-01-03 16:44:38,900 root  INFO     Generating first batch)
+2019-01-03 16:44:39,059 root  INFO     Generating first batch)
+2019-01-03 16:44:39,219 root  INFO     Generating first batch)
+2019-01-03 16:44:39,379 root  INFO     Generating first batch)
+2019-01-03 16:44:39,524 root  INFO     Generating first batch)
+2019-01-03 16:44:39,679 root  INFO     Generating first batch)
+2019-01-03 16:44:39,840 root  INFO     Generating first batch)
+2019-01-03 16:44:40,000 root  INFO     Generating first batch)
+2019-01-03 16:44:40,161 root  INFO     Generating first batch)
+2019-01-03 16:44:40,323 root  INFO     Generating first batch)
+2019-01-03 16:44:40,481 root  INFO     Generating first batch)
+2019-01-03 16:44:40,644 root  INFO     Generating first batch)
+2019-01-03 16:44:40,810 root  INFO     Generating first batch)
+2019-01-03 16:44:40,975 root  INFO     Generating first batch)
+2019-01-03 16:44:41,134 root  INFO     Generating first batch)
+2019-01-03 16:44:41,297 root  INFO     Generating first batch)
+2019-01-03 16:44:41,461 root  INFO     Generating first batch)
+2019-01-03 16:44:41,626 root  INFO     Generating first batch)
+2019-01-03 16:44:41,796 root  INFO     Generating first batch)
+2019-01-03 16:44:41,958 root  INFO     Generating first batch)
+2019-01-03 16:44:42,122 root  INFO     Generating first batch)
+2019-01-03 16:44:42,294 root  INFO     Generating first batch)
+2019-01-03 16:44:42,462 root  INFO     Generating first batch)
+2019-01-03 16:44:42,630 root  INFO     Generating first batch)
+2019-01-03 16:44:42,800 root  INFO     Generating first batch)
+2019-01-03 16:44:42,976 root  INFO     Generating first batch)
+2019-01-03 16:44:43,144 root  INFO     Generating first batch)
+2019-01-03 16:44:43,303 root  INFO     Generating first batch)
+2019-01-03 16:44:43,465 root  INFO     Generating first batch)
+2019-01-03 16:44:43,625 root  INFO     Generating first batch)
+2019-01-03 16:44:43,793 root  INFO     Generating first batch)
+2019-01-03 16:44:43,958 root  INFO     Generating first batch)
+2019-01-03 16:44:44,116 root  INFO     Generating first batch)
+2019-01-03 16:44:44,281 root  INFO     Generating first batch)
+2019-01-03 16:44:44,442 root  INFO     Generating first batch)
+2019-01-03 16:44:44,601 root  INFO     Generating first batch)
+2019-01-03 16:44:44,755 root  INFO     Generating first batch)
+2019-01-03 16:44:44,899 root  INFO     Generating first batch)
+2019-01-03 16:44:45,043 root  INFO     Generating first batch)
+2019-01-03 16:44:45,192 root  INFO     Generating first batch)
+2019-01-03 16:44:45,337 root  INFO     Generating first batch)
+2019-01-03 16:44:45,481 root  INFO     Generating first batch)
+2019-01-03 16:44:45,624 root  INFO     Generating first batch)
+2019-01-03 16:44:45,766 root  INFO     Generating first batch)
+2019-01-03 16:44:45,914 root  INFO     Generating first batch)
+2019-01-03 16:44:46,064 root  INFO     Generating first batch)
+2019-01-03 16:44:46,219 root  INFO     Generating first batch)
+2019-01-03 16:44:46,379 root  INFO     Generating first batch)
+2019-01-03 16:44:46,533 root  INFO     Generating first batch)
+2019-01-03 16:44:46,687 root  INFO     Generating first batch)
+2019-01-03 16:44:46,849 root  INFO     Generating first batch)
+2019-01-03 16:44:47,009 root  INFO     Generating first batch)
+2019-01-03 16:44:47,170 root  INFO     Generating first batch)
+2019-01-03 16:44:47,329 root  INFO     Generating first batch)
+2019-01-03 16:44:47,489 root  INFO     Generating first batch)
+2019-01-03 16:44:47,651 root  INFO     Generating first batch)
+2019-01-03 16:44:47,809 root  INFO     Generating first batch)
+2019-01-03 16:44:47,955 root  INFO     Generating first batch)
+2019-01-03 16:44:48,103 root  INFO     Generating first batch)
+2019-01-03 16:44:48,248 root  INFO     Generating first batch)
+2019-01-03 16:44:48,402 root  INFO     Generating first batch)
+2019-01-03 16:44:48,565 root  INFO     Generating first batch)
+2019-01-03 16:44:48,726 root  INFO     Generating first batch)
+2019-01-03 16:44:48,892 root  INFO     Generating first batch)
+2019-01-03 16:44:49,058 root  INFO     Generating first batch)
+2019-01-03 16:44:49,225 root  INFO     Generating first batch)
+2019-01-03 16:44:49,394 root  INFO     Generating first batch)
+2019-01-03 16:44:49,561 root  INFO     Generating first batch)
+2019-01-03 16:44:49,729 root  INFO     Generating first batch)
+2019-01-03 16:44:49,896 root  INFO     Generating first batch)
+2019-01-03 16:44:50,069 root  INFO     Generating first batch)
+2019-01-03 16:44:50,230 root  INFO     Generating first batch)
+2019-01-03 16:44:50,376 root  INFO     Generating first batch)
+2019-01-03 16:44:50,516 root  INFO     Generating first batch)
+2019-01-03 16:44:50,660 root  INFO     Generating first batch)
+2019-01-03 16:44:50,820 root  INFO     Generating first batch)
+2019-01-03 16:44:50,974 root  INFO     Generating first batch)
+2019-01-03 16:44:51,135 root  INFO     Generating first batch)
+2019-01-03 16:44:51,296 root  INFO     Generating first batch)
+2019-01-03 16:44:51,445 root  INFO     Generating first batch)
+2019-01-03 16:44:51,604 root  INFO     Generating first batch)
+2019-01-03 16:45:29,240 root  INFO     loading data
+2019-01-03 16:45:29,402 root  INFO     phase: train
+2019-01-03 16:45:29,402 root  INFO     model_dir: train
+2019-01-03 16:45:29,402 root  INFO     load_model: False
+2019-01-03 16:45:29,403 root  INFO     output_dir: results
+2019-01-03 16:45:29,403 root  INFO     steps_per_checkpoint: 500
+2019-01-03 16:45:29,403 root  INFO     batch_size: 64
+2019-01-03 16:45:29,403 root  INFO     num_epoch: 1000
+2019-01-03 16:45:29,403 root  INFO     learning_rate: 1
+2019-01-03 16:45:29,403 root  INFO     reg_val: 0
+2019-01-03 16:45:29,403 root  INFO     max_gradient_norm: 5.000000
+2019-01-03 16:45:29,403 root  INFO     clip_gradients: True
+2019-01-03 16:45:29,403 root  INFO     valid_target_length inf
+2019-01-03 16:45:29,403 root  INFO     target_vocab_size: 324
+2019-01-03 16:45:29,403 root  INFO     target_embedding_size: 10.000000
+2019-01-03 16:45:29,403 root  INFO     attn_num_hidden: 128
+2019-01-03 16:45:29,403 root  INFO     attn_num_layers: 2
+2019-01-03 16:45:29,404 root  INFO     visualize: True
+2019-01-03 16:45:29,404 root  INFO     buckets
+2019-01-03 16:45:29,404 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-03 16:47:04,142 root  INFO     Created model with fresh parameters.
+2019-01-03 16:47:25,328 root  INFO     Generating first batch)
+2019-01-03 16:47:25,518 root  INFO     Generating first batch)
+2019-01-03 16:47:25,673 root  INFO     Generating first batch)
+2019-01-03 16:47:25,829 root  INFO     Generating first batch)
+2019-01-03 16:47:25,987 root  INFO     Generating first batch)
+2019-01-03 16:47:26,148 root  INFO     Generating first batch)
+2019-01-03 16:47:26,305 root  INFO     Generating first batch)
+2019-01-03 16:47:26,457 root  INFO     Generating first batch)
+2019-01-03 16:47:26,623 root  INFO     Generating first batch)
+2019-01-03 16:47:26,801 root  INFO     Generating first batch)
+2019-01-03 16:47:26,978 root  INFO     Generating first batch)
+2019-01-03 16:47:27,152 root  INFO     Generating first batch)
+2019-01-03 16:47:27,323 root  INFO     Generating first batch)
+2019-01-03 16:47:27,499 root  INFO     Generating first batch)
+2019-01-03 16:47:27,675 root  INFO     Generating first batch)
+2019-01-03 16:47:27,854 root  INFO     Generating first batch)
+2019-01-03 16:47:28,031 root  INFO     Generating first batch)
+2019-01-03 16:47:28,207 root  INFO     Generating first batch)
+2019-01-03 16:47:28,384 root  INFO     Generating first batch)
+2019-01-03 16:47:28,559 root  INFO     Generating first batch)
+2019-01-03 16:47:28,725 root  INFO     Generating first batch)
+2019-01-03 16:47:28,886 root  INFO     Generating first batch)
+2019-01-03 16:47:29,041 root  INFO     Generating first batch)
+2019-01-03 16:47:29,202 root  INFO     Generating first batch)
+2019-01-03 16:47:29,362 root  INFO     Generating first batch)
+2019-01-03 16:47:29,522 root  INFO     Generating first batch)
+2019-01-03 16:47:29,680 root  INFO     Generating first batch)
+2019-01-03 16:47:29,831 root  INFO     Generating first batch)
+2019-01-03 16:47:29,984 root  INFO     Generating first batch)
+2019-01-03 16:48:09,601 root  INFO     loading data
+2019-01-03 16:48:09,797 root  INFO     phase: train
+2019-01-03 16:48:09,797 root  INFO     model_dir: train
+2019-01-03 16:48:09,797 root  INFO     load_model: False
+2019-01-03 16:48:09,797 root  INFO     output_dir: results
+2019-01-03 16:48:09,797 root  INFO     steps_per_checkpoint: 500
+2019-01-03 16:48:09,798 root  INFO     batch_size: 64
+2019-01-03 16:48:09,798 root  INFO     num_epoch: 1000
+2019-01-03 16:48:09,798 root  INFO     learning_rate: 1
+2019-01-03 16:48:09,798 root  INFO     reg_val: 0
+2019-01-03 16:48:09,798 root  INFO     max_gradient_norm: 5.000000
+2019-01-03 16:48:09,798 root  INFO     clip_gradients: True
+2019-01-03 16:48:09,798 root  INFO     valid_target_length inf
+2019-01-03 16:48:09,798 root  INFO     target_vocab_size: 324
+2019-01-03 16:48:09,798 root  INFO     target_embedding_size: 10.000000
+2019-01-03 16:48:09,798 root  INFO     attn_num_hidden: 128
+2019-01-03 16:48:09,798 root  INFO     attn_num_layers: 2
+2019-01-03 16:48:09,798 root  INFO     visualize: True
+2019-01-03 16:48:09,799 root  INFO     buckets
+2019-01-03 16:48:09,799 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-03 16:49:45,662 root  INFO     Created model with fresh parameters.
+2019-01-03 16:51:19,921 root  INFO     Generating first batch)
+2019-01-03 16:51:20,180 root  INFO     Generating first batch)
+2019-01-03 16:51:20,342 root  INFO     Generating first batch)
+2019-01-03 16:51:20,497 root  INFO     Generating first batch)
+2019-01-03 16:51:20,669 root  INFO     Generating first batch)
+2019-01-03 16:51:20,835 root  INFO     Generating first batch)
+2019-01-03 16:51:20,998 root  INFO     Generating first batch)
+2019-01-03 16:51:21,171 root  INFO     Generating first batch)
+2019-01-03 16:51:21,341 root  INFO     Generating first batch)
+2019-01-03 16:51:21,509 root  INFO     Generating first batch)
+2019-01-03 16:51:21,686 root  INFO     Generating first batch)
+2019-01-03 16:51:21,862 root  INFO     Generating first batch)
+2019-01-03 16:51:22,026 root  INFO     Generating first batch)
+2019-01-03 16:51:22,189 root  INFO     Generating first batch)
+2019-01-03 16:51:22,346 root  INFO     Generating first batch)
+2019-01-03 16:51:22,498 root  INFO     Generating first batch)
+2019-01-03 16:51:22,648 root  INFO     Generating first batch)
+2019-01-03 16:51:22,809 root  INFO     Generating first batch)
+2019-01-03 16:51:22,961 root  INFO     Generating first batch)
+2019-01-03 16:51:23,125 root  INFO     Generating first batch)
+2019-01-03 16:54:54,948 root  INFO     loading data
+2019-01-03 16:54:55,099 root  INFO     phase: train
+2019-01-03 16:54:55,099 root  INFO     model_dir: train
+2019-01-03 16:54:55,099 root  INFO     load_model: False
+2019-01-03 16:54:55,099 root  INFO     output_dir: results
+2019-01-03 16:54:55,099 root  INFO     steps_per_checkpoint: 500
+2019-01-03 16:54:55,099 root  INFO     batch_size: 64
+2019-01-03 16:54:55,099 root  INFO     num_epoch: 1000
+2019-01-03 16:54:55,099 root  INFO     learning_rate: 1
+2019-01-03 16:54:55,099 root  INFO     reg_val: 0
+2019-01-03 16:54:55,099 root  INFO     max_gradient_norm: 5.000000
+2019-01-03 16:54:55,099 root  INFO     clip_gradients: True
+2019-01-03 16:54:55,100 root  INFO     valid_target_length inf
+2019-01-03 16:54:55,100 root  INFO     target_vocab_size: 324
+2019-01-03 16:54:55,100 root  INFO     target_embedding_size: 10.000000
+2019-01-03 16:54:55,100 root  INFO     attn_num_hidden: 128
+2019-01-03 16:54:55,100 root  INFO     attn_num_layers: 2
+2019-01-03 16:54:55,100 root  INFO     visualize: True
+2019-01-03 16:54:55,100 root  INFO     buckets
+2019-01-03 16:54:55,100 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-03 16:56:31,502 root  INFO     Created model with fresh parameters.
+2019-01-03 16:57:03,621 root  INFO     Generating first batch)
+2019-01-03 16:57:03,882 root  INFO     Generating first batch)
+2019-01-03 16:57:04,060 root  INFO     Generating first batch)
+2019-01-03 16:57:04,222 root  INFO     Generating first batch)
+2019-01-03 16:57:04,377 root  INFO     Generating first batch)
+2019-01-03 16:57:04,541 root  INFO     Generating first batch)
+2019-01-03 16:57:04,702 root  INFO     Generating first batch)
+2019-01-03 16:57:04,857 root  INFO     Generating first batch)
+2019-01-03 16:57:05,021 root  INFO     Generating first batch)
+2019-01-03 16:57:05,176 root  INFO     Generating first batch)
+2019-01-03 16:57:05,339 root  INFO     Generating first batch)
+2019-01-03 16:57:05,491 root  INFO     Generating first batch)
+2019-01-03 16:57:05,640 root  INFO     Generating first batch)
+2019-01-03 16:57:05,791 root  INFO     Generating first batch)
+2019-01-03 16:57:05,934 root  INFO     Generating first batch)
+2019-01-03 16:57:06,093 root  INFO     Generating first batch)
+2019-01-03 16:57:06,255 root  INFO     Generating first batch)
+2019-01-03 16:57:06,416 root  INFO     Generating first batch)
+2019-01-03 16:57:06,584 root  INFO     Generating first batch)
+2019-01-03 16:57:06,751 root  INFO     Generating first batch)
+2019-01-03 16:57:06,918 root  INFO     Generating first batch)
+2019-01-03 16:57:07,124 root  INFO     Generating first batch)
+2019-01-03 16:57:07,323 root  INFO     Generating first batch)
+2019-01-03 16:57:07,490 root  INFO     Generating first batch)
+2019-01-03 17:05:31,744 root  INFO     loading data
+2019-01-03 17:05:31,900 root  INFO     phase: train
+2019-01-03 17:05:31,900 root  INFO     model_dir: train
+2019-01-03 17:05:31,900 root  INFO     load_model: False
+2019-01-03 17:05:31,900 root  INFO     output_dir: results
+2019-01-03 17:05:31,900 root  INFO     steps_per_checkpoint: 500
+2019-01-03 17:05:31,900 root  INFO     batch_size: 64
+2019-01-03 17:05:31,901 root  INFO     num_epoch: 1000
+2019-01-03 17:05:31,901 root  INFO     learning_rate: 1
+2019-01-03 17:05:31,901 root  INFO     reg_val: 0
+2019-01-03 17:05:31,901 root  INFO     max_gradient_norm: 5.000000
+2019-01-03 17:05:31,901 root  INFO     clip_gradients: True
+2019-01-03 17:05:31,901 root  INFO     valid_target_length inf
+2019-01-03 17:05:31,901 root  INFO     target_vocab_size: 324
+2019-01-03 17:05:31,901 root  INFO     target_embedding_size: 10.000000
+2019-01-03 17:05:31,901 root  INFO     attn_num_hidden: 128
+2019-01-03 17:05:31,901 root  INFO     attn_num_layers: 2
+2019-01-03 17:05:31,901 root  INFO     visualize: True
+2019-01-03 17:05:31,901 root  INFO     buckets
+2019-01-03 17:05:31,902 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-03 17:07:07,183 root  INFO     Created model with fresh parameters.
+2019-01-03 17:23:32,418 root  INFO     loading data
+2019-01-03 17:23:32,702 root  INFO     phase: train
+2019-01-03 17:23:32,702 root  INFO     model_dir: train
+2019-01-03 17:23:32,702 root  INFO     load_model: False
+2019-01-03 17:23:32,702 root  INFO     output_dir: results
+2019-01-03 17:23:32,702 root  INFO     steps_per_checkpoint: 500
+2019-01-03 17:23:32,702 root  INFO     batch_size: 64
+2019-01-03 17:23:32,703 root  INFO     num_epoch: 1000
+2019-01-03 17:23:32,703 root  INFO     learning_rate: 1
+2019-01-03 17:23:32,703 root  INFO     reg_val: 0
+2019-01-03 17:23:32,703 root  INFO     max_gradient_norm: 5.000000
+2019-01-03 17:23:32,703 root  INFO     clip_gradients: True
+2019-01-03 17:23:32,703 root  INFO     valid_target_length inf
+2019-01-03 17:23:32,703 root  INFO     target_vocab_size: 324
+2019-01-03 17:23:32,703 root  INFO     target_embedding_size: 10.000000
+2019-01-03 17:23:32,703 root  INFO     attn_num_hidden: 128
+2019-01-03 17:23:32,703 root  INFO     attn_num_layers: 2
+2019-01-03 17:23:32,703 root  INFO     visualize: True
+2019-01-03 17:23:32,703 root  INFO     buckets
+2019-01-03 17:23:32,703 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-03 17:25:07,837 root  INFO     Created model with fresh parameters.
+2019-01-03 17:25:29,832 root  INFO     Generating first batch)
+2019-01-03 17:25:30,005 root  INFO     Generating first batch)
+2019-01-03 17:25:30,181 root  INFO     Generating first batch)
+2019-01-03 17:25:30,345 root  INFO     Generating first batch)
+2019-01-03 17:25:30,516 root  INFO     Generating first batch)
+2019-01-03 17:25:30,693 root  INFO     Generating first batch)
+2019-01-03 17:25:30,863 root  INFO     Generating first batch)
+2019-01-03 17:25:31,032 root  INFO     Generating first batch)
+2019-01-03 17:25:31,208 root  INFO     Generating first batch)
+2019-01-03 17:25:31,377 root  INFO     Generating first batch)
+2019-01-03 17:25:31,549 root  INFO     Generating first batch)
+2019-01-03 17:25:31,723 root  INFO     Generating first batch)
+2019-01-03 17:25:31,895 root  INFO     Generating first batch)
+2019-01-03 17:25:32,057 root  INFO     Generating first batch)
+2019-01-03 17:25:32,223 root  INFO     Generating first batch)
+2019-01-03 17:25:32,385 root  INFO     Generating first batch)
+2019-01-03 17:25:32,554 root  INFO     Generating first batch)
+2019-01-03 17:25:32,726 root  INFO     Generating first batch)
+2019-01-03 17:25:32,890 root  INFO     Generating first batch)
+2019-01-03 17:27:56,996 root  INFO     loading data
+2019-01-03 17:27:57,163 root  INFO     phase: train
+2019-01-03 17:27:57,163 root  INFO     model_dir: train
+2019-01-03 17:27:57,163 root  INFO     load_model: False
+2019-01-03 17:27:57,163 root  INFO     output_dir: results
+2019-01-03 17:27:57,163 root  INFO     steps_per_checkpoint: 500
+2019-01-03 17:27:57,163 root  INFO     batch_size: 64
+2019-01-03 17:27:57,163 root  INFO     num_epoch: 1000
+2019-01-03 17:27:57,163 root  INFO     learning_rate: 1
+2019-01-03 17:27:57,163 root  INFO     reg_val: 0
+2019-01-03 17:27:57,163 root  INFO     max_gradient_norm: 5.000000
+2019-01-03 17:27:57,164 root  INFO     clip_gradients: True
+2019-01-03 17:27:57,164 root  INFO     valid_target_length inf
+2019-01-03 17:27:57,164 root  INFO     target_vocab_size: 324
+2019-01-03 17:27:57,164 root  INFO     target_embedding_size: 10.000000
+2019-01-03 17:27:57,164 root  INFO     attn_num_hidden: 128
+2019-01-03 17:27:57,164 root  INFO     attn_num_layers: 2
+2019-01-03 17:27:57,164 root  INFO     visualize: True
+2019-01-03 17:27:57,164 root  INFO     buckets
+2019-01-03 17:27:57,164 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-03 17:29:35,375 root  INFO     Created model with fresh parameters.
+2019-01-03 17:29:56,649 root  INFO     Generating first batch)
+2019-01-03 17:29:56,826 root  INFO     Generating first batch)
+2019-01-03 17:29:57,004 root  INFO     Generating first batch)
+2019-01-03 17:29:57,173 root  INFO     Generating first batch)
+2019-01-03 17:29:57,347 root  INFO     Generating first batch)
+2019-01-03 17:29:57,523 root  INFO     Generating first batch)
+2019-01-03 17:29:57,696 root  INFO     Generating first batch)
+2019-01-03 17:29:57,870 root  INFO     Generating first batch)
+2019-01-03 17:29:58,050 root  INFO     Generating first batch)
+2019-01-03 17:29:58,223 root  INFO     Generating first batch)
+2019-01-03 17:29:58,390 root  INFO     Generating first batch)
+2019-01-03 17:29:58,559 root  INFO     Generating first batch)
+2019-01-03 17:29:58,726 root  INFO     Generating first batch)
+2019-01-03 17:29:58,891 root  INFO     Generating first batch)
+2019-01-03 17:29:59,060 root  INFO     Generating first batch)
+2019-01-03 17:31:11,971 root  INFO     loading data
+2019-01-03 17:31:12,147 root  INFO     phase: train
+2019-01-03 17:31:12,147 root  INFO     model_dir: train
+2019-01-03 17:31:12,147 root  INFO     load_model: False
+2019-01-03 17:31:12,147 root  INFO     output_dir: results
+2019-01-03 17:31:12,147 root  INFO     steps_per_checkpoint: 500
+2019-01-03 17:31:12,147 root  INFO     batch_size: 64
+2019-01-03 17:31:12,147 root  INFO     num_epoch: 20
+2019-01-03 17:31:12,147 root  INFO     learning_rate: 1
+2019-01-03 17:31:12,148 root  INFO     reg_val: 0
+2019-01-03 17:31:12,148 root  INFO     max_gradient_norm: 5.000000
+2019-01-03 17:31:12,148 root  INFO     clip_gradients: True
+2019-01-03 17:31:12,148 root  INFO     valid_target_length inf
+2019-01-03 17:31:12,148 root  INFO     target_vocab_size: 324
+2019-01-03 17:31:12,148 root  INFO     target_embedding_size: 10.000000
+2019-01-03 17:31:12,148 root  INFO     attn_num_hidden: 128
+2019-01-03 17:31:12,148 root  INFO     attn_num_layers: 2
+2019-01-03 17:31:12,148 root  INFO     visualize: True
+2019-01-03 17:31:12,149 root  INFO     buckets
+2019-01-03 17:31:12,149 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-03 17:32:47,469 root  INFO     Created model with fresh parameters.
+2019-01-03 17:33:09,224 root  INFO     Generating first batch)
+2019-01-03 17:33:09,385 root  INFO     Generating first batch)
+2019-01-03 17:33:09,549 root  INFO     Generating first batch)
+2019-01-03 17:33:09,709 root  INFO     Generating first batch)
+2019-01-03 17:33:09,868 root  INFO     Generating first batch)
+2019-01-03 17:33:10,030 root  INFO     Generating first batch)
+2019-01-03 17:33:10,199 root  INFO     Generating first batch)
+2019-01-03 17:33:10,364 root  INFO     Generating first batch)
+2019-01-03 17:33:10,532 root  INFO     Generating first batch)
+2019-01-03 17:33:10,704 root  INFO     Generating first batch)
+2019-01-03 17:33:10,862 root  INFO     Generating first batch)
+2019-01-03 17:33:11,015 root  INFO     Generating first batch)
+2019-01-03 17:33:11,180 root  INFO     Generating first batch)
+2019-01-03 17:33:11,340 root  INFO     Generating first batch)
+2019-01-03 17:33:11,510 root  INFO     Generating first batch)
+2019-01-03 17:33:11,678 root  INFO     Generating first batch)
+2019-01-03 17:33:11,846 root  INFO     Generating first batch)
+2019-01-03 17:33:12,015 root  INFO     Generating first batch)
+2019-01-03 17:33:12,188 root  INFO     Generating first batch)
+2019-01-03 17:33:12,358 root  INFO     Generating first batch)
+2019-01-03 17:34:05,211 root  INFO     loading data
+2019-01-03 17:34:05,371 root  INFO     phase: train
+2019-01-03 17:34:05,371 root  INFO     model_dir: train
+2019-01-03 17:34:05,371 root  INFO     load_model: False
+2019-01-03 17:34:05,372 root  INFO     output_dir: results
+2019-01-03 17:34:05,372 root  INFO     steps_per_checkpoint: 500
+2019-01-03 17:34:05,372 root  INFO     batch_size: 64
+2019-01-03 17:34:05,372 root  INFO     num_epoch: 10
+2019-01-03 17:34:05,372 root  INFO     learning_rate: 1
+2019-01-03 17:34:05,372 root  INFO     reg_val: 0
+2019-01-03 17:34:05,372 root  INFO     max_gradient_norm: 5.000000
+2019-01-03 17:34:05,372 root  INFO     clip_gradients: True
+2019-01-03 17:34:05,372 root  INFO     valid_target_length inf
+2019-01-03 17:34:05,372 root  INFO     target_vocab_size: 324
+2019-01-03 17:34:05,372 root  INFO     target_embedding_size: 10.000000
+2019-01-03 17:34:05,373 root  INFO     attn_num_hidden: 128
+2019-01-03 17:34:05,373 root  INFO     attn_num_layers: 2
+2019-01-03 17:34:05,373 root  INFO     visualize: True
+2019-01-03 17:34:05,373 root  INFO     buckets
+2019-01-03 17:34:05,373 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-03 17:35:42,751 root  INFO     Created model with fresh parameters.
+2019-01-03 17:36:04,930 root  INFO     Generating first batch)
+2019-01-03 17:36:05,081 root  INFO     Generating first batch)
+2019-01-03 17:36:05,238 root  INFO     Generating first batch)
+2019-01-03 17:36:05,389 root  INFO     Generating first batch)
+2019-01-03 17:36:05,535 root  INFO     Generating first batch)
+2019-01-03 17:36:05,684 root  INFO     Generating first batch)
+2019-01-03 17:36:05,833 root  INFO     Generating first batch)
+2019-01-03 17:36:05,995 root  INFO     Generating first batch)
+2019-01-03 17:36:06,167 root  INFO     Generating first batch)
+2019-01-03 17:36:06,337 root  INFO     Generating first batch)
+2019-01-04 01:42:50,810 root  INFO     loading data
+2019-01-04 01:42:51,197 root  INFO     phase: train
+2019-01-04 01:42:51,197 root  INFO     model_dir: train
+2019-01-04 01:42:51,197 root  INFO     load_model: False
+2019-01-04 01:42:51,197 root  INFO     output_dir: results
+2019-01-04 01:42:51,197 root  INFO     steps_per_checkpoint: 500
+2019-01-04 01:42:51,197 root  INFO     batch_size: 64
+2019-01-04 01:42:51,197 root  INFO     num_epoch: 10
+2019-01-04 01:42:51,198 root  INFO     learning_rate: 1
+2019-01-04 01:42:51,198 root  INFO     reg_val: 0
+2019-01-04 01:42:51,198 root  INFO     max_gradient_norm: 5.000000
+2019-01-04 01:42:51,198 root  INFO     clip_gradients: True
+2019-01-04 01:42:51,198 root  INFO     valid_target_length inf
+2019-01-04 01:42:51,198 root  INFO     target_vocab_size: 324
+2019-01-04 01:42:51,198 root  INFO     target_embedding_size: 10.000000
+2019-01-04 01:42:51,198 root  INFO     attn_num_hidden: 128
+2019-01-04 01:42:51,198 root  INFO     attn_num_layers: 2
+2019-01-04 01:42:51,198 root  INFO     visualize: True
+2019-01-04 01:42:51,198 root  INFO     buckets
+2019-01-04 01:42:51,198 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-04 01:44:28,982 root  INFO     Created model with fresh parameters.
+2019-01-04 01:44:51,253 root  INFO     Generating first batch)
+2019-01-04 01:44:51,414 root  INFO     Generating first batch)
+2019-01-04 01:44:51,588 root  INFO     Generating first batch)
+2019-01-04 01:44:51,753 root  INFO     Generating first batch)
+2019-01-04 01:44:51,919 root  INFO     Generating first batch)
+2019-01-04 01:44:52,089 root  INFO     Generating first batch)
+2019-01-04 01:44:52,256 root  INFO     Generating first batch)
+2019-01-04 01:44:52,423 root  INFO     Generating first batch)
+2019-01-04 01:44:52,604 root  INFO     Generating first batch)
+2019-01-04 01:44:52,781 root  INFO     Generating first batch)
+2019-01-04 01:51:01,397 root  INFO     loading data
+2019-01-04 01:51:01,571 root  INFO     phase: train
+2019-01-04 01:51:01,571 root  INFO     model_dir: train
+2019-01-04 01:51:01,571 root  INFO     load_model: False
+2019-01-04 01:51:01,571 root  INFO     output_dir: results
+2019-01-04 01:51:01,571 root  INFO     steps_per_checkpoint: 500
+2019-01-04 01:51:01,571 root  INFO     batch_size: 64
+2019-01-04 01:51:01,571 root  INFO     num_epoch: 10
+2019-01-04 01:51:01,571 root  INFO     learning_rate: 1
+2019-01-04 01:51:01,571 root  INFO     reg_val: 0
+2019-01-04 01:51:01,572 root  INFO     max_gradient_norm: 5.000000
+2019-01-04 01:51:01,572 root  INFO     clip_gradients: True
+2019-01-04 01:51:01,572 root  INFO     valid_target_length inf
+2019-01-04 01:51:01,572 root  INFO     target_vocab_size: 324
+2019-01-04 01:51:01,572 root  INFO     target_embedding_size: 10.000000
+2019-01-04 01:51:01,572 root  INFO     attn_num_hidden: 128
+2019-01-04 01:51:01,572 root  INFO     attn_num_layers: 2
+2019-01-04 01:51:01,572 root  INFO     visualize: True
+2019-01-04 01:51:01,572 root  INFO     buckets
+2019-01-04 01:51:01,572 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-04 01:52:39,526 root  INFO     Created model with fresh parameters.
+2019-01-04 01:53:00,703 root  INFO     Generating first batch)
+2019-01-04 01:53:00,703 root  INFO     Generating first batch)
+2019-01-04 01:53:00,703 root  INFO     Generating first batch)
+2019-01-04 01:53:00,704 root  INFO     Generating first batch)
+2019-01-04 01:53:00,704 root  INFO     Generating first batch)
+2019-01-04 01:53:00,704 root  INFO     Generating first batch)
+2019-01-04 01:53:00,704 root  INFO     Generating first batch)
+2019-01-04 01:53:00,704 root  INFO     Generating first batch)
+2019-01-04 01:53:00,704 root  INFO     Generating first batch)
+2019-01-04 01:53:00,704 root  INFO     Generating first batch)
+2019-01-04 02:22:09,587 root  INFO     loading data
+2019-01-04 02:22:09,760 root  INFO     phase: train
+2019-01-04 02:22:09,760 root  INFO     model_dir: train
+2019-01-04 02:22:09,760 root  INFO     load_model: False
+2019-01-04 02:22:09,760 root  INFO     output_dir: results
+2019-01-04 02:22:09,761 root  INFO     steps_per_checkpoint: 500
+2019-01-04 02:22:09,761 root  INFO     batch_size: 64
+2019-01-04 02:22:09,761 root  INFO     num_epoch: 10
+2019-01-04 02:22:09,761 root  INFO     learning_rate: 1
+2019-01-04 02:22:09,761 root  INFO     reg_val: 0
+2019-01-04 02:22:09,761 root  INFO     max_gradient_norm: 5.000000
+2019-01-04 02:22:09,761 root  INFO     clip_gradients: True
+2019-01-04 02:22:09,761 root  INFO     valid_target_length inf
+2019-01-04 02:22:09,761 root  INFO     target_vocab_size: 324
+2019-01-04 02:22:09,761 root  INFO     target_embedding_size: 10.000000
+2019-01-04 02:22:09,761 root  INFO     attn_num_hidden: 128
+2019-01-04 02:22:09,761 root  INFO     attn_num_layers: 2
+2019-01-04 02:22:09,761 root  INFO     visualize: True
+2019-01-04 02:22:09,761 root  INFO     buckets
+2019-01-04 02:22:09,762 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-04 02:23:47,230 root  INFO     Created model with fresh parameters.
+2019-01-04 02:24:09,222 root  INFO     Generating first batch)
+2019-01-04 03:38:45,006 root  INFO     loading data
+2019-01-04 03:38:45,350 root  INFO     phase: train
+2019-01-04 03:38:45,351 root  INFO     model_dir: train
+2019-01-04 03:38:45,351 root  INFO     load_model: False
+2019-01-04 03:38:45,351 root  INFO     output_dir: results
+2019-01-04 03:38:45,351 root  INFO     steps_per_checkpoint: 500
+2019-01-04 03:38:45,351 root  INFO     batch_size: 64
+2019-01-04 03:38:45,351 root  INFO     num_epoch: 10
+2019-01-04 03:38:45,351 root  INFO     learning_rate: 1
+2019-01-04 03:38:45,351 root  INFO     reg_val: 0
+2019-01-04 03:38:45,351 root  INFO     max_gradient_norm: 5.000000
+2019-01-04 03:38:45,351 root  INFO     clip_gradients: True
+2019-01-04 03:38:45,352 root  INFO     valid_target_length inf
+2019-01-04 03:38:45,352 root  INFO     target_vocab_size: 324
+2019-01-04 03:38:45,352 root  INFO     target_embedding_size: 10.000000
+2019-01-04 03:38:45,352 root  INFO     attn_num_hidden: 128
+2019-01-04 03:38:45,352 root  INFO     attn_num_layers: 2
+2019-01-04 03:38:45,352 root  INFO     visualize: True
+2019-01-04 03:38:45,352 root  INFO     buckets
+2019-01-04 03:38:45,352 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-04 03:40:10,197 root  INFO     loading data
+2019-01-04 03:40:10,424 root  INFO     phase: train
+2019-01-04 03:40:10,424 root  INFO     model_dir: train
+2019-01-04 03:40:10,424 root  INFO     load_model: False
+2019-01-04 03:40:10,424 root  INFO     output_dir: results
+2019-01-04 03:40:10,424 root  INFO     steps_per_checkpoint: 500
+2019-01-04 03:40:10,424 root  INFO     batch_size: 64
+2019-01-04 03:40:10,424 root  INFO     num_epoch: 10
+2019-01-04 03:40:10,425 root  INFO     learning_rate: 1
+2019-01-04 03:40:10,425 root  INFO     reg_val: 0
+2019-01-04 03:40:10,425 root  INFO     max_gradient_norm: 5.000000
+2019-01-04 03:40:10,425 root  INFO     clip_gradients: True
+2019-01-04 03:40:10,425 root  INFO     valid_target_length inf
+2019-01-04 03:40:10,425 root  INFO     target_vocab_size: 324
+2019-01-04 03:40:10,425 root  INFO     target_embedding_size: 10.000000
+2019-01-04 03:40:10,425 root  INFO     attn_num_hidden: 128
+2019-01-04 03:40:10,425 root  INFO     attn_num_layers: 2
+2019-01-04 03:40:10,425 root  INFO     visualize: True
+2019-01-04 03:40:10,426 root  INFO     buckets
+2019-01-04 03:40:10,426 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-04 03:41:53,261 root  INFO     Created model with fresh parameters.
+2019-01-04 03:42:16,590 root  INFO     Generating first batch)
+2019-01-04 03:43:20,552 root  INFO     loading data
+2019-01-04 03:43:20,729 root  INFO     phase: train
+2019-01-04 03:43:20,729 root  INFO     model_dir: train
+2019-01-04 03:43:20,729 root  INFO     load_model: False
+2019-01-04 03:43:20,730 root  INFO     output_dir: results
+2019-01-04 03:43:20,730 root  INFO     steps_per_checkpoint: 500
+2019-01-04 03:43:20,730 root  INFO     batch_size: 64
+2019-01-04 03:43:20,730 root  INFO     num_epoch: 10
+2019-01-04 03:43:20,730 root  INFO     learning_rate: 1
+2019-01-04 03:43:20,730 root  INFO     reg_val: 0
+2019-01-04 03:43:20,730 root  INFO     max_gradient_norm: 5.000000
+2019-01-04 03:43:20,730 root  INFO     clip_gradients: True
+2019-01-04 03:43:20,730 root  INFO     valid_target_length inf
+2019-01-04 03:43:20,730 root  INFO     target_vocab_size: 324
+2019-01-04 03:43:20,730 root  INFO     target_embedding_size: 10.000000
+2019-01-04 03:43:20,731 root  INFO     attn_num_hidden: 128
+2019-01-04 03:43:20,731 root  INFO     attn_num_layers: 2
+2019-01-04 03:43:20,731 root  INFO     visualize: True
+2019-01-04 03:43:20,731 root  INFO     buckets
+2019-01-04 03:43:20,731 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-04 03:45:04,411 root  INFO     Created model with fresh parameters.
+2019-01-04 03:45:26,981 root  INFO     Generating first batch)
+2019-01-04 04:53:55,504 root  INFO     loading data
+2019-01-04 04:53:55,667 root  INFO     phase: train
+2019-01-04 04:53:55,667 root  INFO     model_dir: train
+2019-01-04 04:53:55,667 root  INFO     load_model: False
+2019-01-04 04:53:55,667 root  INFO     output_dir: results
+2019-01-04 04:53:55,667 root  INFO     steps_per_checkpoint: 500
+2019-01-04 04:53:55,667 root  INFO     batch_size: 64
+2019-01-04 04:53:55,667 root  INFO     num_epoch: 10
+2019-01-04 04:53:55,667 root  INFO     learning_rate: 1
+2019-01-04 04:53:55,668 root  INFO     reg_val: 0
+2019-01-04 04:53:55,668 root  INFO     max_gradient_norm: 5.000000
+2019-01-04 04:53:55,668 root  INFO     clip_gradients: True
+2019-01-04 04:53:55,668 root  INFO     valid_target_length inf
+2019-01-04 04:53:55,668 root  INFO     target_vocab_size: 324
+2019-01-04 04:53:55,668 root  INFO     target_embedding_size: 10.000000
+2019-01-04 04:53:55,668 root  INFO     attn_num_hidden: 128
+2019-01-04 04:53:55,668 root  INFO     attn_num_layers: 2
+2019-01-04 04:53:55,668 root  INFO     visualize: True
+2019-01-04 04:53:55,668 root  INFO     buckets
+2019-01-04 04:53:55,668 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-04 04:55:34,257 root  INFO     Created model with fresh parameters.
+2019-01-04 04:55:55,355 root  INFO     Generating first batch)
+2019-01-04 05:59:47,458 root  INFO     loading data
+2019-01-04 05:59:48,127 root  INFO     phase: train
+2019-01-04 05:59:48,127 root  INFO     model_dir: train
+2019-01-04 05:59:48,127 root  INFO     load_model: False
+2019-01-04 05:59:48,127 root  INFO     output_dir: results
+2019-01-04 05:59:48,127 root  INFO     steps_per_checkpoint: 500
+2019-01-04 05:59:48,127 root  INFO     batch_size: 64
+2019-01-04 05:59:48,127 root  INFO     num_epoch: 10
+2019-01-04 05:59:48,128 root  INFO     learning_rate: 1
+2019-01-04 05:59:48,128 root  INFO     reg_val: 0
+2019-01-04 05:59:48,128 root  INFO     max_gradient_norm: 5.000000
+2019-01-04 05:59:48,128 root  INFO     clip_gradients: True
+2019-01-04 05:59:48,128 root  INFO     valid_target_length inf
+2019-01-04 05:59:48,128 root  INFO     target_vocab_size: 324
+2019-01-04 05:59:48,128 root  INFO     target_embedding_size: 10.000000
+2019-01-04 05:59:48,128 root  INFO     attn_num_hidden: 128
+2019-01-04 05:59:48,128 root  INFO     attn_num_layers: 2
+2019-01-04 05:59:48,128 root  INFO     visualize: True
+2019-01-04 05:59:48,128 root  INFO     buckets
+2019-01-04 05:59:48,128 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
