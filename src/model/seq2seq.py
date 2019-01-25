@@ -68,9 +68,9 @@ from tensorflow.python.ops import control_flow_ops
 from tensorflow.python.ops import embedding_ops
 from tensorflow.python.ops import math_ops
 from tensorflow.python.ops import nn_ops
-from tensorflow.contrib.rnn.python.ops import rnn, rnn_cell
+from tensorflow.contrib.rnn.python.ops import rnn, core_rnn_cell
 from tensorflow.python.ops import variable_scope
-linear = rnn_cell._linear # pylint: disable=protected-access
+linear = core_rnn_cell._linear # pylint: disable=protected-access
 
 def _extract_argmax_and_embed(embedding, output_projection=None,
                               update_embedding=True):

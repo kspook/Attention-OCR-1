@@ -59,11 +59,23 @@ class Model(object):
         if phase == 'train':
             self.s_gen = DataGen(
                 data_base_dir, data_path, valid_target_len=valid_target_length, evaluate=False)
+            print (self.s_gen)
+            '''
+            for i,batch in enumerate(self.s_gen.gen(64)):
+            #for i,batch in enumerate(self.s_gen.gen(batch_size)):
+                        # Get a batch and make a step.
+                        #num_correct = 0
+                        #start_time = time.time()
+                        batch_len = batch['real_len']
+                        bucket_id = batch['bucket_id']
+                        img_data = batch['data']
+                        zero_paddings = batch['zero_paddings']
+                        print('img_data', img_data)
+            '''
         else:
             batch_size = 1
             self.s_gen = DataGen(
                 data_base_dir, data_path, evaluate=True)
-
 
         #logging.info('valid_target_length: %s' %(str(valid_target_length)))
         logging.info('phase: %s' % phase)
@@ -130,7 +142,8 @@ class Model(object):
             assert False, phase
 
         with tf.device(gpu_device_id):
-            cnn_model = CNN(self.img_data, True) #(not self.forward_only))
+            #cnn_model = CNN(self.img_data, True) #(not self.forward_only))
+            cnn_model = CNN(self.img_data, not self.forward_only)			
             self.conv_output = cnn_model.tf_output()
             self.concat_conv_output = tf.concat(axis=1, values=[self.conv_output, self.zero_paddings])
 
@@ -221,6 +234,8 @@ class Model(object):
                 logging.info('Compare word based on edit distance.')
             num_correct = 0
             num_total = 0
+            print('self.s_gen.gen for test')
+            print(self.s_gen.gen )
             for batch in self.s_gen.gen(self.batch_size):
                 # Get a batch and make a step.
                 start_time = time.time()
@@ -244,23 +259,27 @@ class Model(object):
                 if self.visualize:
                     step_attns = np.array([[a.tolist() for a in step_attn] for step_attn in step_attns]).transpose([1, 0, 2])
                     #print (step_attns)
-
+                print ('test:grounds, step_outputs', grounds, step_outputs)
                 for idx, output, ground in zip(range(len(grounds)), step_outputs, grounds):
                     flag_ground,flag_out = True, True
                     num_total += 1
                     output_valid = []
                     ground_valid = []
                     for j in range(1,len(ground)):
-                        s1 = output[j-1]
+                        print('test : j & len(ground) ' , j, len(ground))					  
+                        #s1 = output[j]
+                        s1 = output[j-1]						
                         s2 = ground[j]
                         if s2 != 2 and flag_ground:
                             ground_valid.append(s2)
                         else:
                             flag_ground = False
-                        if s1 != 2 and flag_out:
+                        if s1 != 2 and  s2!=2 and flag_out:
+                        #if s1 != 2 and flag_out:						
                             output_valid.append(s1)
                         else:
                             flag_out = False
+                    print('test : ground_valid, output_valid : ' , ground_valid, output_valid)		
                     if distance_loaded:
                         num_incorrect = distance.levenshtein(output_valid, ground_valid)
                         if self.visualize:
@@ -278,11 +297,24 @@ class Model(object):
                 logging.info('%f out of %d correct' %(num_correct, num_total))
         elif self.phase == 'train':
             total = (self.s_gen.get_size() // self.batch_size)
+            print('total', total,self.s_gen.get_size(), self.batch_size)
             with tqdm(desc='Train: ', total=total) as pbar:
+                print('self.num_epoch', self.num_epoch)
                 for epoch in range(self.num_epoch):
-
                    logging.info('Generating first batch)')
+                   print('epoch', epoch)
+                   #print(self.s_gen.gen(self.batch_size))
+                   #self.s_gen.gen(64)
+                   #print(a['filenames'])
+                   #for i,batch in enumerate(self.s_gen.gen(64)):
                    for i,batch in enumerate(self.s_gen.gen(self.batch_size)):
+                        '''
+                        print('i={}, batch={}'.format(i, batch))
+                        print('enumerate')
+                        file_list = batch['filenames']
+                        print('file_list', file_list)
+                        '''
+
                         # Get a batch and make a step.
                         num_total = 0
                         num_correct = 0
@@ -294,9 +326,9 @@ class Model(object):
                         decoder_inputs = batch['decoder_inputs']
                         target_weights = batch['target_weights']
                         encoder_masks = batch['encoder_mask']
-                        #logging.info('current_step: %d'%current_step)
-                        #logging.info(np.array([decoder_input.tolist() for decoder_input in decoder_inputs]).transpose()[0])
-                        #print (np.array([target_weight.tolist() for target_weight in target_weights]).transpose()[0])
+                        logging.info('current_step: %d'%current_step)
+                        logging.info(np.array([decoder_input.tolist() for decoder_input in decoder_inputs]).transpose()[0])
+                        print (np.array([target_weight.tolist() for target_weight in target_weights]).transpose()[0])
                         summaries, step_loss, step_logits, _ = self.step(encoder_masks, img_data, zero_paddings, decoder_inputs, target_weights, bucket_id, self.forward_only)
 
                         grounds = [a for a in
@@ -416,6 +448,7 @@ class Model(object):
 
 
     def visualize_attention(self, filename, attentions, output_valid, ground_valid, flag_incorrect, real_len):
+        print('groundvalid  outputvalid in visualize',  ground_valid, output_valid )	
         if flag_incorrect:
             output_dir = os.path.join(self.output_dir, 'incorrect')
         else:
@@ -423,9 +456,49 @@ class Model(object):
         output_dir = os.path.join(output_dir, filename.replace('/', '_'))
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
-        with open(os.path.join(output_dir, 'word.txt'), 'w') as fword:
-            fword.write(' '.join([chr(c-13+97) if c-13+97>96 else chr(c-3+48) for c in ground_valid])+'\n')
-            fword.write(' '.join([chr(c-13+97) if c-13+97>96 else chr(c-3+48) for c in output_valid]))
+        with open(os.path.join(output_dir, 'word.txt'), 'w', encoding='utf8') as fword:
+        #with open(os.path.join(output_dir, 'word.txt'), 'w', encoding='utf8', errors="surrogateescape") as fword:				
+            c = ground_valid
+            print('fword-g',   c)
+					
+            #fword.write(' '.join([ str(c -3-150-43+44032+43).encode('utf-8')  if c-3-150-43+44032+43>44031 
+            aaa=[chr(c -3-150-43+44032+43).encode('utf8','ignore')  if c-3-150-43+44032+43>44031 			
+                                   #else (chr(c-3-38+43) if c-3-38+43>96 
+                                   #else (chr(c-3-12+43) if c-3-12+43>64 
+                                   #else (chr(c-3-2+43) if c-3-2+43>47 
+                                   #else (chr(c-3-1+43) if c-3-1+43>45
+                                   #else chr(c-3+43)  for c in ground_valid]).encode('utf-8', 'surrogateescape')+'\n')
+                                   else chr(c-3+43).encode('utf8','ignore') for c in ground_valid]
+            fword.write( ' '.join(map(bytes.decode,aaa)))
+								   #+'\n')
+                                   #else  chr(c-3+43)  for c in output_valid])+'\n')	
+            fword.write("\n")								   
+            c = output_valid
+            t=[]
+            i=0			
+            if  not output_valid :
+                t=list(i, s in enumerate(c)) 
+                #t=list(range(int(output_valid[0]),int(output_valid[0])) )				
+                if i==0:
+                    print('output_valid[0]', t)					
+            else :
+                t=list(range(3,4))
+            print('fword-o',   t)	
+            print('fword-o',   output_valid)				
+            #output_valid = t			
+											   
+ 
+            aaa=[chr(c -3-150-43+44032+43).encode('utf8','ignore')  if c-3-150-43+44032+43>44031 			
+                                   #else (chr(c-3-38+43) if c-3-38+43>96 
+                                   #else (chr(c-3-12+43) if c-3-12+43>64 
+                                   #else (chr(c-3-2+43) if c-3-2+43>47 
+                                   #else (chr(c-3-1+43) if c-3-1+43>45
+                                   #else chr(c-3+43)  for c in ground_valid]).encode('utf-8', 'surrogateescape')+'\n')
+                                   else chr(c-3+43).encode('utf8','ignore') for c in output_valid]
+            fword.write( ' '.join(map(bytes.decode,aaa)))	
+            print('fword-o aaa', aaa)			
+            #fword.write(' '.join([chr(c-13+97) if c-13+97>96 else chr(c-3+48) for c in ground_valid])+'\n')
+            #fword.write(' '.join([chr(c-13+97) if c-13+97>96 else chr(c-3+48) for c in output_valid]))
             with open(filename, 'rb') as img_file:
                 img = Image.open(img_file)
                 w, h = img.size
@@ -454,5 +527,5 @@ class Model(object):
                     img_out_data = img_data * attention_out
                     img_out = Image.fromarray(img_out_data.astype(np.uint8))
                     img_out.save(output_filename)
-                    #print (output_filename)
+                    print (output_filename)
                 #assert False

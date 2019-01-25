@@ -1,0 +1,43 @@
+2019-01-03 15:45:59,513 root  INFO     loading data
+2019-01-03 15:45:59,514 root  INFO     phase: train
+2019-01-03 15:45:59,514 root  INFO     model_dir: train
+2019-01-03 15:45:59,514 root  INFO     load_model: False
+2019-01-03 15:45:59,514 root  INFO     output_dir: results
+2019-01-03 15:45:59,514 root  INFO     steps_per_checkpoint: 500
+2019-01-03 15:45:59,514 root  INFO     batch_size: 64
+2019-01-03 15:45:59,514 root  INFO     num_epoch: 1000
+2019-01-03 15:45:59,515 root  INFO     learning_rate: 1
+2019-01-03 15:45:59,515 root  INFO     reg_val: 0
+2019-01-03 15:45:59,515 root  INFO     max_gradient_norm: 5.000000
+2019-01-03 15:45:59,515 root  INFO     clip_gradients: True
+2019-01-03 15:45:59,515 root  INFO     valid_target_length inf
+2019-01-03 15:45:59,515 root  INFO     target_vocab_size: 324
+2019-01-03 15:45:59,515 root  INFO     target_embedding_size: 10.000000
+2019-01-03 15:45:59,515 root  INFO     attn_num_hidden: 128
+2019-01-03 15:45:59,515 root  INFO     attn_num_layers: 2
+2019-01-03 15:45:59,515 root  INFO     visualize: True
+2019-01-03 15:45:59,515 root  INFO     buckets
+2019-01-03 15:45:59,515 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-03 15:47:34,032 root  INFO     Created model with fresh parameters.
+2019-01-03 15:47:55,391 root  INFO     Generating first batch)
+2019-01-03 16:00:10,525 root  INFO     loading data
+2019-01-03 16:00:10,526 root  INFO     phase: train
+2019-01-03 16:00:10,526 root  INFO     model_dir: train
+2019-01-03 16:00:10,526 root  INFO     load_model: False
+2019-01-03 16:00:10,526 root  INFO     output_dir: results
+2019-01-03 16:00:10,527 root  INFO     steps_per_checkpoint: 500
+2019-01-03 16:00:10,527 root  INFO     batch_size: 64
+2019-01-03 16:00:10,527 root  INFO     num_epoch: 1000
+2019-01-03 16:00:10,527 root  INFO     learning_rate: 1
+2019-01-03 16:00:10,527 root  INFO     reg_val: 0
+2019-01-03 16:00:10,527 root  INFO     max_gradient_norm: 5.000000
+2019-01-03 16:00:10,527 root  INFO     clip_gradients: True
+2019-01-03 16:00:10,527 root  INFO     valid_target_length inf
+2019-01-03 16:00:10,527 root  INFO     target_vocab_size: 324
+2019-01-03 16:00:10,527 root  INFO     target_embedding_size: 10.000000
+2019-01-03 16:00:10,527 root  INFO     attn_num_hidden: 128
+2019-01-03 16:00:10,527 root  INFO     attn_num_layers: 2
+2019-01-03 16:00:10,527 root  INFO     visualize: True
+2019-01-03 16:00:10,528 root  INFO     buckets
+2019-01-03 16:00:10,528 root  INFO     [(16, 11), (27, 17), (35, 19), (64, 22), (80, 32)]
+2019-01-03 16:01:49,658 root  INFO     Created model with fresh parameters.
