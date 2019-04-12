@@ -1,5 +1,6 @@
 __author__ = 'moonkey'
 
+import io
 import os
 import numpy as np
 from PIL import Image
@@ -9,6 +10,10 @@ import random, math
 from data_util.bucketdata import BucketData
 
 
+SCRIPT_PATH = os.path.dirname(os.path.abspath(__file__))
+DEFAULT_LABEL_FILE = os.path.join(SCRIPT_PATH,
+                                  #'../labels/bank_labelsSW.txt')
+                                  '../labels/bank_labelsS.txt')								  
 
 class DataGen(object):
     GO = 1
@@ -56,23 +61,28 @@ class DataGen(object):
                             for i in range(self.bucket_max_width + 1)}
 
     def get_size(self):
-        with open(self.annotation_path, 'r', encoding='utf8') as ann_file:
+        with open(self.annotation_path, 'r', encoding='utf-8') as ann_file:
             return len(ann_file.readlines())
 
     def gen(self, batch_size):
         valid_target_len = self.valid_target_len
-        with open(self.annotation_path, 'r', encoding='utf8') as ann_file:
+
+
+        with open(self.annotation_path, 'r', encoding='utf-8') as ann_file:
             lines = ann_file.readlines()
+            print('annotation_path ', self.annotation_path)
             random.shuffle(lines)
             for l in lines:
-                img_path, lex = l.strip().split()
-                print('img_path, lex', img_path, lex)
+                img_path, lex = l.rstrip().split('  ')
+                #img_path, lex = l.strip().split()				
+                #print('img_path, lex', img_path, lex)
                 try:
                     img_bw, word = self.read_data(img_path, lex)
+                    #print('data gen : img_bw,  word=self.read_data',  word)
                     if valid_target_len < float('inf'):
                         word = word[:valid_target_len + 1]
                     width = img_bw.shape[-1]
-                    print('width', width)
+                    #print('width', width)
 
                     # TODO:resize if > 320
                     b_idx = min(width, self.bucket_max_width)
@@ -94,12 +104,12 @@ class DataGen(object):
 
     def read_data(self, img_path, lex):
         assert 0 < len(lex) < self.bucket_specs[-1][1]
-        print('read_data:self.data_root', self.data_root)
+        #print('read_data:self.data_root', self.data_root)
         # L = R * 299/1000 + G * 587/1000 + B * 114/1000
         with open(os.path.join(self.data_root, img_path), 'rb') as img_file:
             img = Image.open(img_file)
             w, h = img.size
-            print('w,h : ', w,h)
+            #print('w,h : ', w,h)
             aspect_ratio = float(w) / float(h)
             if aspect_ratio < float(self.bucket_min_width) / self.image_height:
                 img = img.resize(
@@ -122,48 +132,64 @@ class DataGen(object):
         # 'a':97, '0':48
         word = [self.GO]
         #num_char = 123+26+256+3+1
+        # , 44 . 46    0~9 :48-58  A-Z : 65-90 a-z :97~122  
 
         try:
-            fp=open('outputs.txt', 'w+')
+            fp=open('outputs.txt', 'w+', encoding='utf-8')
         except:
             print('could not open file'+outputs.txt)
             quit()
 
+        '''        
         for c in lex:
-            #assert 64 < ord(c) < num_char or 47 < ord(c) < 58
-            #0assert 96 < ord(c) < 123 or 47 < ord(c) < 58
+            #assert 96 < ord(c) < 123 or 47 < ord(c) < 58
             #print('c', ord(c))
             fp.write(img_path+'\t'+lex+'\t')
             fp.write(str(ord(c)))
             word.append(
-                ord(c) - 44032- 43 +43 + 150 +3   if ord(c) > 44031   
-                #else (ord(c) - 43 +38 +3 if ord(c)> 96 
-                #else (ord(c) - 43 +12 +3 if ord(c)> 64 
-                #else (ord(c) - 43 + 2 + 3 if ord(c) > 47  
-                #else (ord(c) - 43 + 1 + 3 if ord(c) > 45  
+                ord(c) - 44032- 43 +43 + 117 +3   if ord(c) > 44031   
                 else ord(c) - 43 + 3)
-# , 44 . 46    0~9 :48-58  A-Z : 65-90 a-z :97~122  
+                #else ord(c) - 43 + 3)))))
             fp.write('\n')
         fp.close()
         '''        
+        '''        
         for c in lex:
-            #assert 96 < ord(c) < num_char or 47 < ord(c) < 58
             #0assert 96 < ord(c) < 123 or 47 < ord(c) < 58
             print('c', ord(c))
             word.append(
                 ord(c) - 97 + 13 if ord(c) > 96 else ord(c) - 48 + 3)
         '''
+        label_file = DEFAULT_LABEL_FILE
+        with io.open(label_file, 'r', encoding='utf-8') as f:
+           labels = f.read().splitlines()
+
+        for c in lex:
+            print('c ord(c)', c, ord(c))
+            for i, l in enumerate(labels):
+                #print('i  l', i , l)
+                if c== l:
+                   n=i+3
+                   print('data gen c ord(c) l i n : ', c, ord(c), l, i, n)
+                   word.append(n)
+                '''
+                else:
+                   print('exit')
+                   exit()
+                '''
+
         word.append(self.EOS)
+        '''
         word = np.array(word, dtype=np.int32)
         word = np.array( [self.GO] +
-        [ord(c) -44032- 43 + 43 + 150 +3   if ord(c) > 44031   
-        #else (ord(c) - 43 +38 +3 if ord(c)> 96 
-        #else (ord(c) - 43 +12 +3 if ord(c)> 64 
-        #else (ord(c) - 43 + 2 +3 if ord(c)> 47 
-        #else (ord(c) - 43 + 1 + 3 if ord(c) > 45  
-        else ord(c) - 43 + 3
+        [ord(c) -44032- 43 + 43 + 117 +3   if ord(c) > 44031   
+        #else ord(c) - 43 + 3
+        #else ord(c) - 43 + 3))))
         #[ord(c) - 97 + 13 if ord(c) > 96 else ord(c) - 48 + 3
         for c in lex] + [self.EOS], dtype=np.int32)   
+        word = np.array( [self.GO] +
+        word + [self.EOS], dtype=np.int32)   
+        '''
         '''
         fp=open(outputs.txt, 'w', endconding='utf8')
         fp.truncate()
@@ -174,8 +200,8 @@ class DataGen(object):
             fp.write('\n')
         fp.close()
         '''
-        print('ord(c), c: ', ord(c), c)
-        print('word:', word)
+        #print('ord(c), c: ', ord(c), c)
+        #print('word:', word)
 
         return img_bw, word
 

@@ -4,7 +4,7 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-import random, time, os, shutil, math, sys, logging
+import random, time, io, os, shutil, math, sys, logging
 #import ipdb
 import numpy as np
 from six.moves import xrange  # pylint: disable=redefined-builtin
@@ -17,6 +17,11 @@ from .cnn import CNN
 from .seq2seq_model import Seq2SeqModel
 from data_util.data_gen import DataGen
 from tqdm import tqdm
+
+SCRIPT_PATH = os.path.dirname(os.path.abspath(__file__))
+DEFAULT_LABEL_FILE = os.path.join(SCRIPT_PATH,
+                                  #'../labels/bank_labelsSW.txt')
+                                  '../labels/bank_labelsS.txt')
 
 try:
     import distance
@@ -266,7 +271,7 @@ class Model(object):
                     output_valid = []
                     ground_valid = []
                     for j in range(1,len(ground)):
-                        print('test : j & len(ground) ' , j, len(ground))					  
+                        #print('test : j & len(ground) ' , j, len(ground))					  
                         #s1 = output[j]
                         s1 = output[j-1]						
                         s2 = ground[j]
@@ -274,12 +279,15 @@ class Model(object):
                             ground_valid.append(s2)
                         else:
                             flag_ground = False
-                        if s1 != 2 and  s2!=2 and flag_out:
-                        #if s1 != 2 and flag_out:						
+                        #if s1 != 2 and  s2!=2 and flag_out:
+                        if s1 != 2 and flag_out:						
                             output_valid.append(s1)
                         else:
                             flag_out = False
                     print('test : ground_valid, output_valid : ' , ground_valid, output_valid)		
+                    if not output_valid :
+                        s1_t=np.array([90000])					    
+                        output_valid.append(s1_t)					
                     if distance_loaded:
                         num_incorrect = distance.levenshtein(output_valid, ground_valid)
                         if self.visualize:
@@ -349,7 +357,8 @@ class Model(object):
                                     ground_valid.append(s2)
                                 else:
                                     flag_ground = False
-                                if s1 != 2 and flag_out:
+                                #if s1 != 2 and flag_out:
+                                if s1 != 2 and  s2!=2 and flag_out:								
                                     output_valid.append(s1)
                                 else:
                                     flag_out = False
@@ -456,47 +465,51 @@ class Model(object):
         output_dir = os.path.join(output_dir, filename.replace('/', '_'))
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
+			
+        label_file = DEFAULT_LABEL_FILE
+        with io.open(label_file, 'r', encoding='utf-8') as f:
+           labels = f.read().splitlines()
+        labels_list = enumerate(labels)
+        #print(labels_list(1))
+        #print(labels[1])
+        #with open(os.path.join('results_f59SDR', 'word.txt'), 'w', encoding='utf8') as fword:
         with open(os.path.join(output_dir, 'word.txt'), 'w', encoding='utf8') as fword:
-        #with open(os.path.join(output_dir, 'word.txt'), 'w', encoding='utf8', errors="surrogateescape") as fword:				
-            c = ground_valid
-            print('fword-g',   c)
-					
-            #fword.write(' '.join([ str(c -3-150-43+44032+43).encode('utf-8')  if c-3-150-43+44032+43>44031 
-            aaa=[chr(c -3-150-43+44032+43).encode('utf8','ignore')  if c-3-150-43+44032+43>44031 			
-                                   #else (chr(c-3-38+43) if c-3-38+43>96 
-                                   #else (chr(c-3-12+43) if c-3-12+43>64 
-                                   #else (chr(c-3-2+43) if c-3-2+43>47 
-                                   #else (chr(c-3-1+43) if c-3-1+43>45
-                                   #else chr(c-3+43)  for c in ground_valid]).encode('utf-8', 'surrogateescape')+'\n')
-                                   else chr(c-3+43).encode('utf8','ignore') for c in ground_valid]
-            fword.write( ' '.join(map(bytes.decode,aaa)))
-								   #+'\n')
-                                   #else  chr(c-3+43)  for c in output_valid])+'\n')	
-            fword.write("\n")								   
-            c = output_valid
-            t=[]
-            i=0			
-            if  not output_valid :
-                t=list(i, s in enumerate(c)) 
-                #t=list(range(int(output_valid[0]),int(output_valid[0])) )				
-                if i==0:
-                    print('output_valid[0]', t)					
-            else :
-                t=list(range(3,4))
-            print('fword-o',   t)	
-            print('fword-o',   output_valid)				
-            #output_valid = t			
-											   
- 
-            aaa=[chr(c -3-150-43+44032+43).encode('utf8','ignore')  if c-3-150-43+44032+43>44031 			
-                                   #else (chr(c-3-38+43) if c-3-38+43>96 
-                                   #else (chr(c-3-12+43) if c-3-12+43>64 
-                                   #else (chr(c-3-2+43) if c-3-2+43>47 
-                                   #else (chr(c-3-1+43) if c-3-1+43>45
-                                   #else chr(c-3+43)  for c in ground_valid]).encode('utf-8', 'surrogateescape')+'\n')
-                                   else chr(c-3+43).encode('utf8','ignore') for c in output_valid]
-            fword.write( ' '.join(map(bytes.decode,aaa)))	
-            print('fword-o aaa', aaa)			
+            gv=ground_valid
+            for i, c in enumerate(ground_valid):
+                #print('c ord(c)', c, ord(c))
+                for j, l in enumerate(labels):
+                   #print('j  l', j , l)
+                   if (c-3)== j:
+                       ##print('j n : ', j, n)
+                       gv[i]=l
+
+            print('aaa ground valid', gv, ground_valid)
+            #fword.write(' '.join(str(x) for x in aaa))
+            #fword.write(' '.join(str(x) for x in aaa).encode().decode())
+            #fword.write(' '.join(map(str, aaa)))
+            fword.write(' '.join(gv))
+            #fword.write('aaa\n')
+
+            ov=output_valid
+            for i, c in enumerate(output_valid):
+                #print('c ord(c)', c, ord(c))
+                for j, l in enumerate(labels):
+                   #print('j  l', j , l)
+                   if (c-3)== j:
+                       ##print('j n : ', j, n)
+                       ov[i]=l
+
+            #print('aaa output valid', ov,output_valid)
+            fword.write(' '.join(ov))
+            #fword.write(' '.join(map(str, aaa)))
+            #b=' '.join(str(x) for x in aaa).encode().decode()
+            #fword.write(b)
+            #fword.write(' '.join(str(x) for x in aaa).encode().decode())
+            #li=[]
+            #for c in map(str, aaa):
+            #    li.append(c.encode('utf8', 'ignore'))
+            #fword.write(' '.join(str(x) for x in li))
+            #fword.writerow(''.join(map(str,li)))
             #fword.write(' '.join([chr(c-13+97) if c-13+97>96 else chr(c-3+48) for c in ground_valid])+'\n')
             #fword.write(' '.join([chr(c-13+97) if c-13+97>96 else chr(c-3+48) for c in output_valid]))
             with open(filename, 'rb') as img_file:
@@ -508,7 +521,10 @@ class Model(object):
                         Image.ANTIALIAS)
                 img_data = np.asarray(img, dtype=np.uint8)
                 for idx in range(len(output_valid)):
-                    output_filename = os.path.join(output_dir, 'image_%d.jpg'%(idx))
+                    #output_filename = os.path.join('results_f59SDR', 'image_%d.jpg'%(idx))
+                    output_filename = os.path.join(output_dir, 'image_%d.jpg'%(idx))					
+					
+					
                     attention = attentions[idx][:(int(real_len/4)-1)]
 
                     # I have got the attention_orig here, which is of size 32*len(ground_truth), the only thing left is to visualize it and save it to output_filename
@@ -527,5 +543,5 @@ class Model(object):
                     img_out_data = img_data * attention_out
                     img_out = Image.fromarray(img_out_data.astype(np.uint8))
                     img_out.save(output_filename)
-                    print (output_filename)
+                    #print (output_filename)
                 #assert False

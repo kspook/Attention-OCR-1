@@ -1,0 +1,27 @@
+#1.output_node : concat
+python C:\Users\60067527\Anaconda3\envs\py36\Lib\site-packages\tensorflow\python\tools\freeze_graph.py     --input_graph=./trainf1Sv2/attn.pbtxt     --input_checkpoint=./trainf1Sv2/translate.ckpt-1000     --output_graph=./trainf1Sv2/frozen_graph.pb    --input_node_names=img_data    --output_node_names=model_with_buckets/concat
+
+
+python C:\Users\60067527\Anaconda3\envs\py36\Lib\site-packages\tensorflow\python\tools\optimize_for_inference.py --input=./trainf1Sv2/frozen_graph.pb --output=./trainf1Sv2/optimized_graph.pb --input_names=img_data --output_names=model_with_buckets/concat
+
+#2. output_node : model_with_buckets/embedding_attention_decoder/attention_decoder/Attention_0/Attention_0/BiasAdd
+python C:\Users\60067527\Anaconda3\envs\py36\Lib\site-packages\tensorflow\python\tools\freeze_graph.py     --input_graph=./trainf1Sv2/attn.pbtxt     --input_checkpoint=./trainf1Sv2/translate.ckpt-1000     --output_graph=./trainf1Sv2/frozen_graph.pb    --input_node_names=img_data    --output_node_names=model_with_buckets/embedding_attention_decoder/attention_decoder/Attention_0/Attention_0/BiasAdd
+
+
+python C:\Users\60067527\Anaconda3\envs\py36\Lib\site-packages\tensorflow\python\tools\optimize_for_inference.py --input=./trainf1Sv2/frozen_graph.pb --output=./trainf1Sv2/optimized_graph.pb --input_names=img_data --output_names=model_with_buckets/embedding_attention_decoder/attention_decoder/Attention_0/Attention_0/BiasAdd
+
+
+
+
+C:\Users\60067527\Anaconda3\envs\py36\Lib\site-packages\tensorflow\python\tools\import_pb_to_tensorboard.py --model-dir=./trainf1Sv2/frozen_graph.pb --logdir="d:/tmp/"
+
+
+python C:\Users\60067527\Anaconda3\envs\py36\Lib\site-packages/tensorflow/tools/graph_transforms/summarize_graph --in_graph=frozen_graph.pb
+
+
+python ./src/launcher.py
+         --input_layer=img_data
+         --output_layer=final_result  
+         --labels=train/output/flower_photos/retrained_labels.txt  
+         --image=test.jpg  
+         --graph=train/output/flower_photos/optimized_graph.pb

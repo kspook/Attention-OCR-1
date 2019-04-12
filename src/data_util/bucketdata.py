@@ -1,6 +1,7 @@
 __author__ = 'moonkey'
 
 import os
+import io
 import numpy as np
 from PIL import Image
 # from keras.preprocessing.sequence import pad_sequences
@@ -9,6 +10,12 @@ import pickle as cPickle
 import random
 import math
 
+
+SCRIPT_PATH = os.path.dirname(os.path.abspath(__file__))
+DEFAULT_LABEL_FILE = os.path.join(SCRIPT_PATH,
+                                  #'../labels/bank_labelsSW.txt')
+                                  '../labels/bank_labelsS.txt')
+								  
 class BucketData(object):
     def __init__(self):
         self.max_width = 0
@@ -21,6 +28,21 @@ class BucketData(object):
     def append(self, datum, label, filename):
         self.data_list.append(datum)
         self.data_len_list.append(int(math.floor(datum.shape[-1] / 4)) - 1)
+
+        label_file = DEFAULT_LABEL_FILE
+        with io.open(label_file, 'r', encoding='utf-8') as f:
+           labels = f.read().splitlines()
+
+        #print('self,  label, filename')
+        #print(self,  label,filename)
+
+        for i,c in enumerate(label):
+            if c> 2:
+                for j, l in enumerate(labels):
+                   if c== ord(l):
+                      n=j+3
+                      label[i]=n
+       
         self.label_list.append(label)
         self.file_list.append(filename)
 

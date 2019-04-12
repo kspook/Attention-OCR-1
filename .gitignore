@@ -106,5 +106,18 @@ crashlytics.properties
 crashlytics-build.properties
 
 # Created by .ignore support plugin (hsz.mobi)
-misc/
-data/evaluation_data
+evaluation_data/
+image-data/
+image-f59S/
+log*
+model/
+outputs.txt
+results/
+results2/
+results_t/
+results_t2/
+src/model/train/
+test-img/
+train/
+trainf61S/
+trainf61SE/
